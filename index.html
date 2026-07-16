@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Catalog</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a; --paper: #fafaf7; --muted: #6b6b6b; --line: #e2e0da;
+    --c-plugin: #2563eb; --c-skill: #7c3aed; --c-mcp: #0d9488;
+    --c-technique: #d97706; --c-official: #dc2626; --c-tool: #4b5563;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "IBM Plex Mono", "Noto Sans TC", monospace; font-size: 14px; line-height: 1.7;
+  }
+  header { max-width: 960px; margin: 0 auto; padding: 40px 20px 8px; }
+  h1 { font-family: "Noto Serif TC", serif; font-size: 34px; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 12px; }
+  main { max-width: 960px; margin: 0 auto; padding: 0 20px 80px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 12px; }
+  nav a {
+    text-decoration: none; color: var(--ink); border: 1px solid var(--line);
+    padding: 4px 12px; font-size: 12px; background: #fff;
+  }
+  nav a.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+  #q {
+    width: 100%; padding: 8px 12px; font: inherit; font-size: 13px;
+    border: 1px solid var(--line); background: #fff; margin-bottom: 28px;
+  }
+  h2 {
+    font-family: "Noto Serif TC", serif; font-size: 20px;
+    margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
+  }
+  .card {
+    background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--muted);
+    padding: 12px 16px; margin-bottom: 10px;
+  }
+  .card.plugin { border-left-color: var(--c-plugin); }
+  .card.skill { border-left-color: var(--c-skill); }
+  .card.mcp { border-left-color: var(--c-mcp); }
+  .card.technique { border-left-color: var(--c-technique); }
+  .card.official { border-left-color: var(--c-official); }
+  .card.tool { border-left-color: var(--c-tool); }
+  .card .top { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; }
+  .card a.title { color: var(--ink); font-weight: 500; text-decoration: none; }
+  .card a.title:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 12px; }
+  .summary { margin: 4px 0 6px; }
+  .tag {
+    display: inline-block; font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 0 8px; margin-right: 6px; cursor: pointer;
+  }
+  .tag:hover { border-color: var(--ink); color: var(--ink); }
+  .empty { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Claude Catalog</h1>
+  <div class="updated" id="updated"></div>
+</header>
+<main>
+  <nav id="nav"></nav>
+  <input id="q" type="search" placeholder="搜尋 title / summary / tags…">
+  <div id="content"></div>
+</main>
+<script>
+const CATS = {
+  plugin:    { label: "Plugin" },
+  skill:     { label: "Skill" },
+  mcp:       { label: "MCP" },
+  technique: { label: "技巧" },
+  official:  { label: "官方" },
+  tool:      { label: "工具" },
+};
+let DATA = null;
+let q = "";
+
+const esc = s => String(s).replace(/[&<>"']/g,
+  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const activeCat = () => {
+  const h = location.hash.slice(1);
+  return CATS[h] ? h : "all";
+};
+
+function matches(e) {
+  if (!q) return true;
+  const hay = [e.title, e.summary, ...(e.tags || [])].join(" ").toLowerCase();
+  return hay.includes(q.toLowerCase());
+}
+
+function card(e) {
+  const stars = e.stars != null ? `★ ${e.stars.toLocaleString()}` : "";
+  const tags = (e.tags || [])
+    .map(t => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("");
+  return `<div class="card ${esc(e.category)}">
+    <div class="top">
+      <a class="title" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>
+      <span class="meta">${esc(CATS[e.category].label)} · ${esc(e.source)}${stars ? " · " + stars : ""} · ${esc(e.added)}</span>
+    </div>
+    <div class="summary">${esc(e.summary)}</div>
+    <div>${tags}</div>
+  </div>`;
+}
+
+function section(title, entries) {
+  if (!entries.length) return "";
+  return `<h2>${esc(title)}</h2>` + entries.map(card).join("");
+}
+
+function render() {
+  if (!DATA) return;
+  const cat = activeCat();
+  document.getElementById("updated").textContent = `最後更新 ${DATA.updated} · 共 ${DATA.entries.length} 條`;
+  document.getElementById("nav").innerHTML =
+    [`<a href="#" class="${cat === "all" ? "active" : ""}">全部</a>`]
+      .concat(Object.entries(CATS).map(([k, v]) =>
+        `<a href="#${k}" class="${cat === k ? "active" : ""}">${v.label}</a>`)).join("");
+
+  const visible = DATA.entries.filter(e => (cat === "all" || e.category === cat) && matches(e));
+  let html = "";
+  if (cat === "all" && !q) {
+    const dates = [...new Set(DATA.entries.map(e => e.added))].sort().reverse().slice(0, 2);
+    html += section("最近新增", DATA.entries.filter(e => dates.includes(e.added))
+      .sort((a, b) => b.added.localeCompare(a.added)));
+  }
+  const catsToShow = cat === "all" ? Object.keys(CATS) : [cat];
+  for (const k of catsToShow) {
+    html += section(CATS[k].label, visible.filter(e => e.category === k));
+  }
+  document.getElementById("content").innerHTML = html || `<p class="empty">沒有符合的條目。</p>`;
+}
+
+document.getElementById("q").addEventListener("input", e => { q = e.target.value; render(); });
+document.getElementById("content").addEventListener("click", e => {
+  const t = e.target.closest(".tag");
+  if (!t) return;
+  q = t.dataset.tag;
+  document.getElementById("q").value = q;
+  render();
+});
+window.addEventListener("hashchange", render);
+
+fetch("catalog.json").then(r => r.json()).then(d => { DATA = d; render(); })
+  .catch(() => { document.getElementById("content").innerHTML = `<p class="empty">catalog.json 載入失敗。</p>`; });
+</script>
+</body>
+</html>
