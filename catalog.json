@@ -8,8 +8,11 @@
       "url": "https://github.com/anthropics/skills",
       "summary": "Anthropic 官方 Agent Skills 收藏庫，含可直接安裝的文件處理等技能範例。",
       "source": "github",
-      "tags": ["official", "agent-skills"],
-      "stars": 1000,
+      "tags": [
+        "official",
+        "agent-skills"
+      ],
+      "stars": 162000,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -20,8 +23,11 @@
       "url": "https://github.com/modelcontextprotocol/servers",
       "summary": "MCP 官方參考伺服器大全，接外部工具與資料源的第一站。",
       "source": "github",
-      "tags": ["mcp", "reference"],
-      "stars": 50000,
+      "tags": [
+        "mcp",
+        "reference"
+      ],
+      "stars": 88600,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -32,8 +38,10 @@
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "summary": "社群維護的 Claude Code 資源清單：slash commands、CLAUDE.md 範例與工作流。",
       "source": "github",
-      "tags": ["awesome-list"],
-      "stars": 5000,
+      "tags": [
+        "awesome-list"
+      ],
+      "stars": 50200,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -44,7 +52,10 @@
       "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
       "summary": "Anthropic 官方最佳實踐：CLAUDE.md、工具權限、TDD 工作流與多 agent 用法。",
       "source": "anthropic",
-      "tags": ["best-practices", "workflow"],
+      "tags": [
+        "best-practices",
+        "workflow"
+      ],
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -55,8 +66,12 @@
       "url": "https://github.com/Sahir619/fable-method",
       "summary": "將 Claude Fable 5 的工作方法蒸餾成 think/act/prove/grow 四技能與七步工作循環，附完整實驗評估數據，適合想建立可靠代理工作流的開發者。",
       "source": "github",
-      "tags": ["agent-skills", "workflow", "evaluation"],
-      "stars": 1141,
+      "tags": [
+        "agent-skills",
+        "workflow",
+        "evaluation"
+      ],
+      "stars": 1300,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -67,8 +82,12 @@
       "url": "https://github.com/nagisanzenin/engram",
       "summary": "Claude Code 學習外掛，用蘇格拉底式教學、盲評測驗與 FSRS 間隔複習排程，幫助使用者長期記住新知識。",
       "source": "github",
-      "tags": ["claude-code-plugin", "learning", "spaced-repetition"],
-      "stars": 829,
+      "tags": [
+        "claude-code-plugin",
+        "learning",
+        "spaced-repetition"
+      ],
+      "stars": 830,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -79,8 +98,12 @@
       "url": "https://github.com/op7418/guizang-material-illustration",
       "summary": "產生帶文字說明的材質插畫與圖表美化圖像的 Claude Code skill，適合寫文章、做簡報或社群貼文的中文內容創作者。",
       "source": "github",
-      "tags": ["illustration", "data-visualization", "chinese"],
-      "stars": 690,
+      "tags": [
+        "illustration",
+        "data-visualization",
+        "chinese"
+      ],
+      "stars": 696,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -91,8 +114,12 @@
       "url": "https://github.com/clawkwork/clawk",
       "summary": "為 Claude Code 等編碼代理提供可拋棄的隔離 Linux VM 沙盒，讓代理能自由安裝套件、跑程式碼而不動到主機。",
       "source": "github",
-      "tags": ["sandbox", "vm", "security"],
-      "stars": 546,
+      "tags": [
+        "sandbox",
+        "vm",
+        "security"
+      ],
+      "stars": 644,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -103,8 +130,12 @@
       "url": "https://github.com/Raymondhou0917/speak-human-tw",
       "summary": "繁體中文「去 AI 味」校對 skill，抓 35 種以上 AI 寫作痕跡並校正中國用語與標點，適合用 Claude Code 寫中文內容的使用者。",
       "source": "github",
-      "tags": ["traditional-chinese", "writing", "proofreading"],
-      "stars": 535,
+      "tags": [
+        "traditional-chinese",
+        "writing",
+        "proofreading"
+      ],
+      "stars": 544,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -115,8 +146,12 @@
       "url": "https://github.com/Nanako0129/pilotfish",
       "summary": "Claude Code 多模型調度層，讓前沿模型負責規劃決策、便宜模型執行雜務，藉此降低長工作階段的成本。",
       "source": "github",
-      "tags": ["orchestration", "cost-optimization", "subagents"],
-      "stars": 465,
+      "tags": [
+        "orchestration",
+        "cost-optimization",
+        "subagents"
+      ],
+      "stars": 471,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -127,8 +162,12 @@
       "url": "https://github.com/vshulcz/deja-vu",
       "summary": "把 Claude Code、Codex 等代理的工作紀錄索引成本地可搜尋記憶庫，透過 MCP recall 工具讓代理記住先前解法。",
       "source": "github",
-      "tags": ["memory", "mcp-server", "cli"],
-      "stars": 231,
+      "tags": [
+        "memory",
+        "mcp-server",
+        "cli"
+      ],
+      "stars": 291,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -139,7 +178,11 @@
       "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
       "summary": "8 個聚焦「動工前先找出未知數」的 Claude Code skill，涵蓋盲點檢查、訪談式提問到實作計畫，適合想降低需求誤解風險的團隊。",
       "source": "github",
-      "tags": ["planning", "requirements", "agent-skills"],
+      "tags": [
+        "planning",
+        "requirements",
+        "agent-skills"
+      ],
       "stars": 217,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
@@ -151,8 +194,12 @@
       "url": "https://github.com/oxbshw/watch-skill",
       "summary": "讓代理理解影片、直播與螢幕錄影的技能，可將內容轉成有時間戳的可搜尋證據，並提供自我驗證回圈確認工作成果。",
       "source": "github",
-      "tags": ["video", "verification", "mcp"],
-      "stars": 201,
+      "tags": [
+        "video",
+        "verification",
+        "mcp"
+      ],
+      "stars": 207,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -163,8 +210,12 @@
       "url": "https://github.com/pax-beehive/paxm",
       "summary": "跨 Codex、Claude Code、OpenCode 等多種代理平台的持久記憶轉接層，預設用本機 SQLite，免帳號免 API key 就能讓代理記住專案脈絡。",
       "source": "github",
-      "tags": ["memory", "mcp-server", "cross-platform"],
-      "stars": 132,
+      "tags": [
+        "memory",
+        "mcp-server",
+        "cross-platform"
+      ],
+      "stars": 140,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -175,8 +226,12 @@
       "url": "https://github.com/ohad6k/ditto",
       "summary": "挖礦式分析 Claude Code、Codex 等工具的對話紀錄，自動生成個人化 you.md 工作檔案，讓後續代理任務更貼合使用者習慣。",
       "source": "github",
-      "tags": ["personalization", "logs", "privacy"],
-      "stars": 186,
+      "tags": [
+        "personalization",
+        "logs",
+        "privacy"
+      ],
+      "stars": 188,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -187,8 +242,12 @@
       "url": "https://github.com/ucsandman/marketing-studio",
       "summary": "一個 /marketing 指令就能產出完整產品發布素材（動態 Logo、產品 demo、上市影片、社群短片、OG 圖）的 Claude Code plugin。",
       "source": "github",
-      "tags": ["marketing", "video", "automation"],
-      "stars": 129,
+      "tags": [
+        "marketing",
+        "video",
+        "automation"
+      ],
+      "stars": 146,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -199,8 +258,11 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "summary": "Anthropic 官方維護的高品質 Claude Code Plugins 目錄，適合想找經官方把關外掛的使用者。",
       "source": "github",
-      "tags": ["official", "plugin-marketplace"],
-      "stars": 32191,
+      "tags": [
+        "official",
+        "plugin-marketplace"
+      ],
+      "stars": 32200,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -211,7 +273,11 @@
       "url": "https://code.claude.com/docs/en/whats-new/2026-w28",
       "summary": "桌面版新增內建瀏覽器、/doctor 全面健檢（別名 /checkup）、auto mode 阻擋 transcript 竄改與危險的 rm -rf，適合想追蹤最新版功能的重度使用者。",
       "source": "anthropic",
-      "tags": ["desktop", "auto-mode", "doctor"],
+      "tags": [
+        "desktop",
+        "auto-mode",
+        "doctor"
+      ],
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     },
@@ -222,7 +288,187 @@
       "url": "https://claude.com/blog/getting-started-with-loops",
       "summary": "Anthropic 官方教你分辨手動迴圈、/goal 目標式迴圈、/schedule 排程迴圈與主動式 Routine 四種自動化模式，幫任務挑選合適的自動化程度。",
       "source": "anthropic",
-      "tags": ["loop", "goal", "automation"],
+      "tags": [
+        "loop",
+        "goal",
+        "automation"
+      ],
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:shlokkhemani/rabbithole",
+      "category": "mcp",
+      "title": "shlokkhemani/rabbithole",
+      "url": "https://github.com/shlokkhemani/rabbithole",
+      "summary": "無限畫布式學習工具，選取文字提問後把答案生成可再展開的分支文件，同時也是一個 MCP server，讓 Claude Code、Codex 等代理能開啟、回答與列出這些知識分支，適合喜歡邊探索邊記錄學習脈絡的使用者。",
+      "source": "github",
+      "tags": [
+        "learning",
+        "mcp-server",
+        "knowledge-canvas"
+      ],
+      "stars": 263,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:kulaxyz/token-diet",
+      "category": "skill",
+      "title": "Kulaxyz/token-diet",
+      "url": "https://github.com/Kulaxyz/token-diet",
+      "summary": "為 Claude Code、Codex、Cursor 等多種編碼代理提供的常駐 token 精簡技能，在不犧牲正確性的前提下平均省下約三成 API 費用，適合重度使用代理、想控制成本的開發者。",
+      "source": "github",
+      "tags": [
+        "token-efficiency",
+        "cost-optimization",
+        "agent-skills"
+      ],
+      "stars": 531,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:pillar-labs/sail-skill",
+      "category": "skill",
+      "title": "pillar-labs/sail-skill",
+      "url": "https://github.com/pillar-labs/sail-skill",
+      "summary": "把 SAIL V2 資安生命週期框架的 91 項風險檢核清單包成 agent skill，能為代理系統產出安全審查、合規檢查表與改善路線圖，適合需要評估 AI/agent 系統資安風險的團隊。",
+      "source": "github",
+      "tags": [
+        "security",
+        "compliance",
+        "agent-skills"
+      ],
+      "stars": 158,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:jimliu/baocut",
+      "category": "skill",
+      "title": "JimLiu/baocut",
+      "url": "https://github.com/JimLiu/baocut",
+      "summary": "讓 Claude Code、Codex 等代理透過自然語言操控 macOS 的 BaoCut App 的技能，可用來轉錄影片、產生與翻譯字幕、剪輯口播影片，適合做影音內容的創作者。",
+      "source": "github",
+      "tags": [
+        "macos",
+        "video-editing",
+        "automation"
+      ],
+      "stars": 128,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:kyriecheungyep/ky-markdown-rebuilder",
+      "category": "skill",
+      "title": "KyrieCheungYep/ky-markdown-rebuilder",
+      "url": "https://github.com/KyrieCheungYep/ky-markdown-rebuilder",
+      "summary": "把 PDF、簡報、掃描檔等排版複雜的文件重建成頁面對齊 Markdown 的 Claude Code / Codex 技能，結合文字擷取、頁面渲染與自動驗證，適合需要把複雜文件轉成乾淨 Markdown 的使用者。",
+      "source": "github",
+      "tags": [
+        "document-conversion",
+        "markdown",
+        "ocr"
+      ],
+      "stars": 119,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:cozytab/fable5-mode",
+      "category": "skill",
+      "title": "cozytab/fable5-mode",
+      "url": "https://github.com/cozytab/fable5-mode",
+      "summary": "透過強制的計畫閘門、自我驗證與子代理路由等紀律性 hook，讓非旗艦模型的 Claude Code 表現出接近 Claude Fable 5 的工作習慣，適合想在較便宜模型上獲得更可靠產出的使用者。",
+      "source": "github",
+      "tags": [
+        "workflow",
+        "hooks",
+        "discipline"
+      ],
+      "stars": 115,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:u-ichi/compact-plus",
+      "category": "plugin",
+      "title": "u-ichi/compact-plus",
+      "url": "https://github.com/u-ichi/compact-plus",
+      "summary": "強化 /compact 指令的 Claude Code plugin，會在壓縮前備份逐字稿並做語意分析，壓縮後再注入結構化的復原指引，讓長對話在記憶體整理後仍保持脈絡連貫，適合常跑長工作階段的使用者。",
+      "source": "github",
+      "tags": [
+        "context-management",
+        "compact",
+        "session-recovery"
+      ],
+      "stars": 163,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:aerovato/magic-compact",
+      "category": "plugin",
+      "title": "aerovato/magic-compact",
+      "url": "https://github.com/aerovato/magic-compact",
+      "summary": "Claude Code 與 OpenCode 通用的上下文壓縮 plugin，把舊的助手發言換成高保真摘要而非整段概括，並保留使用者訊息與工具呼叫，還可從快取取回被剪掉的內容，適合想省 token 又不想失去脈絡細節的使用者。",
+      "source": "github",
+      "tags": [
+        "context-compression",
+        "token-efficiency",
+        "opencode"
+      ],
+      "stars": 113,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:xai-org/grok-build-plugin-cc",
+      "category": "plugin",
+      "title": "xai-org/grok-build-plugin-cc",
+      "url": "https://github.com/xai-org/grok-build-plugin-cc",
+      "summary": "把 xAI 的 Grok Build CLI 橋接進 Claude Code 的官方 plugin，可把程式碼審查、批評與任務委派轉交給 Grok 執行，適合想跨模型協作、交叉驗證程式碼的團隊。",
+      "source": "github",
+      "tags": [
+        "cross-model",
+        "code-review",
+        "grok"
+      ],
+      "stars": 92,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:handgemacht-ai/done",
+      "category": "plugin",
+      "title": "handgemacht-ai/done",
+      "url": "https://github.com/handgemacht-ai/done",
+      "summary": "把 Claude Code 所有回覆都壓縮成兩個 token「Done.」的輸出風格 plugin，靠拿掉工具呼叫與檔案存取把可見輸出 token 降低 99.9% 以上，適合想壓到極限省 token、能接受高風險換取極致精簡的使用者。",
+      "source": "github",
+      "tags": [
+        "output-style",
+        "token-efficiency",
+        "novelty"
+      ],
+      "stars": 84,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:thephw/claude-meseeks",
+      "category": "plugin",
+      "title": "thephw/claude-meseeks",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "summary": "在 Claude Code 完成任務等待輸入、或需要你核准與指示時，播放《瑞克與莫蒂》Mr. Meeseeks 語音片段的趣味通知 plugin，適合想讓等待代理回應這件事更有記憶點的使用者。",
+      "source": "github",
+      "tags": [
+        "notification",
+        "audio",
+        "fun"
+      ],
+      "stars": 73,
       "added": "2026-07-16",
       "last_seen": "2026-07-16"
     }
