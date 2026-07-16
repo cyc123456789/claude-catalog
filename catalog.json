@@ -1,0 +1,52 @@
+{
+  "updated": "2026-07-16",
+  "entries": [
+    {
+      "id": "gh:anthropics/skills",
+      "category": "skill",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "summary": "Anthropic 官方 Agent Skills 收藏庫，含可直接安裝的文件處理等技能範例。",
+      "source": "github",
+      "tags": ["official", "agent-skills"],
+      "stars": 1000,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:modelcontextprotocol/servers",
+      "category": "mcp",
+      "title": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "summary": "MCP 官方參考伺服器大全，接外部工具與資料源的第一站。",
+      "source": "github",
+      "tags": ["mcp", "reference"],
+      "stars": 50000,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "gh:hesreallyhim/awesome-claude-code",
+      "category": "tool",
+      "title": "awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "summary": "社群維護的 Claude Code 資源清單：slash commands、CLAUDE.md 範例與工作流。",
+      "source": "github",
+      "tags": ["awesome-list"],
+      "stars": 5000,
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    },
+    {
+      "id": "https://www.anthropic.com/engineering/claude-code-best-practices",
+      "category": "technique",
+      "title": "Claude Code Best Practices",
+      "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+      "summary": "Anthropic 官方最佳實踐：CLAUDE.md、工具權限、TDD 工作流與多 agent 用法。",
+      "source": "anthropic",
+      "tags": ["best-practices", "workflow"],
+      "added": "2026-07-16",
+      "last_seen": "2026-07-16"
+    }
+  ]
+}
