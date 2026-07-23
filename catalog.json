@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-23",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -167,9 +167,9 @@
         "mcp-server",
         "cli"
       ],
-      "stars": 291,
+      "stars": 460,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "gh:neeeophytee/finding-unknowns-skills",
@@ -247,9 +247,9 @@
         "video",
         "automation"
       ],
-      "stars": 146,
+      "stars": 191,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "gh:anthropics/claude-plugins-official",
@@ -356,9 +356,9 @@
         "video-editing",
         "automation"
       ],
-      "stars": 128,
+      "stars": 277,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "gh:kyriecheungyep/ky-markdown-rebuilder",
@@ -436,9 +436,9 @@
         "code-review",
         "grok"
       ],
-      "stars": 92,
+      "stars": 160,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "gh:handgemacht-ai/done",
@@ -452,9 +452,9 @@
         "token-efficiency",
         "novelty"
       ],
-      "stars": 84,
+      "stars": 89,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-07-23"
     },
     {
       "id": "gh:thephw/claude-meseeks",
@@ -566,6 +566,131 @@
       ],
       "added": "2026-07-20",
       "last_seen": "2026-07-20"
+    },
+    {
+      "id": "https://claude.com/product/claude-security",
+      "category": "official",
+      "title": "Claude Security Plugin",
+      "url": "https://claude.com/product/claude-security",
+      "summary": "Anthropic 官方推出的 Claude Code 資安掃描外掛（Beta），用多代理分析程式碼找出注入、認證繞過等高風險漏洞並可直接產出修補檔，適合想在 commit 前自動抓漏洞的開發團隊。",
+      "source": "anthropic",
+      "tags": [
+        "security",
+        "official",
+        "vulnerability-scanning"
+      ],
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "https://claude.com/blog/ai-code-migration",
+      "category": "technique",
+      "title": "How Anthropic Runs Large-Scale Code Migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "summary": "Anthropic 官方分享用 Claude Code 做大型語言遷移（如 Zig 轉 Rust、Python 轉 TypeScript）的六步方法論，含規則手冊、依賴圖與聯合稽核，適合需要遷移大型程式庫的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "migration",
+        "workflow",
+        "enterprise"
+      ],
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+      "category": "technique",
+      "title": "How Datadog Built a \"Universal Machine Tool\" for Claude Code",
+      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+      "summary": "Datadog 分享如何用 Claude Code 打造 Temper 框架，把一次性代理工具轉成可跨團隊重複使用的安全元件，適合想讓 AI 產出的工具規模化、可維護的工程團隊。",
+      "source": "anthropic",
+      "tags": [
+        "case-study",
+        "tooling",
+        "enterprise"
+      ],
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "gh:0xwilliamortiz/agents-council",
+      "category": "plugin",
+      "title": "0xwilliamortiz/agents-council",
+      "url": "https://github.com/0xwilliamortiz/agents-council",
+      "summary": "讓 Claude、Codex、Gemini 等多個 CLI 代理針對同一問題各自給意見、再由指定代理彙整成最終建議的 Claude Code plugin，適合想要多方觀點交叉驗證重大決策的使用者。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "plugin",
+        "decision-making"
+      ],
+      "stars": 94,
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "gh:vincentwei1021/video-shotcraft",
+      "category": "skill",
+      "title": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "summary": "用 Remotion 產生電影感產品影片的 Claude Code skill，內建 106 組運鏡腳本卡與 161 個動態預覽範本，適合要做產品發布影片的內容創作者。",
+      "source": "github",
+      "tags": [
+        "video",
+        "claude-code-skill",
+        "remotion"
+      ],
+      "stars": 852,
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "gh:pueschel88/tradingview-mcp",
+      "category": "mcp",
+      "title": "pueschel88/Tradingview-MCP",
+      "url": "https://github.com/pueschel88/Tradingview-MCP",
+      "summary": "讓 Claude Code 透過 Chrome DevTools Protocol 直接操控本機 TradingView 桌面版的 MCP server，可讀取圖表狀態、切換商品與週期、抓 OHLCV 資料，適合做量化交易研究的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "trading",
+        "chrome-devtools"
+      ],
+      "stars": 133,
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "gh:risa-labs-inc/bossconsole",
+      "category": "tool",
+      "title": "risa-labs-inc/BossConsole",
+      "url": "https://github.com/risa-labs-inc/BossConsole",
+      "summary": "不限代理平台的桌面操作台，讓 Claude Code、Codex、Gemini 等代理共用瀏覽器、終端機、編輯器與 100+ 個 MCP 工具，並提供細緻權限控管，適合想統一管理多種編碼代理環境的使用者。",
+      "source": "github",
+      "tags": [
+        "harness",
+        "mcp",
+        "multi-agent"
+      ],
+      "stars": 166,
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
+    },
+    {
+      "id": "gh:promptpartner/agentsmith",
+      "category": "tool",
+      "title": "PromptPartner/agentsmith",
+      "url": "https://github.com/PromptPartner/agentsmith",
+      "summary": "不限模型的代理作業框架，提供規則系統、安全防護與工作型態設定檔，讓 Claude Code 等讀取 CLAUDE.md 的代理表現更有紀律，適合想讓自動化代理長時間穩定運作的團隊。",
+      "source": "github",
+      "tags": [
+        "harness",
+        "guardrails",
+        "workflow"
+      ],
+      "stars": 255,
+      "added": "2026-07-23",
+      "last_seen": "2026-07-23"
     }
   ]
 }
