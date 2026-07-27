@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23",
+  "updated": "2026-07-27",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -167,9 +167,9 @@
         "mcp-server",
         "cli"
       ],
-      "stars": 460,
+      "stars": 487,
       "added": "2026-07-16",
-      "last_seen": "2026-07-23"
+      "last_seen": "2026-07-27"
     },
     {
       "id": "gh:neeeophytee/finding-unknowns-skills",
@@ -624,9 +624,9 @@
         "plugin",
         "decision-making"
       ],
-      "stars": 94,
+      "stars": 204,
       "added": "2026-07-23",
-      "last_seen": "2026-07-23"
+      "last_seen": "2026-07-27"
     },
     {
       "id": "gh:vincentwei1021/video-shotcraft",
@@ -640,9 +640,9 @@
         "claude-code-skill",
         "remotion"
       ],
-      "stars": 852,
+      "stars": 2206,
       "added": "2026-07-23",
-      "last_seen": "2026-07-23"
+      "last_seen": "2026-07-27"
     },
     {
       "id": "gh:pueschel88/tradingview-mcp",
@@ -672,9 +672,9 @@
         "mcp",
         "multi-agent"
       ],
-      "stars": 166,
+      "stars": 200,
       "added": "2026-07-23",
-      "last_seen": "2026-07-23"
+      "last_seen": "2026-07-27"
     },
     {
       "id": "gh:promptpartner/agentsmith",
@@ -690,7 +690,229 @@
       ],
       "stars": 255,
       "added": "2026-07-23",
-      "last_seen": "2026-07-23"
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:img2threejs/img2threejs",
+      "category": "skill",
+      "title": "img2threejs/img2threejs",
+      "url": "https://github.com/img2threejs/img2threejs",
+      "summary": "把一張參考圖片重建成程式化、可製作動畫的 Three.js 3D 模型的 Claude Code skill，透過八階段品質關卡逐步產出可互動 3D 物件，適合做 3D／WebGL 內容的開發者。",
+      "source": "github",
+      "tags": [
+        "3d",
+        "threejs",
+        "procedural-generation"
+      ],
+      "stars": 6795,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:0xwilliamortiz/andrej-karpathy-skills",
+      "category": "skill",
+      "title": "0xwilliamortiz/andrej-karpathy-skills",
+      "url": "https://github.com/0xwilliamortiz/andrej-karpathy-skills",
+      "summary": "把 Andrej Karpathy 對 LLM 寫程式常見錯誤的觀察，蒸餾成 Claude Code 的行為護欄 skill，適合想讓代理少踩常見雷區、產出更可靠程式碼的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "code-quality",
+        "guardrails"
+      ],
+      "stars": 305,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:danilo-znamerovszkij/draw-your-font",
+      "category": "skill",
+      "title": "danilo-znamerovszkij/draw-your-font",
+      "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+      "summary": "把手寫字跡照片轉成可用字型檔（TTF/WOFF/WOFF2）的 Claude Code skill，免上傳、開源免費，適合想做個人化字型的設計愛好者。",
+      "source": "github",
+      "tags": [
+        "font",
+        "handwriting",
+        "claude-code-skill"
+      ],
+      "stars": 392,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:worldwonderer/novel-to-game",
+      "category": "skill",
+      "title": "worldwonderer/novel-to-game",
+      "url": "https://github.com/worldwonderer/novel-to-game",
+      "summary": "把任何小說或故事蒸餾成可玩遊戲的 7-skill 改編流程，支援 Claude Code、Codex 與 Kimi Code，適合想把敘事內容快速轉成互動遊戲的創作者。",
+      "source": "github",
+      "tags": [
+        "game-design",
+        "narrative",
+        "agent-skills"
+      ],
+      "stars": 243,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:larashero3-dotcom/lieflat-charts",
+      "category": "skill",
+      "title": "larashero3-dotcom/lieflat-charts",
+      "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+      "summary": "面向 AI Agent 的單色資料視覺化 skill，能把資料快速生成精緻可互動的 HTML 圖表，適合需要在報告或簡報中快速產出圖表的中文使用者。",
+      "source": "github",
+      "tags": [
+        "data-visualization",
+        "charts",
+        "chinese"
+      ],
+      "stars": 311,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:ykdojo/claude-code-tips",
+      "category": "tool",
+      "title": "ykdojo/claude-code-tips",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "summary": "40 多條 Claude Code 使用技巧的社群精選清單，從基礎到進階都有，並附贈可直接安裝的 dx plugin 日常開發技能集，適合想快速提升 Claude Code 使用效率的開發者。",
+      "source": "github",
+      "tags": [
+        "tips",
+        "plugin",
+        "productivity"
+      ],
+      "stars": 9457,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:0xsline/openchatcut",
+      "category": "tool",
+      "title": "0xsline/OpenChatCut",
+      "url": "https://github.com/0xsline/OpenChatCut",
+      "summary": "結合專業多軌時間軸與對話式 AI 代理的本機優先影片編輯器，可透過 Agent Skill 與 MCP 讓 Claude Code、Codex 直接讀寫剪輯專案，適合做影音內容且想用代理輔助剪片的創作者。",
+      "source": "github",
+      "tags": [
+        "video-editing",
+        "mcp",
+        "agent-skills"
+      ],
+      "stars": 556,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:izeigerman/claude-thermos",
+      "category": "tool",
+      "title": "izeigerman/claude-thermos",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "summary": "透過本機反向代理定時發送保溫請求，避免 Claude Code 長時間等待子代理時 prompt cache 過期而被收取較貴的重新編碼費用，適合常跑長工作階段、想省成本的重度使用者。",
+      "source": "github",
+      "tags": [
+        "cost-optimization",
+        "prompt-cache",
+        "cli"
+      ],
+      "stars": 171,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:drpwchen/textbook-to-note",
+      "category": "tool",
+      "title": "drpwchen/textbook-to-note",
+      "url": "https://github.com/drpwchen/textbook-to-note",
+      "summary": "把 PDF 教科書轉成可用 AI 搜尋的知識庫，並產出附完整引用與圖表的結構化筆記，本機優先且省 token，適合做研究或準備教材的使用者。",
+      "source": "github",
+      "tags": [
+        "pdf",
+        "note-taking",
+        "rag"
+      ],
+      "stars": 83,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:memtensor/memmy-agent",
+      "category": "tool",
+      "title": "MemTensor/memmy-agent",
+      "url": "https://github.com/MemTensor/memmy-agent",
+      "summary": "跨 Claude Code、Cursor、Codex 等多種代理共用的個人記憶中樞，把知識、偏好與專案脈絡整合成一份可跨工具同步的長期記憶，適合同時用多種代理工具工作的使用者。",
+      "source": "github",
+      "tags": [
+        "memory",
+        "cross-platform",
+        "personalization"
+      ],
+      "stars": 77,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:get-concord-ai/concord-mcp",
+      "category": "mcp",
+      "title": "Get-Concord-AI/concord-mcp",
+      "url": "https://github.com/Get-Concord-AI/concord-mcp",
+      "summary": "讓 Claude Code、Codex、Cursor 等多個代理共享同一份工作狀態的 MCP server，可登記代理、認領任務、留下交接紀錄並在 PR 前產出審查包，適合多代理協作同一程式庫的團隊。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "multi-agent",
+        "collaboration"
+      ],
+      "stars": 130,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:finna/finn-loop",
+      "category": "plugin",
+      "title": "finna/Finn-loop",
+      "url": "https://github.com/finna/Finn-loop",
+      "summary": "用 spec、build、review 三個 Claude Code skill 組成的軟體開發自動化管線，代理負責規格訪談與開 PR，但合併決定永遠留給人類，適合想在保留把關下自動化開發流程的團隊。",
+      "source": "github",
+      "tags": [
+        "software-factory",
+        "github",
+        "linear"
+      ],
+      "stars": 227,
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "https://www.anthropic.com/news/claude-opus-5",
+      "category": "official",
+      "title": "Claude Opus 5 發表",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "summary": "Anthropic 推出新款 Opus 5 模型，效能接近旗艦 Fable 5 但價格減半，並提供可調整運算量的 effort 撥桿，現為 Claude Max 預設模型，適合想兼顧效能與成本的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "opus-5",
+        "model-release",
+        "pricing"
+      ],
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
+    {
+      "id": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "category": "technique",
+      "title": "The New Rules of Context Engineering for Claude 5 Generation Models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "summary": "Anthropic Claude Code 團隊分享：新一代模型移除八成手調系統提示詞後表現不降反升，並提出六個脈絡工程新原則，例如把規則交給模型判斷、CLAUDE.md 改用漸進式揭露的 skill 承載，適合想重新設計 CLAUDE.md 與 skill 架構的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "context-engineering",
+        "system-prompt",
+        "skills"
+      ],
+      "added": "2026-07-27",
+      "last_seen": "2026-07-27"
     }
   ]
 }
