@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27",
+  "updated": "2026-07-30",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -640,9 +640,9 @@
         "claude-code-skill",
         "remotion"
       ],
-      "stars": 2206,
+      "stars": 2900,
       "added": "2026-07-23",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "gh:pueschel88/tradingview-mcp",
@@ -672,9 +672,9 @@
         "mcp",
         "multi-agent"
       ],
-      "stars": 200,
+      "stars": 207,
       "added": "2026-07-23",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "gh:promptpartner/agentsmith",
@@ -720,9 +720,9 @@
         "code-quality",
         "guardrails"
       ],
-      "stars": 305,
+      "stars": 545,
       "added": "2026-07-27",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "gh:danilo-znamerovszkij/draw-your-font",
@@ -736,9 +736,9 @@
         "handwriting",
         "claude-code-skill"
       ],
-      "stars": 392,
+      "stars": 503,
       "added": "2026-07-27",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "gh:worldwonderer/novel-to-game",
@@ -752,9 +752,9 @@
         "narrative",
         "agent-skills"
       ],
-      "stars": 243,
+      "stars": 440,
       "added": "2026-07-27",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "gh:larashero3-dotcom/lieflat-charts",
@@ -880,9 +880,9 @@
         "github",
         "linear"
       ],
-      "stars": 227,
+      "stars": 271,
       "added": "2026-07-27",
-      "last_seen": "2026-07-27"
+      "last_seen": "2026-07-30"
     },
     {
       "id": "https://www.anthropic.com/news/claude-opus-5",
@@ -913,6 +913,117 @@
       ],
       "added": "2026-07-27",
       "last_seen": "2026-07-27"
+    },
+    {
+      "id": "gh:qoderai/better-harness",
+      "category": "tool",
+      "title": "QoderAI/better-harness",
+      "url": "https://github.com/QoderAI/better-harness",
+      "summary": "從任務理解到交付驗證五個面向評估 Claude Code、Codex 等代理工作流程的審查框架，能產出證據導向的改善報告，適合想讓團隊的 AI 輔助開發流程可重現、可驗證的組織。",
+      "source": "github",
+      "tags": [
+        "workflow-review",
+        "harness",
+        "evaluation"
+      ],
+      "stars": 1200,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:mikehasa/agentacct",
+      "category": "tool",
+      "title": "mikehasa/agentacct",
+      "url": "https://github.com/mikehasa/agentacct",
+      "summary": "本機優先的儀表板，讀取 Claude Code、Codex 等代理的本機 session 紀錄並顯示 token 用量、成本估算與工作步驟，資料完全不上傳雲端，適合想掌握代理花費又重視隱私的開發者。",
+      "source": "github",
+      "tags": [
+        "cost-tracking",
+        "dashboard",
+        "privacy"
+      ],
+      "stars": 537,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:minchenlee/c9watch",
+      "category": "tool",
+      "title": "minchenlee/c9watch",
+      "url": "https://github.com/minchenlee/c9watch",
+      "summary": "macOS 桌面應用程式，用系統層級掃描即時顯示所有執行中 Claude Code session 的狀態、成本與待處理權限，不限終端機或 IDE 都能監看，適合同時開多個 session 的重度使用者。",
+      "source": "github",
+      "tags": [
+        "session-monitor",
+        "macos",
+        "cost-tracking"
+      ],
+      "stars": 113,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:seanj1ang/design-judge-skills",
+      "category": "skill",
+      "title": "SeanJ1ang/design-judge-skills",
+      "url": "https://github.com/SeanJ1ang/design-judge-skills",
+      "summary": "匯集 11 大國際設計獎項逾兩萬筆得獎案例分析的 Agent Skills 組合，協助評估設計作品、比對得獎前例並產出申請文案，適合準備參賽國際設計獎項的設計師與團隊。",
+      "source": "github",
+      "tags": [
+        "design",
+        "agent-skills",
+        "evaluation"
+      ],
+      "stars": 574,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:yanhua1010/self-media-content-workflow",
+      "category": "skill",
+      "title": "yanhua1010/self-media-content-workflow",
+      "url": "https://github.com/yanhua1010/self-media-content-workflow",
+      "summary": "涵蓋策略、選題、平台文案到短影音與數據分析的 9 個自媒體內容製作 skill，內建 5 個人工確認關卡防止資料造假，適合經營小紅書、微信等平台的中文內容創作者。",
+      "source": "github",
+      "tags": [
+        "content-creation",
+        "agent-skills",
+        "chinese"
+      ],
+      "stars": 316,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:danyuchn/asd-ste100-skill",
+      "category": "skill",
+      "title": "danyuchn/asd-ste100-skill",
+      "url": "https://github.com/danyuchn/asd-ste100-skill",
+      "summary": "把航太業「ASD-STE100 簡化技術英文」規則包成 Claude Code skill，用來把代理輸出的模糊英文改寫成無歧義句子，適合需要代理對代理精確溝通的開發者。",
+      "source": "github",
+      "tags": [
+        "technical-writing",
+        "agent-skills",
+        "english"
+      ],
+      "stars": 177,
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
+    },
+    {
+      "id": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "category": "official",
+      "title": "MCP 2026-07-28 規格導入 Claude",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "summary": "Anthropic 宣布導入 MCP 2026-07-28 新規格，把協定改成無狀態核心並強化 OAuth／OIDC 認證與可觀測性，讓 MCP server 更容易部署到 serverless 與邊緣環境，適合開發或維運 MCP server 的工程師。",
+      "source": "anthropic",
+      "tags": [
+        "mcp",
+        "protocol",
+        "oauth"
+      ],
+      "added": "2026-07-30",
+      "last_seen": "2026-07-30"
     }
   ]
 }
