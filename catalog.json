@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-08-03",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1024,6 +1024,22 @@
       ],
       "added": "2026-07-30",
       "last_seen": "2026-07-30"
+    },
+    {
+      "id": "gh:iart-ai/motion-skills",
+      "category": "skill",
+      "title": "iart-ai/motion-skills",
+      "url": "https://github.com/iart-ai/motion-skills",
+      "summary": "50 多個開源動態圖像 Claude Code skill，分成 15 個安裝包，涵蓋卡點文字、資料視覺化、解說影片與短影音特效等運鏡動畫，附成果自我驗證機制，適合做影音與社群內容的創作者。",
+      "source": "github",
+      "tags": [
+        "motion-graphics",
+        "agent-skills",
+        "video"
+      ],
+      "stars": 329,
+      "added": "2026-08-03",
+      "last_seen": "2026-08-03"
     }
   ]
 }
