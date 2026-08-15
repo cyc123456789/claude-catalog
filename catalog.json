@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03",
+  "updated": "2026-08-15",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1040,6 +1040,131 @@
       "stars": 329,
       "added": "2026-08-03",
       "last_seen": "2026-08-03"
+    },
+    {
+      "id": "gh:composiohq/awesome-claude-skills",
+      "category": "tool",
+      "title": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "summary": "收錄逾千個涵蓋文件處理、開發工具、資料分析與行銷等領域的 Claude Skills 與外掛精選清單，並整合 Composio MCP Gateway 串接上千個 SaaS 服務，適合想快速找到現成技能而不想從零開發的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "awesome-list",
+        "mcp"
+      ],
+      "stars": 72500,
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "gh:jeremylongshore/claude-code-plugins-plus-skills",
+      "category": "tool",
+      "title": "jeremylongshore/claude-code-plugins-plus-skills",
+      "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+      "summary": "收錄 471 個外掛、逾 3000 個技能與 347 個代理的 Claude Code 開源市集，每個項目都要通過規格驗證與百分制品質評分才能上架，並提供 ccpi 套件管理工具，適合想找經品質把關外掛的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin-marketplace",
+        "agent-skills",
+        "quality-rubric"
+      ],
+      "stars": 2600,
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "gh:quemsah/awesome-claude-plugins",
+      "category": "tool",
+      "title": "quemsah/awesome-claude-plugins",
+      "url": "https://github.com/quemsah/awesome-claude-plugins",
+      "summary": "用 n8n 工作流自動追蹤逾三萬個 GitHub 專案採用 Claude Code 外掛的情況，並依星數與訂閱數排出百大採用清單，適合想了解外掛實際採用趨勢而非單看星數的開發者。",
+      "source": "github",
+      "tags": [
+        "adoption-metrics",
+        "automation",
+        "plugin-marketplace"
+      ],
+      "stars": 1200,
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "gh:robdmac/talkito",
+      "category": "tool",
+      "title": "robdmac/talkito",
+      "url": "https://github.com/robdmac/talkito",
+      "summary": "讓開發者透過終端機、API 或電話等多種管道用語音與 Claude Code 等 AI 系統互動的工具，支援可自訂的文字轉語音與語音辨識服務，適合想用語音操作編碼代理的使用者。",
+      "source": "github",
+      "tags": [
+        "voice",
+        "cli",
+        "accessibility"
+      ],
+      "stars": 55,
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "gh:vbcherepanov/total-agent-memory",
+      "category": "mcp",
+      "title": "vbcherepanov/total-agent-memory",
+      "url": "https://github.com/vbcherepanov/total-agent-memory",
+      "summary": "本機優先的 MCP 記憶伺服器，用知識圖譜與嵌入技術記住代理跨 session 的決策與架構模式，並在 LongMemEval 基準測試取得高分，適合想讓 Claude Code 長期記住專案脈絡又不想依賴雲端的開發者。",
+      "source": "github",
+      "tags": [
+        "memory",
+        "mcp-server",
+        "knowledge-graph"
+      ],
+      "stars": 63,
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w32",
+      "category": "official",
+      "title": "Claude Code Week 32 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w32",
+      "summary": "新增讓多個 session 互相傳訊的跨 session messaging、可在自有機器上跑雲端 session 的 self-hosted environments beta，以及 auto mode 自 8/14 起成為 Pro/Max/Team 新 session 的預設權限模式，適合想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "cross-session-messaging",
+        "self-hosted",
+        "auto-mode"
+      ],
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "category": "official",
+      "title": "Compliance API 擴及 Claude Cowork 與 Claude Code",
+      "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "summary": "Anthropic 把 Compliance API 涵蓋範圍擴大到 Claude Cowork 與 Claude Code，讓企業可用既有金鑰直接查詢 session 逐字稿與中繼資料做稽核，目前為 Claude Enterprise 客戶 beta 開放，適合需要合規稽核紀錄的企業安全團隊。",
+      "source": "anthropic",
+      "tags": [
+        "compliance",
+        "enterprise",
+        "audit"
+      ],
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
+    },
+    {
+      "id": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "category": "technique",
+      "title": "Maximizing the Value of Your Claude Code Sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "summary": "Anthropic 官方整理善用 token 的實務技巧，例如開始前先定好模型與 effort 等級避免打斷 prompt cache、用 @ 提及檔案取代描述路徑、把吵雜指令丟給背景 subagent 執行，適合想提升每次 session 產出品質的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "token-efficiency",
+        "workflow",
+        "best-practices"
+      ],
+      "added": "2026-08-15",
+      "last_seen": "2026-08-15"
     }
   ]
 }
