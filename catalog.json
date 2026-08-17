@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15",
+  "updated": "2026-08-17",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1165,6 +1165,21 @@
       ],
       "added": "2026-08-15",
       "last_seen": "2026-08-15"
+    },
+    {
+      "id": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "category": "official",
+      "title": "Inference Hooks：Claude Enterprise 即時資料外洩防護",
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "summary": "Anthropic 推出 Inference Hooks，讓企業合規團隊能在每次 prompt 與工具呼叫結果送達 Claude 前檢查並套用政策，涵蓋 Claude 聊天、Claude Code 與 Claude Cowork 等企業版介面，適合需要即時資料外洩防護（DLP）的企業安全與合規團隊。",
+      "source": "anthropic",
+      "tags": [
+        "compliance",
+        "enterprise",
+        "dlp"
+      ],
+      "added": "2026-08-17",
+      "last_seen": "2026-08-17"
     }
   ]
 }
