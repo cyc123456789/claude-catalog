@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-20",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1180,6 +1180,102 @@
       ],
       "added": "2026-08-17",
       "last_seen": "2026-08-17"
+    },
+    {
+      "id": "gh:leutenegger/book-to-skill",
+      "category": "skill",
+      "title": "Leutenegger/book-to-skill",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "summary": "把技術書籍或文件（PDF、EPUB、DOCX 等）轉成可用斜線指令查詢的 Claude Code skill，按章節隨需載入、比整本塞進上下文省 24～51 倍 token，適合常需查閱大部頭技術書的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "document-conversion",
+        "token-efficiency"
+      ],
+      "stars": 1214,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:spielewoy/autoprompt-skill",
+      "category": "skill",
+      "title": "Spielewoy/autoprompt-skill",
+      "url": "https://github.com/Spielewoy/autoprompt-skill",
+      "summary": "把代理的執行迴圈自動化的 Claude Code skill，讓你只給目標、由規劃／執行／獨立驗證分層的代理自己跑完 build 與測試，在 Terminal-Bench 2.1 上把失敗數降低約 45%（代價是約 3 倍時間與 2 倍 token），適合想要更高自主度代理工作流的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "automation",
+        "benchmark"
+      ],
+      "stars": 437,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:alexgreensh/attention-span",
+      "category": "plugin",
+      "title": "alexgreensh/attention-span",
+      "url": "https://github.com/alexgreensh/attention-span",
+      "summary": "為 Claude Code、Codex 等提供三種 ADHD 友善輸出風格（答案先行、精簡、簡報式）的套件，實測輸出量減少約 43% 而寫程式正確率不變，適合注意力有限、受不了大段冗長回覆的使用者。",
+      "source": "github",
+      "tags": [
+        "output-style",
+        "accessibility",
+        "token-efficiency"
+      ],
+      "stars": 826,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:amap-ml/longhorizon-harness",
+      "category": "tool",
+      "title": "AMAP-ML/LongHorizon-Harness",
+      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "summary": "高德地圖 AMAP 團隊開源的長時程電腦操作 harness，用 Manager／Executor／Auditor 三角色迴圈讓代理跨桌面應用與 CLI 長時間工作、只採信獨立驗證過的進度，支援 Claude Code 等多種後端，適合需要可靠長流程自動化的團隊。",
+      "source": "github",
+      "tags": [
+        "computer-use",
+        "harness",
+        "long-horizon"
+      ],
+      "stars": 854,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:cristicretu/diri",
+      "category": "tool",
+      "title": "cristicretu/diri",
+      "url": "https://github.com/cristicretu/diri",
+      "summary": "原生 macOS 桌面調度台，讓 Claude Code、Codex、Cursor、Gemini 等代理跨 git worktree 或遠端主機並行執行，背景常駐守護程序讓 session 在關閉 App 後仍存活，並內建可讓代理互相生成與監看的 MCP server，適合同時跑多個平行代理任務的開發者。",
+      "source": "github",
+      "tags": [
+        "orchestration",
+        "macos",
+        "worktree"
+      ],
+      "stars": 266,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:only-cli/oc",
+      "category": "tool",
+      "title": "only-cli/oc",
+      "url": "https://github.com/only-cli/oc",
+      "summary": "把任意網站轉成給代理用的精簡 CLI 介面，用編號動作瀏覽網頁、實測單頁約 1900 token 取代原始 HTML 的近 18 萬 token，可裝成 Claude Code 的 skill 或 plugin，適合想大幅省下代理上網 token 的使用者。",
+      "source": "github",
+      "tags": [
+        "web-browsing",
+        "token-efficiency",
+        "cli"
+      ],
+      "stars": 70,
+      "added": "2026-08-20",
+      "last_seen": "2026-08-20"
     }
   ]
 }
