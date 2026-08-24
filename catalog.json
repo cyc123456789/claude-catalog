@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-24",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1276,6 +1276,180 @@
       "stars": 70,
       "added": "2026-08-20",
       "last_seen": "2026-08-20"
+    },
+    {
+      "id": "gh:duty1g/x64dbg-mcp-server",
+      "category": "mcp",
+      "title": "duty1g/x64dbg-mcp-server",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "summary": "把 x64dbg 除錯器功能透過 HTTP 開放成 MCP server，讓 Claude Code 等代理能設中斷點、讀寫記憶體、反組譯，適合合法逆向工程與惡意程式分析的資安研究人員。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "reverse-engineering",
+        "malware-analysis"
+      ],
+      "stars": 1182,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:nateherkai/scroll-craft",
+      "category": "skill",
+      "title": "nateherkai/scroll-craft",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "summary": "產生高質感捲動式網站的 Claude Code skill，內建八種版面語法與截圖自我驗證機制避免死板或俗豔的捲動特效，適合想做精緻互動網頁的設計師與前端開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "web-design",
+        "scroll-animation"
+      ],
+      "stars": 604,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:yuzzyuk/marketing-os",
+      "category": "skill",
+      "title": "Yuzzyuk/marketing-os",
+      "url": "https://github.com/Yuzzyuk/marketing-os",
+      "summary": "把整個行銷部門濃縮成 14 個模組的 Claude skill，涵蓋網站健檢評分、文案分級、廣告診斷到成效追蹤，適合行銷團隊與產品經理快速產出有評分依據的行銷素材。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "marketing",
+        "copywriting"
+      ],
+      "stars": 336,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:wanshuiyin/hero-anti-overdefense",
+      "category": "technique",
+      "title": "wanshuiyin/HERO-Anti-OverDefense",
+      "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+      "summary": "把代理常見的過度防禦行為（無謂雜湊、防守用不到的邊界情況、用死板規則取代判斷、超額建構）歸納成可貼入 CLAUDE.md 的六條契約規則，適合受夠代理把簡單任務越做越複雜的開發者。",
+      "source": "github",
+      "tags": [
+        "prompt-engineering",
+        "claude-md",
+        "code-quality"
+      ],
+      "stars": 310,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:furkankly/zoetrope",
+      "category": "tool",
+      "title": "furkankly/zoetrope",
+      "url": "https://github.com/furkankly/zoetrope",
+      "summary": "把 Claude Code session 的 JSONL 逐字稿即時渲染成互動流程圖的終端機／瀏覽器視覺化工具，支援時間回溯與逐步檢視工具呼叫，適合想直覺理解代理與子代理執行流程的開發者。",
+      "source": "github",
+      "tags": [
+        "session-monitor",
+        "visualization",
+        "tui"
+      ],
+      "stars": 390,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:soumatheusgomes/vibe-coding-toolkit",
+      "category": "tool",
+      "title": "soumatheusgomes/vibe-coding-toolkit",
+      "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
+      "summary": "從實際正式環境專案萃取出的 Claude Code 工作法工具箱，含子代理協作、品質關卡、token 優化與現成提示詞範本，適合想把試錯式使用升級成結構化流程的開發者。",
+      "source": "github",
+      "tags": [
+        "workflow",
+        "subagents",
+        "prompts"
+      ],
+      "stars": 262,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:azrtydxb/procoder",
+      "category": "tool",
+      "title": "azrtydxb/procoder",
+      "url": "https://github.com/azrtydxb/procoder",
+      "summary": "用 commit 關卡、設計／規劃／完成階段的品質把關與錯誤學習回圈，強制代理遵守資深工程師紀律的單一 Go 執行檔，支援 20 多種編碼代理，適合想讓 AI 產出程式碼符合團隊品質標準的團隊。",
+      "source": "github",
+      "tags": [
+        "code-quality",
+        "commit-gate",
+        "developer-tools"
+      ],
+      "stars": 171,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:kgoedecke/doop",
+      "category": "tool",
+      "title": "kgoedecke/doop",
+      "url": "https://github.com/kgoedecke/doop",
+      "summary": "開源的多人協作設計畫布，內建 MCP server 讓 Claude Code 等代理以自己的身分即時建立與編輯設計稿、留言互動，適合想讓 AI 直接參與即時設計協作的團隊。",
+      "source": "github",
+      "tags": [
+        "design",
+        "mcp",
+        "collaboration"
+      ],
+      "stars": 301,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:seyedehsanhadi/sloptrim",
+      "category": "plugin",
+      "title": "seyedehsanhadi/sloptrim",
+      "url": "https://github.com/seyedehsanhadi/sloptrim",
+      "summary": "純本機、零依賴的 AI 寫作痕跡偵測 Claude Code plugin，用 71 種特徵為代理產出的文件、簡報等檔案打分，適合想檢查代理寫的文字內容是否過於「AI 味」的使用者。",
+      "source": "github",
+      "tags": [
+        "writing-quality",
+        "plugin",
+        "offline"
+      ],
+      "stars": 190,
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w33",
+      "category": "official",
+      "title": "Claude Code Week 33 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w33",
+      "summary": "Claude Code Desktop 於額度重置後可自動接續工作、互動模式預設開啟 fork 模式讓子任務繼承對話與快取，並新增 GitLab merge request 分支與外掛市集支援，適合想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "fork-mode",
+        "gitlab",
+        "desktop"
+      ],
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w34",
+      "category": "official",
+      "title": "Claude Code Week 34 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w34",
+      "summary": "新增研究預覽版 /design skill 可直接在 CLI 產出可編輯的 UI artboard、內建 Concise 精簡輸出風格，並可從手機透過 Remote Control 啟動自己電腦上的 session，適合想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "design-skill",
+        "output-style",
+        "remote-control"
+      ],
+      "added": "2026-08-24",
+      "last_seen": "2026-08-24"
     }
   ]
 }
