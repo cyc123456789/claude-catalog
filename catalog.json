@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-31",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1450,6 +1450,115 @@
       ],
       "added": "2026-08-24",
       "last_seen": "2026-08-24"
+    },
+    {
+      "id": "gh:emilkowalski/skills",
+      "category": "skill",
+      "title": "emilkowalski/skills",
+      "url": "https://github.com/emilkowalski/skills",
+      "summary": "知名前端工程師 Emil Kowalski 打造的設計與動效 skill 集，教代理避開常見動畫與排版失誤，適合想讓 Claude Code 產出更有質感 UI 的前端工程師與設計師。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "design",
+        "animation"
+      ],
+      "stars": 34100,
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "gh:nutlope/hallmark",
+      "category": "skill",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "summary": "跑 57 道「去 AI 味」檢測並套用 21 種版型主題、拒絕落入 LLM 慣用排版的設計 skill，支援 Claude Code、Cursor、Codex，適合想讓 AI 產出的網頁不再一眼看出是 AI 做的開發者與設計師。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "design",
+        "anti-ai-slop"
+      ],
+      "stars": 27600,
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "gh:zhaoxuya520/reverse-skill",
+      "category": "skill",
+      "title": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "summary": "把逆向工程、授權滲透測試與資安研究的方法論與工具鏈包成可自動路由到正確工具的 skill 包，支援 Claude Code 等多種代理，適合從事合法授權資安研究與 CTF 的研究人員。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "security",
+        "reverse-engineering"
+      ],
+      "stars": 33000,
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "gh:karanb192/claude-code-hooks",
+      "category": "plugin",
+      "title": "karanb192/claude-code-hooks",
+      "url": "https://github.com/karanb192/claude-code-hooks",
+      "summary": "把安全防護、成本控管、可觀測性與效率四大類 hook 打包成可一鍵安裝的 20 個外掛市集，涵蓋危險指令攔截與 OWASP LLM Top 10 防護，適合想強化 Claude Code 執行安全的團隊。",
+      "source": "github",
+      "tags": [
+        "hooks",
+        "security",
+        "plugin-marketplace"
+      ],
+      "stars": 492,
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "category": "official",
+      "title": "Computer Use、Skills API、Files API 正式 GA",
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "summary": "Anthropic 宣布 Computer Use、瀏覽器工具、Skills API 與 Files API 在 Claude Platform 正式 GA，讓代理能操作沒有 API 的應用程式並重複使用版本化技能與檔案，適合要用 Claude Platform 打造正式環境代理的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "computer-use",
+        "skills-api",
+        "files-api"
+      ],
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "category": "technique",
+      "title": "The AI-Native SDLC Playbook",
+      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "summary": "Anthropic 提出的 AI 原生軟體開發生命週期方法論，把規劃、設計、build、測試、部署、維運六階段重新設計以配合代理式編碼的速度，適合想重整團隊開發流程與審核關卡的工程主管。",
+      "source": "anthropic",
+      "tags": [
+        "sdlc",
+        "workflow",
+        "enterprise"
+      ],
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
+    },
+    {
+      "id": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "category": "technique",
+      "title": "行銷同仁如何用 Claude Code 產出每週業務個人化簡報",
+      "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "summary": "Anthropic 行銷同仁分享用 Claude Code 透過 MCP 串接 BigQuery 與 Slack，把每週業務報表自動轉成給每位業務量身打造的簡報，適合想用 Claude Code 自動化內部報表與客製化通訊的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "mcp",
+        "automation",
+        "case-study"
+      ],
+      "added": "2026-08-31",
+      "last_seen": "2026-08-31"
     }
   ]
 }
