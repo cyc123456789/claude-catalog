@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-03",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1559,6 +1559,304 @@
       ],
       "added": "2026-08-31",
       "last_seen": "2026-08-31"
+    },
+    {
+      "id": "gh:nanako0129/sepia",
+      "category": "skill",
+      "title": "Nanako0129/sepia",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "從結構層修復 AI 味文字的去 AI 味寫作 skill，涵蓋小說敘事修正與職場文體場合匹配，並提供 Claude Code、Codex 等多代理原生外掛，適合常用 AI 寫作又怕被看出 AI 味的創作者與工程師。",
+      "source": "github",
+      "tags": [
+        "writing-quality",
+        "agent-skills",
+        "anti-ai-slop"
+      ],
+      "stars": 1900,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:cbrock84/headcount",
+      "category": "skill",
+      "title": "cbrock84/headcount",
+      "url": "https://github.com/cbrock84/headcount",
+      "summary": "把 Claude Code 組織成一間有 15 個以上部門、125 個以上可獨立安裝技能的「公司」，用部門命名空間避免技能衝突，適合想按需載入大量技能又不想每次塞爆上下文的重度使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "plugin-marketplace",
+        "organization"
+      ],
+      "stars": 1200,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:s0xdk/refactoring-ui-skill",
+      "category": "skill",
+      "title": "s0xDk/refactoring-ui-skill",
+      "url": "https://github.com/s0xDk/refactoring-ui-skill",
+      "summary": "把《Refactoring UI》書中的間距、字級、色彩、陰影與層級等具體設計規則包成 Claude Code skill，讓代理修介面或做新畫面時直接套用，適合沒有設計師但想讓產出介面更好看的開發者。",
+      "source": "github",
+      "tags": [
+        "design",
+        "ui",
+        "agent-skills"
+      ],
+      "stars": 510,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:leopard627/fire-your-seo-agency",
+      "category": "skill",
+      "title": "leopard627/fire-your-seo-agency",
+      "url": "https://github.com/leopard627/fire-your-seo-agency",
+      "summary": "自動化 SEO、AEO、GEO、LLMO（含 Naver）稽核與優化流程的 Claude Code skill，訴求取代外包 SEO 代理商的例行工作，適合想把搜尋引擎與 AI 引擎優化流程收回自己手上的行銷或站長。",
+      "source": "github",
+      "tags": [
+        "seo",
+        "marketing",
+        "agent-skills"
+      ],
+      "stars": 392,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:adnanakil/nobuzz",
+      "category": "skill",
+      "title": "adnanakil/nobuzz",
+      "url": "https://github.com/adnanakil/nobuzz",
+      "summary": "提供 /debuzz 指令，透過 Gemini 過濾掉 Claude 回答中常見的 BuzzFeed 式浮誇語氣，適合受不了 AI 制式熱情腔調、想要回答更平實的使用者。",
+      "source": "github",
+      "tags": [
+        "writing-quality",
+        "claude-code-skill",
+        "novelty"
+      ],
+      "stars": 247,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:damejan80/tokentab",
+      "category": "tool",
+      "title": "damejan80/tokentab",
+      "url": "https://github.com/damejan80/tokentab",
+      "summary": "讀取 Claude Code、Codex、Cursor、Gemini CLI 留在本機的 session 紀錄，依模型、專案與日期彙整 token 用量與成本的 CLI 工具，本機執行免帳號免 API key，適合同時用多種代理工具、想掌握花費的使用者。",
+      "source": "github",
+      "tags": [
+        "cost-tracking",
+        "cli",
+        "usage-analytics"
+      ],
+      "stars": 1200,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:sodiumsun/agenttrail",
+      "category": "tool",
+      "title": "sodiumsun/agenttrail",
+      "url": "https://github.com/sodiumsun/agenttrail",
+      "summary": "無限畫布式儀表板，即時視覺化 Claude Code、Codex、Cursor 多個 session 的計畫、工具呼叫與檔案變更，本機零依賴執行，適合同時開多個代理 session、想直覺掌握進度的使用者。",
+      "source": "github",
+      "tags": [
+        "session-monitor",
+        "visualization",
+        "dashboard"
+      ],
+      "stars": 637,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:mr-potato-123/dsh-mcp",
+      "category": "mcp",
+      "title": "Mr-potato-123/dsh-mcp",
+      "url": "https://github.com/Mr-potato-123/dsh-mcp",
+      "summary": "把 DeepSeek 開源的 DSH（DeepSeek Harness）代理框架包成 MCP server，讓 Claude Code、Codex 等代理能把部分工作以更快更省成本的方式派給 DSH 執行，適合想跨模型混搭降低成本的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "cross-model",
+        "cost-optimization"
+      ],
+      "stars": 119,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:stupidoodle/swissdevjobs-cli",
+      "category": "mcp",
+      "title": "Stupidoodle/swissdevjobs-cli",
+      "url": "https://github.com/Stupidoodle/swissdevjobs-cli",
+      "summary": "零依賴 Python CLI 加 MCP server 加 Claude Code plugin，可直接從終端機或代理搜尋並投遞瑞士、德國、英國等七國近 4700 個薪資透明的技術職缺，適合用代理輔助找工作的軟體工程師。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "job-search",
+        "cli"
+      ],
+      "stars": 96,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:hashfunction/markuprplus",
+      "category": "mcp",
+      "title": "hashfunction/MarkuprPlus",
+      "url": "https://github.com/hashfunction/MarkuprPlus",
+      "summary": "錄螢幕加口述就能自動生成含標註截圖的結構化 Markdown 錯誤回報，提供桌面 App、CLI 與 MCP server（可接 Claude Code、Cursor、Codex），本機 Whisper 轉錄不上雲，適合要把 bug 回報快速交給代理修的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "bug-reporting",
+        "screen-recording"
+      ],
+      "stars": 62,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:zseven-w/dsh-crew",
+      "category": "plugin",
+      "title": "ZSeven-W/dsh-crew",
+      "url": "https://github.com/ZSeven-W/dsh-crew",
+      "summary": "讓 Claude Code、Codex 把工作原生以子代理形式派給 DeepSeek 開源的 DSH 代理執行的 plugin，支援分層預設與多模態橋接讓純文字 harness 也能用視覺與圖片生成，適合想跨模型協作降低成本的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "cross-model",
+        "subagents"
+      ],
+      "stars": 129,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:yeswehack/claude-kit",
+      "category": "plugin",
+      "title": "yeswehack/claude-kit",
+      "url": "https://github.com/yeswehack/claude-kit",
+      "summary": "協助撰寫「裁判等級」漏洞賞金報告的 Claude Code plugin，適合做授權滲透測試與 bug bounty 的資安研究人員。",
+      "source": "github",
+      "tags": [
+        "security",
+        "bug-bounty",
+        "plugin"
+      ],
+      "stars": 68,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:yuzushi-dev/sando",
+      "category": "plugin",
+      "title": "yuzushi-dev/Sando",
+      "url": "https://github.com/yuzushi-dev/Sando",
+      "summary": "純本機、不呼叫 LLM 的 Claude Code / Codex plugin，攔截並精簡過大或重複的工具輸出同時保留完整編修紀錄，適合常跑會產生大量工具輸出、想省 token 又不想失去細節的使用者。",
+      "source": "github",
+      "tags": [
+        "context-management",
+        "token-efficiency",
+        "plugin"
+      ],
+      "stars": 53,
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "category": "official",
+      "title": "Claude Fable 5.1 與 Claude Mythos 5.1 發表",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Anthropic 推出新旗艦模型 Fable 5.1（公開版）與安全防護更嚴的 Mythos 5.1（受限存取版），同一底層模型但護欄等級不同，agentic coding 與高 effort 表現明顯提升，且快取讀取價格大砍七成五讓高強度代理工作更省錢，適合重度使用 Claude Code 的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "model-release",
+        "fable-5-1",
+        "pricing"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "category": "official",
+      "title": "Claude 記憶系統整合聊天版與 Cowork，你決定裡面存什麼",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "summary": "Anthropic 把 Claude 聊天版與 Claude Cowork 的記憶系統合併成一套，可在設定頁用主題檢視、編輯、刪除每條記憶，預設不記錄健康、種族、政治立場等敏感主題，適合想掌控代理長期記住哪些個人資訊的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "memory",
+        "privacy",
+        "cowork"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://claude.com/blog/claude-for-commerce-agents",
+      "category": "official",
+      "title": "Building Commerce Agents with Claude",
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "summary": "Anthropic 開源一套涵蓋零售、旅遊、電信、娛樂等場景的商務代理藍圖與參考實作，協助企業用 Claude 打造能讓消費者以自然語言搜尋比價下單的購物代理，適合要打造電商或商務代理的開發團隊。",
+      "source": "anthropic",
+      "tags": [
+        "commerce",
+        "official",
+        "reference-architecture"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "category": "technique",
+      "title": "A Guide to the Anatomy of Effective Commerce Agents",
+      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "summary": "Anthropic 官方工程指南，從架構設計、延遲與成本優化到正式環境的記憶與安全評測三個面向拆解商務代理，並提到趁模型串流輸出工具參數時就提前執行以把延遲壓到幾百毫秒等具體技巧，適合要把代理架構推上生產環境的工程師。",
+      "source": "anthropic",
+      "tags": [
+        "commerce",
+        "latency-optimization",
+        "production"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://github.com/anthropics/claude-code/issues/77830",
+      "category": "technique",
+      "title": "Claude Code 的 Claude-Session commit trailer 與 attribution.sessionUrl 設定",
+      "url": "https://github.com/anthropics/claude-code/issues/77830",
+      "summary": "Claude Code 的 web／Remote Control session 預設會在每次 commit 與 PR 描述加上連到完整對話紀錄的 Claude-Session 連結，即使關掉 co-author 署名設定也不受影響，需另外在 settings.json 設定 attribution.sessionUrl 為 false 才會關閉，適合在意 commit 紀錄外流對話連結的開發者與團隊。",
+      "source": "community",
+      "tags": [
+        "privacy",
+        "git",
+        "settings"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
+    },
+    {
+      "id": "https://www.getclaudeskills.com/blog/claude-code-prompt-cache-ttl-settings",
+      "category": "technique",
+      "title": "Claude Code promptCacheTtl 與 subagentPromptCacheTtl 設定解說",
+      "url": "https://www.getclaudeskills.com/blog/claude-code-prompt-cache-ttl-settings",
+      "summary": "針對 Claude Code v2.1.242 新增的 promptCacheTtl 與 subagentPromptCacheTtl 設定做具體教學，說明主線對話與子代理各自的 prompt cache 保溫時間該怎麼依使用情境（連續操作 vs. 常常斷斷續續回來）選 5 分鐘或 1 小時，適合想省 token 成本又想選對快取策略的重度使用者。",
+      "source": "blog",
+      "tags": [
+        "prompt-cache",
+        "cost-optimization",
+        "settings"
+      ],
+      "added": "2026-09-03",
+      "last_seen": "2026-09-03"
     }
   ]
 }
