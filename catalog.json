@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-07",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1857,6 +1857,84 @@
       ],
       "added": "2026-09-03",
       "last_seen": "2026-09-03"
+    },
+    {
+      "id": "gh:nikolai-vysotskyi/trace-mcp",
+      "category": "mcp",
+      "title": "nikolai-vysotskyi/trace-mcp",
+      "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+      "summary": "為 Claude Code、Cursor 等代理提供跨語言程式碼依賴圖譜的 MCP server，預先建好程式碼智慧索引讓代理不必重複讀檔，可省下逾七成審查 PR 所需的輸入 token，支援 81 種語言與 87 個框架，適合想降低程式碼理解成本的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "code-intelligence",
+        "token-efficiency"
+      ],
+      "stars": 170,
+      "added": "2026-09-07",
+      "last_seen": "2026-09-07"
+    },
+    {
+      "id": "gh:sangrokjung/claude-forge",
+      "category": "plugin",
+      "title": "sangrokjung/claude-forge",
+      "url": "https://github.com/sangrokjung/claude-forge",
+      "summary": "仿 oh-my-zsh 打造的 Claude Code 一站式外掛，內建 16 個專家代理、35 個斜線指令、33 個技能與 22 個安全 hook，並用對抗式驗證迴圈強制獨立審查每次行為變更，適合想快速補齊完整開發工作流的使用者。",
+      "source": "github",
+      "tags": [
+        "claude-code-plugin",
+        "agents",
+        "workflow"
+      ],
+      "stars": 825,
+      "added": "2026-09-07",
+      "last_seen": "2026-09-07"
+    },
+    {
+      "id": "gh:uditakhourii/neuroarxiv",
+      "category": "skill",
+      "title": "UditAkhourii/neuroarxiv",
+      "url": "https://github.com/UditAkhourii/neuroarxiv",
+      "summary": "在代理設計新演算法或架構前，自動檢索 arXiv 真實論文比對既有作法、彙整成附引用與已知陷阱建議的 Claude Code skill，適合想避免代理閉門造車、重工設計的研究型開發者。",
+      "source": "github",
+      "tags": [
+        "research",
+        "agent-skills",
+        "arxiv"
+      ],
+      "stars": 329,
+      "added": "2026-09-07",
+      "last_seen": "2026-09-07"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/skills#find-unused-skills",
+      "category": "official",
+      "title": "Claude Code /skill-doctor",
+      "url": "https://code.claude.com/docs/en/skills#find-unused-skills",
+      "summary": "Claude Code 新增 /skill-doctor 指令，能列出目前 session 載入的每個 skill 消耗多少 token、被觸發幾次、有哪些從未被用到，協助使用者判斷該關掉哪些技能以省下上下文開銷，適合技能裝很多、想控管上下文成本的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "skill-doctor",
+        "context-management",
+        "official"
+      ],
+      "added": "2026-09-07",
+      "last_seen": "2026-09-07"
+    },
+    {
+      "id": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "category": "official",
+      "title": "近期三起問題事後檢討",
+      "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "summary": "Anthropic 公布事後檢討，說明近期造成 Claude 回應品質下降的三個基礎設施臭蟲，其中一個誤路由問題影響約三成 Claude Code 使用者，已於 9/4 修復並預計 9/16–18 前在各平台完成全面上線，適合想了解近期品質異常成因的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "postmortem",
+        "reliability",
+        "transparency"
+      ],
+      "added": "2026-09-07",
+      "last_seen": "2026-09-07"
     }
   ]
 }
