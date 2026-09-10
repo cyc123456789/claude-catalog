@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-10",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -1572,9 +1572,9 @@
         "agent-skills",
         "anti-ai-slop"
       ],
-      "stars": 1900,
+      "stars": 2524,
       "added": "2026-09-03",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-10"
     },
     {
       "id": "gh:cbrock84/headcount",
@@ -1588,9 +1588,9 @@
         "plugin-marketplace",
         "organization"
       ],
-      "stars": 1200,
+      "stars": 1350,
       "added": "2026-09-03",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-10"
     },
     {
       "id": "gh:s0xdk/refactoring-ui-skill",
@@ -1811,7 +1811,7 @@
         "reference-architecture"
       ],
       "added": "2026-09-03",
-      "last_seen": "2026-09-03"
+      "last_seen": "2026-09-10"
     },
     {
       "id": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
@@ -1935,6 +1935,198 @@
       ],
       "added": "2026-09-07",
       "last_seen": "2026-09-07"
+    },
+    {
+      "id": "gh:anthropics/commerce-agents",
+      "category": "tool",
+      "title": "anthropics/commerce-agents",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "summary": "Anthropic 官方推出的購物與商家代理參考藍圖，含零售、電商、電信、娛樂等領域範例，適合想用 Claude 打造商務代理的開發團隊。",
+      "source": "github",
+      "tags": [
+        "official",
+        "commerce",
+        "agent-blueprint"
+      ],
+      "stars": 2686,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:kajisho5/ffmpeg-skill",
+      "category": "skill",
+      "title": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "summary": "讓 Claude Code、Cursor、Codex 等代理透過 40 個工具在本機用 FFmpeg 剪接、上字幕、調色與響度正規化影音檔的技能，適合做影音後製又不想依賴雲端服務的創作者。",
+      "source": "github",
+      "tags": [
+        "video-editing",
+        "ffmpeg",
+        "agent-skills"
+      ],
+      "stars": 934,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:vincentwei1021/anything2explainer",
+      "category": "skill",
+      "title": "Vincentwei1021/anything2explainer",
+      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "summary": "輸入任何主題即可產出附字幕與配音的黑底運鏡解說影片的 Claude Code / Codex skill，中英文皆可、以 Remotion 逐格程式化生成，適合做教育或科普類解說影片的內容創作者。",
+      "source": "github",
+      "tags": [
+        "video",
+        "remotion",
+        "agent-skills"
+      ],
+      "stars": 661,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:jtydhr88/screenwriting-skills",
+      "category": "skill",
+      "title": "jtydhr88/screenwriting-skills",
+      "url": "https://github.com/jtydhr88/screenwriting-skills",
+      "summary": "彙整 19 本中美日編劇書籍與契訶夫、小津安二郎作品精華而成的 13 個 Claude Code 劇本寫作技能，涵蓋結構、人物、對白到劇本格式，適合寫劇本或戲劇作品的創作者。",
+      "source": "github",
+      "tags": [
+        "screenwriting",
+        "agent-skills",
+        "narrative"
+      ],
+      "stars": 512,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:carnot-tech/consulting-pptx-skill",
+      "category": "skill",
+      "title": "carnot-tech/consulting-pptx-skill",
+      "url": "https://github.com/carnot-tech/consulting-pptx-skill",
+      "summary": "把顧問業簡報規範包成 62 種投影片型錄與生成流程的 Claude Code skill，並內建機械式檢查把關格式，適合需要產出麥肯錫風格商業簡報的顧問與商務人士。",
+      "source": "github",
+      "tags": [
+        "pptx",
+        "consulting",
+        "agent-skills"
+      ],
+      "stars": 433,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:op7418/guizang-yingzao-skill",
+      "category": "skill",
+      "title": "op7418/guizang-yingzao-skill",
+      "url": "https://github.com/op7418/guizang-yingzao-skill",
+      "summary": "把中國古建築與在地文化照片轉成藝術指導風格編輯海報的 Claude Code / Codex skill，適合做文化旅遊內容或想產出質感視覺海報的中文創作者。",
+      "source": "github",
+      "tags": [
+        "illustration",
+        "chinese-culture",
+        "agent-skills"
+      ],
+      "stars": 402,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:vinzdg/codenotch",
+      "category": "tool",
+      "title": "vinzdg/codenotch",
+      "url": "https://github.com/vinzdg/codenotch",
+      "summary": "把 Claude Code、Cursor、Codex、Antigravity 等代理的用量額度釘在 macOS 螢幕邊緣即時顯示的小工具，適合同時使用多個編碼代理、想隨時掌握額度用完前還剩多少的使用者。",
+      "source": "github",
+      "tags": [
+        "usage-tracking",
+        "macos",
+        "menubar"
+      ],
+      "stars": 1369,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:inclusionai/choruz",
+      "category": "tool",
+      "title": "inclusionAI/Choruz",
+      "url": "https://github.com/inclusionAI/Choruz",
+      "summary": "類似 Slack 的人機協作平台，讓 Claude Code、Codex、Grok 等多個代理各自在獨立工作區執行終端機指令，並透過訊息、任務看板與人類協作，適合想集中管理多代理團隊工作的使用者。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "collaboration",
+        "harness"
+      ],
+      "stars": 599,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:codejunkie99/fable-orchestrator",
+      "category": "tool",
+      "title": "codejunkie99/fable-orchestrator",
+      "url": "https://github.com/codejunkie99/fable-orchestrator",
+      "summary": "讓 Claude Fable 5.1 負責規劃決策、再把實作工作分派給 GPT、DeepSeek 等較便宜模型執行的多模型調度工具，適合想兼顧品質與成本的重度代理使用者。",
+      "source": "github",
+      "tags": [
+        "orchestration",
+        "multi-model",
+        "cost-optimization"
+      ],
+      "stars": 594,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:useagenthq/useagent",
+      "category": "tool",
+      "title": "useagenthq/useagent",
+      "url": "https://github.com/useagenthq/useagent",
+      "summary": "開源的 AI 團隊協作平台，讓 Claude Code、Codex、OpenCode 等代理各自擁有雲端電腦、工具與脈絡，直接產出完成的網站、簡報、報告或 PR，適合想把代理當團隊成員使用的團隊。",
+      "source": "github",
+      "tags": [
+        "ai-coworker",
+        "cloud-agent",
+        "automation"
+      ],
+      "stars": 284,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:2akouwu/reverify",
+      "category": "mcp",
+      "title": "2akouwu/reverify",
+      "url": "https://github.com/2akouwu/reverify",
+      "summary": "讓 Claude Code、Cursor 等代理透過 MCP 對二進位檔與程式碼提出的每個主張都經確定性工具驗證（VERIFIED/REFUTED/INCONCLUSIVE），並用證據帳本跨對話保留已驗證事實以防止代理胡謅，適合做逆向工程或資安分析的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "reverse-engineering",
+        "anti-hallucination"
+      ],
+      "stars": 1102,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:noskillish/bankmcp",
+      "category": "mcp",
+      "title": "noskillish/bankmcp",
+      "url": "https://github.com/noskillish/bankmcp",
+      "summary": "透過開放銀行 API 讓 Claude 等代理唯讀存取自己銀行帳戶資料的自架 MCP server，適合想用代理協助個人理財、且重視自架與唯讀安全性的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "personal-finance",
+        "open-banking"
+      ],
+      "stars": 177,
+      "added": "2026-09-10",
+      "last_seen": "2026-09-10"
     }
   ]
 }
