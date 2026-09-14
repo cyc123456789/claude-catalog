@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-14",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -2127,6 +2127,166 @@
       "stars": 177,
       "added": "2026-09-10",
       "last_seen": "2026-09-10"
+    },
+    {
+      "id": "gh:mizzlelover/gongwen-gbt9704-skill",
+      "category": "skill",
+      "title": "mizzlelover/gongwen-gbt9704-skill",
+      "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
+      "summary": "依中國國家標準 GB/T 9704-2012 自動排版公文並輸出可編輯 DOCX 的 Claude Code skill，適合需產出合規中文公文的機關與企業使用者。",
+      "source": "github",
+      "tags": [
+        "document-formatting",
+        "chinese",
+        "docx"
+      ],
+      "stars": 601,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:viettranx/3dviz-pro-max",
+      "category": "skill",
+      "title": "viettranx/3dviz-pro-max",
+      "url": "https://github.com/viettranx/3dviz-pro-max",
+      "summary": "結合 223 組配方與 440 筆知識庫的 Three.js／Blender 3D 視覺化 skill，把一個構想轉成可探索的 3D 場景，適合做互動 3D／WebGL 內容的開發者與設計師。",
+      "source": "github",
+      "tags": [
+        "3d",
+        "threejs",
+        "blender"
+      ],
+      "stars": 249,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:jakeschincariol/linkedin-agent-skill",
+      "category": "skill",
+      "title": "Jakeschincariol/linkedin-agent-skill",
+      "url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+      "summary": "11 個經營 LinkedIn 帳號的 Claude skill 組合，涵蓋依 21 種鉤子公式寫貼文、留言互動、個人檔案評分與去 AI 味潤稿，適合想自動化經營 LinkedIn 的個人品牌與行銷人員。",
+      "source": "github",
+      "tags": [
+        "linkedin",
+        "social-media",
+        "content-creation"
+      ],
+      "stars": 198,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:daishuge/pcb-skill",
+      "category": "skill",
+      "title": "daishuge/pcb-skill",
+      "url": "https://github.com/daishuge/pcb-skill",
+      "summary": "透過 MCP 操控 EasyEDA Pro，把硬體構想一路帶到可量產 PCB（電路、選料、佈局、走線、驗證到下單）的 Claude Code / Codex skill，適合做硬體開發的工程師。",
+      "source": "github",
+      "tags": [
+        "hardware",
+        "pcb",
+        "mcp"
+      ],
+      "stars": 122,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:kruzovic7/ai-data-extractor",
+      "category": "tool",
+      "title": "kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "summary": "免費開源的 AI 編碼助理對話紀錄擷取工具，支援 Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code 等多種代理，適合想備份或分析自己代理對話歷史的開發者。",
+      "source": "github",
+      "tags": [
+        "chat-history",
+        "cli",
+        "cross-platform"
+      ],
+      "stars": 643,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:xiayutian11/maskit",
+      "category": "tool",
+      "title": "xiaYuTian11/maskit",
+      "url": "https://github.com/xiaYuTian11/maskit",
+      "summary": "為大型語言模型工具打造的本機隱私脫敏閘道，自動遮罩傳給 Claude Code、Cursor、Codex 等工具的請求內容並在回應中還原，適合處理敏感資料、重視隱私合規的團隊。",
+      "source": "github",
+      "tags": [
+        "privacy",
+        "security",
+        "proxy"
+      ],
+      "stars": 211,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:atomburstofficial/geiger",
+      "category": "tool",
+      "title": "Atomburstofficial/geiger",
+      "url": "https://github.com/Atomburstofficial/geiger",
+      "summary": "一行唯讀指令就能盤點機器上所有代理、MCP server、外掛與 AI 擴充套件的安全掃描工具，適合想掌握自己環境裡到底裝了哪些 AI 元件、做資安盤點的團隊。",
+      "source": "github",
+      "tags": [
+        "security",
+        "mcp",
+        "inventory"
+      ],
+      "stars": 129,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:ryze-ai-adgent/open-seo-mcp-skills",
+      "category": "mcp",
+      "title": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+      "summary": "開源 SEO／GEO MCP 連接器與 Claude skill 組合，能串接你自己的 GSC、GA4 與廣告帳號真實數據做關鍵字與排名分析，適合做 SEO／內容行銷、想用真實數據而非猜測做決策的團隊。",
+      "source": "github",
+      "tags": [
+        "seo",
+        "mcp-server",
+        "analytics"
+      ],
+      "stars": 853,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:reality-opened/openreality",
+      "category": "mcp",
+      "title": "reality-opened/openreality",
+      "url": "https://github.com/reality-opened/openreality",
+      "summary": "把手機拍攝影片轉成可用 AI 查詢的 3D 場景的 MCP 工具與函式庫，內建可自架的 broker 與 VGGT-SLAM，適合做機器人、空間運算或 3D 重建的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "3d-reconstruction",
+        "robotics"
+      ],
+      "stars": 100,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
+    },
+    {
+      "id": "gh:stavasol96-arch/pymol-claude-mcp",
+      "category": "mcp",
+      "title": "stavasol96-arch/Pymol-Claude-MCP",
+      "url": "https://github.com/stavasol96-arch/Pymol-Claude-MCP",
+      "summary": "讓 Claude Code 透過 XML-RPC 連上正在執行的 PyMOL 分子視覺化軟體的 MCP server，適合做結構生物學或化學研究、想用代理操控分子視覺化的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "chemistry",
+        "molecular-visualization"
+      ],
+      "stars": 57,
+      "added": "2026-09-14",
+      "last_seen": "2026-09-14"
     }
   ]
 }
