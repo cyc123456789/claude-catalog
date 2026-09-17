@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-17",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -41,9 +41,9 @@
       "tags": [
         "awesome-list"
       ],
-      "stars": 50200,
+      "stars": 54220,
       "added": "2026-07-16",
-      "last_seen": "2026-07-16"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "https://www.anthropic.com/engineering/claude-code-best-practices",
@@ -484,9 +484,9 @@
         "engineering-workflow",
         "code-quality"
       ],
-      "stars": 79500,
+      "stars": 95732,
       "added": "2026-07-20",
-      "last_seen": "2026-07-20"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:alirezarezvani/claude-skills",
@@ -1305,9 +1305,9 @@
         "web-design",
         "scroll-animation"
       ],
-      "stars": 604,
+      "stars": 2552,
       "added": "2026-08-24",
-      "last_seen": "2026-08-24"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:yuzzyuk/marketing-os",
@@ -1385,9 +1385,9 @@
         "commit-gate",
         "developer-tools"
       ],
-      "stars": 171,
+      "stars": 209,
       "added": "2026-08-24",
-      "last_seen": "2026-08-24"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:kgoedecke/doop",
@@ -1588,9 +1588,9 @@
         "plugin-marketplace",
         "organization"
       ],
-      "stars": 1350,
+      "stars": 1597,
       "added": "2026-09-03",
-      "last_seen": "2026-09-10"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:s0xdk/refactoring-ui-skill",
@@ -1980,9 +1980,9 @@
         "remotion",
         "agent-skills"
       ],
-      "stars": 661,
+      "stars": 1570,
       "added": "2026-09-10",
-      "last_seen": "2026-09-10"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:jtydhr88/screenwriting-skills",
@@ -2028,9 +2028,9 @@
         "chinese-culture",
         "agent-skills"
       ],
-      "stars": 402,
+      "stars": 437,
       "added": "2026-09-10",
-      "last_seen": "2026-09-10"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:vinzdg/codenotch",
@@ -2188,9 +2188,9 @@
         "pcb",
         "mcp"
       ],
-      "stars": 122,
+      "stars": 132,
       "added": "2026-09-14",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-17"
     },
     {
       "id": "gh:kruzovic7/ai-data-extractor",
@@ -2284,9 +2284,292 @@
         "chemistry",
         "molecular-visualization"
       ],
-      "stars": 57,
+      "stars": 60,
       "added": "2026-09-14",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:adscanpro/claude-ad",
+      "category": "plugin",
+      "title": "ADScanPro/Claude-AD",
+      "url": "https://github.com/ADScanPro/Claude-AD",
+      "summary": "把 Active Directory 滲透測試方法論（Kerberoasting、ADCS ESC1-17、NTLM relay 等）包成 Claude Code plugin，驅動 BloodHound、impacket、certipy 等工具並要求每步人工確認，適合做授權紅隊演練與滲透測試的資安研究人員。",
+      "source": "github",
+      "tags": [
+        "security",
+        "penetration-testing",
+        "active-directory"
+      ],
+      "stars": 201,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:tillmeier/claude-code-guardrails",
+      "category": "plugin",
+      "title": "tillmeier/claude-code-guardrails",
+      "url": "https://github.com/tillmeier/claude-code-guardrails",
+      "summary": "從真實事故歸納出的 Claude Code guardrail hook 集合，搭配 plan→implement→verify→crosscheck 交付迴圈並實測 hook 額外開銷、附 35 個 bats 測試，適合想用紀律性 hook 減少代理犯錯的團隊。",
+      "source": "github",
+      "tags": [
+        "hooks",
+        "guardrails",
+        "workflow"
+      ],
+      "stars": 51,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:bangtutorial/bang-motion",
+      "category": "skill",
+      "title": "bangtutorial/bang-motion",
+      "url": "https://github.com/bangtutorial/bang-motion",
+      "summary": "產出開場動畫、宣傳片頭、字卡與五種解說風格等瀏覽器動態圖像的 Claude Code skill，單一 index.html 輸出且支援 Codex、Gemini CLI、Cursor，適合要做行銷或簡報動態內容的創作者。",
+      "source": "github",
+      "tags": [
+        "motion-graphics",
+        "agent-skills",
+        "video"
+      ],
+      "stars": 375,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:blader/humanizer",
+      "category": "skill",
+      "title": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "summary": "移除文字中常見 AI 寫作痕跡的 Claude Code / Codex / Cursor 通用 skill，適合用英文寫作又不想被一眼看出是 AI 代筆的使用者。",
+      "source": "github",
+      "tags": [
+        "writing-quality",
+        "agent-skills",
+        "anti-ai-slop"
+      ],
+      "stars": 49515,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:ruc-datalab/skilladam",
+      "category": "skill",
+      "title": "ruc-datalab/SkillAdam",
+      "url": "https://github.com/ruc-datalab/SkillAdam",
+      "summary": "能自動評估並「進化」既有 skill 品質的 Claude Code / Codex / Cursor plugin，適合想持續優化自己 skill 庫、而非手動反覆調校的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "meta-skill",
+        "optimization"
+      ],
+      "stars": 65,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:undefined-ui/second-brain-os",
+      "category": "skill",
+      "title": "undefined-ui/second-brain-os",
+      "url": "https://github.com/undefined-ui/second-brain-os",
+      "summary": "結合完整指南、起始 vault、agent skill 與腳本，讓 Claude Code 與 Obsidian 打造能自我維護、自我組織的第二大腦知識庫，適合想長期累積個人知識庫又不想手動整理的使用者。",
+      "source": "github",
+      "tags": [
+        "knowledge-management",
+        "agent-skills",
+        "obsidian"
+      ],
+      "stars": 62,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:kharmanskyi/open-steps",
+      "category": "skill",
+      "title": "kharmanskyi/open-steps",
+      "url": "https://github.com/kharmanskyi/open-steps",
+      "summary": "把代理產出翻成白話文的 Claude Code skill 組合，強制產出誠實報告、直白結論與可照做的步驟，適合受不了代理報喜不報憂、想要老實驗收結果的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "reporting",
+        "honesty"
+      ],
+      "stars": 562,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:deusdata/codebase-memory-mcp",
+      "category": "mcp",
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "把整個程式庫索引成持久知識圖譜的高效能程式碼智慧 MCP server，支援 158 種語言且單一靜態執行檔零依賴、查詢在毫秒等級完成，適合在超大型 codebase 中工作、想大幅省下代理理解程式碼 token 的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "code-intelligence",
+        "knowledge-graph"
+      ],
+      "stars": 43662,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:affaan-m/ecc",
+      "category": "tool",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "把「規劃→測試→實作→審查→驗證→記憶→改進」工程方法論封裝成 68 個代理、292 個技能與 hook 的 Claude Code / Codex / Cursor 通用工作系統，並提供跨代理共用的本機記憶庫與安全掃描，適合想讓代理長期遵守資深工程紀律的團隊。",
+      "source": "github",
+      "tags": [
+        "harness",
+        "agent-skills",
+        "workflow"
+      ],
+      "stars": 260969,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:farion1231/cc-switch",
+      "category": "tool",
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "summary": "跨平台桌面應用，一鍵切換 Claude Code、Codex、OpenCode、Grok Build 等多個編碼代理與供應商設定檔，適合同時使用多種代理工具、常需要切換帳號或供應商的開發者。",
+      "source": "github",
+      "tags": [
+        "desktop-app",
+        "multi-agent",
+        "provider-management"
+      ],
+      "stars": 133381,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:graphify-labs/graphify",
+      "category": "tool",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "summary": "把整個程式庫連同文件、SQL schema、設定檔與 PDF 轉成可查詢知識圖譜的 /graphify skill，用本機決定性 AST 解析、每條邊都可追溯來源且不需向量資料庫，適合想讓代理精準理解大型專案架構的開發者。",
+      "source": "github",
+      "tags": [
+        "knowledge-graph",
+        "code-analysis",
+        "agent-skills"
+      ],
+      "stars": 118977,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:panniantong/agent-reach",
+      "category": "tool",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "讓代理能讀取並搜尋 Twitter、Reddit、YouTube、GitHub、Bilibili、小紅書等平台的 CLI 工具，免付費 API 就能一次串接多個社群與內容來源，適合需要代理做社群輿情或內容調研的使用者。",
+      "source": "github",
+      "tags": [
+        "web-scraping",
+        "cli",
+        "research"
+      ],
+      "stars": 82754,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "gh:juliusbrussee/caveman",
+      "category": "tool",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "summary": "用「原始人講話」風格改寫代理輸出並用本機 proxy 壓縮讀入的 log／測試輸出／JSON 等雜訊，實測平均省下三成以上輸入 token、原始內容仍可從本機 SQLite 復原，支援 30 多種代理，適合想大幅降低代理使用成本又要求透明基準測試的重度使用者。",
+      "source": "github",
+      "tags": [
+        "token-efficiency",
+        "cost-optimization",
+        "proxy"
+      ],
+      "stars": 106212,
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w35",
+      "category": "official",
+      "title": "Claude Code Week 35 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w35",
+      "summary": "桌面版新增可在 CLI 啟動的 session 直接用 /resume 接續對話與完整脈絡，並推出讓 Claude 主動寫故障回報的 Claude-drafted feedback，以及供評測用、可停用所有客製化的 --restricted 啟動模式，適合想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "desktop",
+        "resume",
+        "evaluation"
+      ],
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w36",
+      "category": "official",
+      "title": "Claude Code Week 36 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w36",
+      "summary": "Claude Fable 5.1 進駐 Claude Code 並支援 100 萬 token 上下文，桌面版電腦操作可在背景執行不打斷手邊工作，/diff 新增即時面板顯示編輯進度，並新增 /skill-doctor 顯示每個技能的成本與使用頻率，適合想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "fable-5-1",
+        "computer-use",
+        "skill-doctor"
+      ],
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/whats-new/2026-w37",
+      "category": "official",
+      "title": "Claude Code Week 37 更新",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w37",
+      "summary": "新增 claude plugin eval 可對外掛跑測試案例集並與無外掛基準比較評分，桌面版面板可彈出成獨立視窗，maxEffortLevel 設定能替所有供應商設定 effort 上限，WebFetch 逾時五分鐘會直接失敗不再卡住，適合開發或維護 plugin、想跟上最新版功能的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "plugin-eval",
+        "desktop",
+        "webfetch"
+      ],
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "category": "technique",
+      "title": "Reducing Cost and Improving Performance with Claude Platform",
+      "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "summary": "Anthropic 官方整理三個不犧牲效能就能省成本的具體做法：拉高 prompt cache 命中率、升級旗艦模型時清掉舊提示詞裡的反模式指令、依任務難度校準 effort 等級，適合想有系統地壓低 Claude Code／API 帳單的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "cost-optimization",
+        "prompt-caching",
+        "effort"
+      ],
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "category": "technique",
+      "title": "Agentic Coding Is Straining CI: How Anthropic Scaled Test Impact Analysis",
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "summary": "Anthropic 分享代理式編碼讓 CI 工作量半年暴增 25 倍後，如何打造依變更範圍與歷史表現決定該跑哪些測試的確定性測試選擇服務，並建議工程團隊提前假設自己的架構會在兩季內面臨 25 倍負載，適合基礎架構團隊參考因應代理式開發帶來的 CI 壓力。",
+      "source": "anthropic",
+      "tags": [
+        "ci-cd",
+        "testing",
+        "scalability"
+      ],
+      "added": "2026-09-17",
+      "last_seen": "2026-09-17"
     }
   ]
 }
