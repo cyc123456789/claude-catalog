@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-21",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -2570,6 +2570,82 @@
       ],
       "added": "2026-09-17",
       "last_seen": "2026-09-17"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/memory#agents-md",
+      "category": "official",
+      "title": "Claude Code 支援 AGENTS.md 作為 CLAUDE.md 備援",
+      "url": "https://code.claude.com/docs/en/memory#agents-md",
+      "summary": "Claude Code 新增讀取專案根目錄的 AGENTS.md 作為沒有 CLAUDE.md 時的備援指令檔，可單獨使用或與 CLAUDE.md 疊加，讓同一份指令檔能同時被 Claude Code、Copilot、Codex、Gemini CLI 等多種代理工具讀取，適合跨工具協作、不想為每個 AI 工具各寫一份設定的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "agents-md",
+        "claude-md",
+        "memory"
+      ],
+      "added": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/plugins-reference#synced-plugins",
+      "category": "official",
+      "title": "Claude Code 終端機 session 自動同步 claude.ai 帳號的 skills／plugins",
+      "url": "https://code.claude.com/docs/en/plugins-reference#synced-plugins",
+      "summary": "只要用 claude.ai 帳號登入終端機 session，Claude Code 會在啟動時自動檢查帳號設定，背景下載新啟用或更新的 skills／plugins、移除已被停用的項目，不必再手動下指令同步，可用 syncClaudeAiSkills／syncClaudeAiPlugins 設定個別關閉，適合想讓公司帳號的技能與外掛設定自動套用到每台機器的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "sync",
+        "plugins",
+        "skills",
+        "settings"
+      ],
+      "added": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/claude-projects",
+      "category": "official",
+      "title": "Claude Code Projects：讓 Claude 統籌背景並行的多執行緒工作",
+      "url": "https://code.claude.com/docs/en/claude-projects",
+      "summary": "Projects 把一連串相關工作丟進同一個對話，由 Claude 自動拆成多個背景 cloud session（thread）並行處理：分派工作、遇到同一區塊已有 thread 在處理就接手、彙整產出結果，工作在你闔上筆電後仍持續進行，可從手機查看進度與下指示，目前於 Pro／Max 帳號逐步開放 beta，適合需要同時處理多個 bug 或任務、不想自己手動協調多個 session 的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "projects",
+        "cloud-sessions",
+        "parallel-agents"
+      ],
+      "added": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    {
+      "id": "https://unity.com/blog/unity-plugin-for-claude-code",
+      "category": "plugin",
+      "title": "Unity 官方 Claude Code Plugin",
+      "url": "https://unity.com/blog/unity-plugin-for-claude-code",
+      "summary": "Unity 官方推出的 Claude Code 第一方外掛，一次安裝 Unity 工程師撰寫、涵蓋 sprite atlas、UI、渲染、音效、多人連線、在地化、營利化等領域的 29 個技能，並整合 Unity CLI 與 MCP server 讓 Claude 能直接操作 Unity Editor，適合用 Unity 開發遊戲、想讓 Claude 照 Unity 官方慣例寫程式而非亂猜的團隊。",
+      "source": "blog",
+      "tags": [
+        "unity",
+        "game-development",
+        "mcp"
+      ],
+      "added": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    {
+      "id": "https://dev.to/glitchbound/i-bypassed-my-own-claude-code-deny-list-in-eight-ways-only-an-allow-list-held-lp8",
+      "category": "technique",
+      "title": "拆解自己寫的 Claude Code deny-list：8 種繞過手法與防禦寫法",
+      "url": "https://dev.to/glitchbound/i-bypassed-my-own-claude-code-deny-list-in-eight-ways-only-an-allow-list-held-lp8",
+      "summary": "作者實測用相對路徑、symlink、cd 改變路徑語意、NotebookEdit／MultiEdit 等工具未覆蓋的路徑欄位、引號混淆等 8 種手法繞過自己寫的 Claude Code PreToolUse deny-list hook，並示範用 realpath 正規化路徑、對原始指令字串加 regex 黑名單、「解析失敗一律拒絕」等防禦寫法，把每個漏洞都寫成永久回歸測試，適合自己寫權限 hook、想確保真的擋得住的開發者。",
+      "source": "blog",
+      "tags": [
+        "security",
+        "hooks",
+        "permissions"
+      ],
+      "added": "2026-09-21",
+      "last_seen": "2026-09-21"
     }
   ]
 }
