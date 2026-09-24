@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-24",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -2646,6 +2646,274 @@
       ],
       "added": "2026-09-21",
       "last_seen": "2026-09-21"
+    },
+    {
+      "id": "gh:mikehasa/golive-skill",
+      "category": "skill",
+      "title": "mikehasa/golive-skill",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "summary": "讓代理把自己寫的應用程式部署上線的 Claude Code skill，自動處理主機、資料庫、網域、Email 與金流設定並附核准關卡，適合想讓 AI 產出的產品快速上線的開發者。",
+      "source": "github",
+      "tags": [
+        "deployment",
+        "agent-skills",
+        "devops"
+      ],
+      "stars": 831,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:samyost1/3dicon",
+      "category": "skill",
+      "title": "samyost1/3dicon",
+      "url": "https://github.com/samyost1/3dicon",
+      "summary": "把文字提示轉成帶透明背景的循環動畫 3D 圖示（WebP 格式）的 Claude Code skill，適合需要快速產出 App 介面動態圖示的設計師與開發者。",
+      "source": "github",
+      "tags": [
+        "3d",
+        "icon-design",
+        "claude-code-skill"
+      ],
+      "stars": 372,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:minorun365/minorun-marp-skill",
+      "category": "skill",
+      "title": "minorun365/minorun-marp-skill",
+      "url": "https://github.com/minorun365/minorun-marp-skill",
+      "summary": "用 Marp 製作簡報的 Claude Code skill 集，涵蓋敘事節奏、圖表繪製與深色主題設計原則，適合想讓代理產出有內容深度而非徒有其表簡報的講者。",
+      "source": "github",
+      "tags": [
+        "presentation",
+        "marp",
+        "agent-skills"
+      ],
+      "stars": 380,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:oldcircle/geo-sleuth",
+      "category": "skill",
+      "title": "Oldcircle/geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "summary": "在照片缺乏文字或地標線索時，靠地形、天際線、衛星影像與街景比對推斷拍攝地點的 Claude Code skill，適合地理定位調查與 OSINT 研究者使用。",
+      "source": "github",
+      "tags": [
+        "osint",
+        "geolocation",
+        "agent-skills"
+      ],
+      "stars": 313,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:misbahsy/anti-ai-slop",
+      "category": "skill",
+      "title": "misbahsy/anti-ai-slop",
+      "url": "https://github.com/misbahsy/anti-ai-slop",
+      "summary": "用多道檢查關卡抓出並移除文字中「AI 味」寫作痕跡的 agent skill，適合用 Claude Code 等代理產出文案、想讓成品讀起來更像真人寫的內容創作者。",
+      "source": "github",
+      "tags": [
+        "writing",
+        "proofreading",
+        "agent-skills"
+      ],
+      "stars": 86,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:yetone/magpie",
+      "category": "tool",
+      "title": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "summary": "用選單列或終端機統一管理多種編碼代理（Claude Code、Codex、Gemini CLI 等）並切換各自模型的桌面工具，適合同時用多套代理工作、不想手動改設定檔的開發者。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "model-routing",
+        "macos"
+      ],
+      "stars": 576,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:pliablepixels/gap-trap",
+      "category": "tool",
+      "title": "pliablepixels/gap-trap",
+      "url": "https://github.com/pliablepixels/gap-trap",
+      "summary": "在專案中設好規則與品質關卡（含突變測試），讓 AI 寫的程式碼不必逐行審查也能保持正確的工具，適合大量用代理寫程式、想守住品質底線的團隊。",
+      "source": "github",
+      "tags": [
+        "code-quality",
+        "quality-gates",
+        "ci-cd"
+      ],
+      "stars": 178,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:witnesstodark/mr-mak-workspace",
+      "category": "tool",
+      "title": "witnesstodark/mr-mak-workspace",
+      "url": "https://github.com/witnesstodark/mr-mak-workspace",
+      "summary": "把 Claude Code、Codex 等代理對話跟研究資料、檔案整理進同一個本機桌面工作台的工具，適合想邊跟代理對話邊管理多個專案素材的開發者與創作者。",
+      "source": "github",
+      "tags": [
+        "desktop-app",
+        "project-management",
+        "multi-agent"
+      ],
+      "stars": 156,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:sno-ai/sno-station",
+      "category": "tool",
+      "title": "sno-ai/sno-station",
+      "url": "https://github.com/sno-ai/sno-station",
+      "summary": "讓 Claude Code、Codex 等代理在本機組成互相交接工作、共用加密記憶的團隊，並靠夜間學習迴圈自我改進技能的工具，適合想在不依賴雲端下取得多代理協作效果的開發者。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "local-first",
+        "agent-memory"
+      ],
+      "stars": 147,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:kina-cmd/agent-skill-sync",
+      "category": "tool",
+      "title": "kina-cmd/agent-skill-sync",
+      "url": "https://github.com/kina-cmd/agent-skill-sync",
+      "summary": "掃描、分級並同步 Codex、Claude Code、WorkBuddy 等不同代理間 SKILL.md 技能檔的零依賴 Python CLI，適合維護跨工具技能庫、不想讓技能各自散落過時的團隊。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "cli",
+        "cross-platform"
+      ],
+      "stars": 100,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:ruc-datalab/evoontology",
+      "category": "plugin",
+      "title": "ruc-datalab/EvoOntology",
+      "url": "https://github.com/ruc-datalab/EvoOntology",
+      "summary": "幫 Claude Code、Codex 代理針對表格、檔案、資料庫等異質資料源建立會隨互動自我演化的本體層 plugin，適合處理多來源資料分析的資料工程師與研究者。",
+      "source": "github",
+      "tags": [
+        "data-analysis",
+        "ontology",
+        "plugin"
+      ],
+      "stars": 394,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:coldteadotai/abide",
+      "category": "plugin",
+      "title": "coldteadotai/abide",
+      "url": "https://github.com/coldteadotai/abide",
+      "summary": "對照 CLAUDE.md／AGENTS.md 規則檢查每次修改，抓出一般 linter 抓不到的專案慣例違規的 Claude Code plugin，適合想讓代理確實遵守團隊規範的開發團隊。",
+      "source": "github",
+      "tags": [
+        "guardrails",
+        "claude-code-plugin",
+        "code-quality"
+      ],
+      "stars": 212,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:insane0777/awwards-mcp",
+      "category": "mcp",
+      "title": "INSANE0777/Awwards-mcp",
+      "url": "https://github.com/INSANE0777/Awwards-mcp",
+      "summary": "免 API key 就能查詢 Awwwards 得獎網站設計、截圖與設計 DNA 的 MCP server，適合做網頁設計、想讓代理參考優秀案例的前端開發者與設計師。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "web-design",
+        "design-inspiration"
+      ],
+      "stars": 67,
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "category": "official",
+      "title": "Claude Opus 5.5 發表",
+      "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "summary": "Anthropic 推出專為長時間、重脈絡編碼任務打造的 Opus 5.5，比 Opus 5 便宜約四成、輸出快三成，並改善快取管理、支援中途切換 effort 不重置快取，適合常跑長工作階段的重度 Claude Code 使用者。",
+      "source": "anthropic",
+      "tags": [
+        "opus-5.5",
+        "model-release",
+        "pricing"
+      ],
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "https://claude.com/blog/claude-marketplace",
+      "category": "official",
+      "title": "Claude Marketplace 上線",
+      "url": "https://claude.com/blog/claude-marketplace",
+      "summary": "Anthropic 推出集結外掛／連接器、代理商品與顧問服務夥伴於一處的 Claude Marketplace，目前收錄逾 2000 個連接器與外掛，適合想快速找到官方認證整合方案的企業與開發團隊。",
+      "source": "anthropic",
+      "tags": [
+        "marketplace",
+        "connectors",
+        "enterprise"
+      ],
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+      "category": "technique",
+      "title": "What a Task Costs on Opus 5.5",
+      "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+      "summary": "Anthropic 官方教你別只看模型降價，而要用 /usage 實測同一任務在新舊模型的花費差異，並用中等 effort 起步、加入及早驗證關卡與適時 /clear 來控制成本，適合想精算 Opus 5.5 任務成本的重度使用者。",
+      "source": "anthropic",
+      "tags": [
+        "cost-optimization",
+        "opus-5.5",
+        "usage"
+      ],
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "id": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "category": "technique",
+      "title": "How to Prepare for AI-Driven Code Modernization Projects",
+      "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "summary": "Anthropic 官方提出六階段程式碼現代化方法論，從定義改造目標、訂出可驗證的「完成證明」、依風險分級設定人工審核關卡，到先在小範圍程式庫試跑再擴大規模，適合規劃大型 AI 輔助遷移專案的工程團隊。",
+      "source": "anthropic",
+      "tags": [
+        "migration",
+        "workflow",
+        "enterprise"
+      ],
+      "added": "2026-09-24",
+      "last_seen": "2026-09-24"
     }
   ]
 }
