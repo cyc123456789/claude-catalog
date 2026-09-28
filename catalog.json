@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-28",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -2914,6 +2914,84 @@
       ],
       "added": "2026-09-24",
       "last_seen": "2026-09-24"
+    },
+    {
+      "id": "gh:netresearch/claude-code-marketplace",
+      "category": "skill",
+      "title": "Netresearch Agentic Skills",
+      "url": "https://github.com/netresearch/claude-code-marketplace",
+      "summary": "一套涵蓋 TYPO3、PHP、Go、Docker、Jira、安全與文件撰寫等領域的 Agent Skills 精選集，並附企業級品質、安全與自動化檢核，適合想快速提升專案規範水準的開發團隊。",
+      "source": "github",
+      "tags": [
+        "skills",
+        "enterprise",
+        "security"
+      ],
+      "stars": 62,
+      "added": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "gh:andrewroxby/claude-style-patch",
+      "category": "technique",
+      "title": "Claude Style Patch",
+      "url": "https://github.com/andrewroxby/claude-style-patch",
+      "summary": "一段可直接貼入 CLAUDE.md 的寫作風格規範，逐條禁止 Claude 常見的說明前綴、冒號堆疊句與過度壓縮的破碎句型，適合想讓 Claude 輸出讀起來更像真人文字的使用者。",
+      "source": "github",
+      "tags": [
+        "claude-md",
+        "writing-style",
+        "prompting"
+      ],
+      "stars": 149,
+      "added": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "gh:continuum-ai-corp/orcareplay",
+      "category": "tool",
+      "title": "OrcaReplay",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "summary": "在本地代理層錄製 Claude Code 的完整執行過程，可離線逐位元組重播、從任一檢查點分岔並切換至不同模型比較表現，適合需要偵錯或重現 agent 執行結果的開發者（專案仍屬早期階段）。",
+      "source": "github",
+      "tags": [
+        "debugging",
+        "replay",
+        "observability"
+      ],
+      "stars": 269,
+      "added": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "https://claude.com/blog/build-plugins-for-claude",
+      "category": "official",
+      "title": "Build Plugins for Claude",
+      "url": "https://claude.com/blog/build-plugins-for-claude",
+      "summary": "Anthropic 開放付費方案開發者透過新的目錄提交入口發布 Claude 外掛，可指向遠端 MCP 伺服器或用 GitHub 託管的 MCP+Skills 組合，並提供自動安全驗證與安裝量分析，適合想讓自製外掛觸及企業用戶的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "plugins",
+        "marketplace",
+        "mcp"
+      ],
+      "added": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "category": "official",
+      "title": "Claude Tag 支援頻道內個人連接器",
+      "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "summary": "Claude Tag（Slack 上的 Claude）現在能在頻道對話中呼叫使用者自己的個人連接器（如 Google Drive、行事曆），不再侷限於管理員設定的共用連接器，適合需要在團隊頻道混用共用與個人資料來源的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "claude-tag",
+        "slack",
+        "connectors"
+      ],
+      "added": "2026-09-28",
+      "last_seen": "2026-09-28"
     }
   ]
 }
