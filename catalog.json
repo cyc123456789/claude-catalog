@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -2992,6 +2992,54 @@
       ],
       "added": "2026-09-28",
       "last_seen": "2026-09-28"
+    },
+    {
+      "id": "gh:anthropics/claude-code-action",
+      "category": "tool",
+      "title": "anthropics/claude-code-action",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "summary": "Anthropic 官方出品的 GitHub Action，讓 Claude 能依 @claude 提及或指派自動在 PR 與 issue 中回答問題、審查程式碼與實作變更，適合想把 Claude Code 整合進 CI/CD 流程的團隊。",
+      "source": "github",
+      "tags": [
+        "official",
+        "github-actions",
+        "ci-cd"
+      ],
+      "stars": 9300,
+      "added": "2026-10-01",
+      "last_seen": "2026-10-01"
+    },
+    {
+      "id": "gh:agricidaniel/claude-seo",
+      "category": "skill",
+      "title": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "summary": "整合 26 個子技能與 19 個專職子代理的 Claude Code SEO 分析 skill，涵蓋技術 SEO、E-E-A-T、結構化資料與 AI 搜尋優化（GEO）並產出可執行行動計畫，適合需要全面 SEO 診斷的網站經營者與行銷團隊。",
+      "source": "github",
+      "tags": [
+        "seo",
+        "agent-skills",
+        "claude-code-skill"
+      ],
+      "stars": 18100,
+      "added": "2026-10-01",
+      "last_seen": "2026-10-01"
+    },
+    {
+      "id": "gh:davila7/claude-code-templates",
+      "category": "tool",
+      "title": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "summary": "提供現成 agent、自訂指令、hooks、MCP 整合與專案範本的 Claude Code 設定集合，並附帶用量分析、對話監控與健康檢查等工具，適合想快速套用社群實戰設定、少走配置彎路的使用者。",
+      "source": "github",
+      "tags": [
+        "templates",
+        "configuration",
+        "cli"
+      ],
+      "stars": 32300,
+      "added": "2026-10-01",
+      "last_seen": "2026-10-01"
     }
   ]
 }
