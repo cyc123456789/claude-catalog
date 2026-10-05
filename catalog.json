@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-05",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3040,6 +3040,310 @@
       "stars": 32300,
       "added": "2026-10-01",
       "last_seen": "2026-10-01"
+    },
+    {
+      "id": "gh:rehan-remade/universal-modder",
+      "category": "plugin",
+      "title": "universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "summary": "讓 Claude Code 操作任意 PC 遊戲的技能/工具/MCP 套件：遊戲偵查、反組譯、fal 生成素材與遊戲內測試，適合想用 AI 改裝遊戲的玩家與開發者。",
+      "source": "github",
+      "tags": [
+        "game-modding",
+        "mcp",
+        "reverse-engineering",
+        "claude-code-plugin"
+      ],
+      "stars": 3741,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:nykooi1/vibe-wise",
+      "category": "plugin",
+      "title": "vibe-wise",
+      "url": "https://github.com/nykooi1/vibe-wise",
+      "summary": "Claude Code 插件，在 AI 寫程式的同時教你理解程式邏輯，適合想邊 vibe coding 邊學程式的開發者。",
+      "source": "github",
+      "tags": [
+        "learning",
+        "plugin",
+        "education"
+      ],
+      "stars": 1585,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:humaedihume/kantor-agent",
+      "category": "plugin",
+      "title": "kantor-agent",
+      "url": "https://github.com/humaedihume/kantor-agent",
+      "summary": "把 Claude Code 主線與 subagent 的工作狀態視覺化成 3D 辦公室動畫，讓你一眼看懂多個 agent 正在做什麼。",
+      "source": "github",
+      "tags": [
+        "visualization",
+        "subagents",
+        "plugin"
+      ],
+      "stars": 99,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:jarrodwatts/intermission",
+      "category": "plugin",
+      "title": "intermission",
+      "url": "https://github.com/jarrodwatts/intermission",
+      "summary": "Claude Code 插件，在等待 Claude 處理請求時於終端機打開多人 Doom 死鬥遊戲打發時間，任務完成自動返回。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "fun",
+        "terminal-game"
+      ],
+      "stars": 97,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:nwiizo/rust-learning-lab",
+      "category": "plugin",
+      "title": "rust-learning-lab",
+      "url": "https://github.com/nwiizo/rust-learning-lab",
+      "summary": "給 Codex 與 Claude Code 用的雙語 Rust 學習插件，透過語法講解、程式碼審查與互動練習幫助理解所有權與型別系統。",
+      "source": "github",
+      "tags": [
+        "rust",
+        "learning",
+        "plugin"
+      ],
+      "stars": 64,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:voltagent/official-mcp-servers",
+      "category": "mcp",
+      "title": "official-mcp-servers",
+      "url": "https://github.com/VoltAgent/official-mcp-servers",
+      "summary": "收錄 286+ 家官方公司自行維護的 MCP server 清單，排除非官方 fork 與廢棄專案，適合要尋找可信賴 MCP 整合的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "directory",
+        "awesome-list"
+      ],
+      "stars": 78,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:jeonjw85/kenfold",
+      "category": "mcp",
+      "title": "kenfold",
+      "url": "https://github.com/jeonjw85/kenfold",
+      "summary": "自架的多 agent 共享記憶 MCP server，讓 Claude Code、Codex、OpenCode、ChatGPT 之間用同一份具語意搜尋能力的長期記憶。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "memory",
+        "self-hosted"
+      ],
+      "stars": 64,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:avinash-jetwani/jevmem",
+      "category": "mcp",
+      "title": "jevmem",
+      "url": "https://github.com/Avinash-jetwani/jevmem",
+      "summary": "自動把 Claude Code 對話中的決策、規則與失敗嘗試存進 JEVMEM.md，下次對話自動帶回相關記憶，並在違反既有規則時提醒使用者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "memory",
+        "claude-code-plugin"
+      ],
+      "stars": 121,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:louis-cfm/coucou",
+      "category": "tool",
+      "title": "coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "summary": "常駐在 macOS 瀏海或 Windows/Linux 螢幕頂端的小工具，即時顯示 Claude Code、Codex、Cursor 等多個編碼 agent 的工作狀態。",
+      "source": "github",
+      "tags": [
+        "monitoring",
+        "menubar",
+        "desktop-tool"
+      ],
+      "stars": 3647,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:dzhng/jevgrep",
+      "category": "tool",
+      "title": "jevgrep",
+      "url": "https://github.com/dzhng/jevgrep",
+      "summary": "讓編碼 agent 用「這段程式在做什麼」的自然語言問題找到相關檔案與上下文的 CLI 語意搜尋工具。",
+      "source": "github",
+      "tags": [
+        "cli",
+        "code-search",
+        "developer-tools"
+      ],
+      "stars": 2300,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:angel291592/intent-router",
+      "category": "tool",
+      "title": "Intent-Router",
+      "url": "https://github.com/angel291592/Intent-Router",
+      "summary": "把模糊需求收斂成型別化 IntentSpec 的意圖編譯器，在路由給下游 agent 前先判斷要追問或暫停，適合建構多 agent 系統的開發者。",
+      "source": "github",
+      "tags": [
+        "agentic",
+        "intent-routing",
+        "prompt-engineering"
+      ],
+      "stars": 858,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:edwardxlai/easyread",
+      "category": "tool",
+      "title": "easyread",
+      "url": "https://github.com/Edwardxlai/easyread",
+      "summary": "本地端英文論文翻譯閱讀器，提供原文對照、邊讀邊問 AI 與文獻管理，適合需要大量閱讀外文論文的研究者。",
+      "source": "github",
+      "tags": [
+        "pdf",
+        "translation",
+        "research-tool"
+      ],
+      "stars": 803,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:amontlabs/lcu",
+      "category": "tool",
+      "title": "lcu",
+      "url": "https://github.com/amontlabs/lcu",
+      "summary": "把電腦操作（computer use）能力從特定 app 中解耦出來的獨立模組，可供任何 agent harness 呼叫以操作桌面環境。",
+      "source": "github",
+      "tags": [
+        "computer-use",
+        "automation",
+        "mcp"
+      ],
+      "stars": 389,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:nanaism/yomiyasu",
+      "category": "skill",
+      "title": "yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "summary": "把 AI 生成的日文潤飾成自然日文的 Agent Skill，適合用 AI 寫日文文件或文章的使用者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "japanese",
+        "writing"
+      ],
+      "stars": 1497,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:qingyuna/answer-me-with-html",
+      "category": "skill",
+      "title": "answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "summary": "讓 AI agent 把複雜問題整理成一頁可讀的 HTML 回答的技能，適合想要圖文並茂說明複雜主題的使用者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "html",
+        "explainer"
+      ],
+      "stars": 1465,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:jakeschincariol/replica-skill",
+      "category": "skill",
+      "title": "replica-skill",
+      "url": "https://github.com/Jakeschincariol/replica-skill",
+      "summary": "一組免費技能，教 agent 逆向分析現有 App、重建、抓 bug 並修正使用者抱怨的痛點，適合想複刻或優化競品的獨立開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "reverse-engineering",
+        "app-clone"
+      ],
+      "stars": 470,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:leter/zh-tech-writing",
+      "category": "skill",
+      "title": "zh-tech-writing",
+      "url": "https://github.com/leter/zh-tech-writing",
+      "summary": "依阮一峰《中文技術文檔寫作規範》制定的 Agent Skill，讓 AI 寫出短句、平實、沒有 AI 腔的中文技術文件。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "chinese",
+        "technical-writing"
+      ],
+      "stars": 332,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "gh:jakeschincariol/arena-skill",
+      "category": "skill",
+      "title": "arena-skill",
+      "url": "https://github.com/Jakeschincariol/arena-skill",
+      "summary": "同一個任務讓 100 種不同策略互相淘汰、打出單淘汰賽決出最佳答案的技能，適合不滿意 Claude 單一回答品質時使用。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "multi-agent",
+        "tournament"
+      ],
+      "stars": 267,
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    {
+      "id": "https://platform.claude.com/docs/en/release-notes/claude-code",
+      "category": "official",
+      "title": "Claude Code Changelog（v2.1.270–v2.1.289）",
+      "url": "https://platform.claude.com/docs/en/release-notes/claude-code",
+      "summary": "本輪更新新增 Claude Mods 外掛深層擴充系統、預設模型升級為 Claude Sonnet 5.5（百萬 token 上下文）、/doctor prompt-audit 稽核 CLAUDE.md 與 skills/agents、/mcp reconnect all 等多項功能，適合持續追蹤 Claude Code 版本演進的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "claude-code"
+      ],
+      "added": "2026-10-05",
+      "last_seen": "2026-10-05"
     }
   ]
 }
