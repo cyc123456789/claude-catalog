@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-12",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3344,6 +3344,51 @@
       ],
       "added": "2026-10-05",
       "last_seen": "2026-10-05"
+    },
+    {
+      "id": "https://claude.dev/blog/automating-eval-design-and-hillclimbing",
+      "category": "technique",
+      "title": "Automating Eval Design and Hillclimbing with Claude",
+      "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
+      "summary": "Anthropic 官方示範用 claude-api skill 新增的 /claude-api build-eval 與 /claude-api hillclimb 指令，自動設計評測並以保留測試集防止過度擬合來迭代改善應用程式，適合想讓 Claude Code 自動優化自家 agent 或 prompt 品質的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "eval",
+        "hillclimbing",
+        "claude-api-skill"
+      ],
+      "added": "2026-10-12",
+      "last_seen": "2026-10-12"
+    },
+    {
+      "id": "https://claude.dev/blog/claude-code-in-the-cloud",
+      "category": "technique",
+      "title": "Claude Code in the Cloud: A Field Guide to Cloud Sessions",
+      "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+      "summary": "Anthropic 官方實戰指南，說明雲端 session 與本機 Claude Code 的差異、哪些任務適合丟到雲端執行以及如何串接 GitHub，適合想善用 Claude Code 雲端 session 的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "cloud-sessions",
+        "github",
+        "workflow"
+      ],
+      "added": "2026-10-12",
+      "last_seen": "2026-10-12"
+    },
+    {
+      "id": "https://claude.dev/blog/building-effective-agent-automations",
+      "category": "technique",
+      "title": "Building Effective Agent Automations",
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "summary": "Anthropic 官方示範如何用 Claude Managed Agents 打造可靠的排程代理（例如每天彙整 Slack 與 GitHub 動態），強調「寧可明確失敗也不要默默出錯」等設計原則，適合想架設排程／自動化代理任務的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "managed-agents",
+        "automation",
+        "scheduling"
+      ],
+      "added": "2026-10-12",
+      "last_seen": "2026-10-12"
     }
   ]
 }
