@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-15",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3278,9 +3278,9 @@
         "html",
         "explainer"
       ],
-      "stars": 1465,
+      "stars": 3443,
       "added": "2026-10-05",
-      "last_seen": "2026-10-05"
+      "last_seen": "2026-10-15"
     },
     {
       "id": "gh:jakeschincariol/replica-skill",
@@ -3294,9 +3294,9 @@
         "reverse-engineering",
         "app-clone"
       ],
-      "stars": 470,
+      "stars": 2730,
       "added": "2026-10-05",
-      "last_seen": "2026-10-05"
+      "last_seen": "2026-10-15"
     },
     {
       "id": "gh:leter/zh-tech-writing",
@@ -3326,9 +3326,9 @@
         "multi-agent",
         "tournament"
       ],
-      "stars": 267,
+      "stars": 633,
       "added": "2026-10-05",
-      "last_seen": "2026-10-05"
+      "last_seen": "2026-10-15"
     },
     {
       "id": "https://platform.claude.com/docs/en/release-notes/claude-code",
@@ -3389,6 +3389,307 @@
       ],
       "added": "2026-10-12",
       "last_seen": "2026-10-12"
+    },
+    {
+      "id": "gh:jakeschincariol/founder-skill",
+      "category": "skill",
+      "title": "founder-skill",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "summary": "十一個免費 Claude 技能組成的新創試煉場，涵蓋董事會、行銷長、財務長、消費者小組等角色，適合在正式上線前驗證商業點子的創業者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "startup",
+        "business-plan"
+      ],
+      "stars": 777,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:cth9191/animate",
+      "category": "skill",
+      "title": "animate",
+      "url": "https://github.com/cth9191/animate",
+      "summary": "讓 Claude Code 用單一 canvas 逐幀程式化產生短動畫影片的技能，內建多種風格並可依參考圖比對新風格，適合做說明影片或小故事動畫的開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "animation",
+        "video"
+      ],
+      "stars": 732,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:tejashmakwana/motionmaxxing",
+      "category": "skill",
+      "title": "motionmaxxing",
+      "url": "https://github.com/Tejashmakwana/motionmaxxing",
+      "summary": "分析並優化動態圖像設計細節（字重、路徑、節奏）的 Claude 技能，把生硬的 AI 產生影片調整成專業動態設計師等級，適合做產品影片或 explainer 的團隊。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "motion-graphics",
+        "video"
+      ],
+      "stars": 649,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:airsuphq/machine-skill",
+      "category": "skill",
+      "title": "machine-skill",
+      "url": "https://github.com/AirsupHQ/machine-skill",
+      "summary": "輸入一句機械描述，Claude 就能生成具真實物理運算的互動 3D 模擬（單一 HTML 檔）與宣傳影片，適合工程教育或產品展示用途。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "simulation",
+        "3d"
+      ],
+      "stars": 232,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:assafkip/claudemy",
+      "category": "skill",
+      "title": "claudemy",
+      "url": "https://github.com/assafkip/claudemy",
+      "summary": "開源版 Udemy/Coursera 替代品，Claude 技能會研究任何主題並產生雙聲道 2 分鐘音頻課程與引用來源，適合想快速自學新主題又不想看冗長課程的人。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "education",
+        "audio"
+      ],
+      "stars": 217,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:folkbench/folkbench",
+      "category": "tool",
+      "title": "folkbench",
+      "url": "https://github.com/Folkbench/folkbench",
+      "summary": "針對給 Claude Code／Codex 用的 AI API 中轉站做可用率、延遲與價格實測評比並提供一鍵切換的開源工具，適合依賴第三方中轉服務的開發者挑選穩定供應商。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "api-relay",
+        "benchmark"
+      ],
+      "stars": 1124,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:openqodex/openqodex",
+      "category": "tool",
+      "title": "openqodex",
+      "url": "https://github.com/openqodex/openqodex",
+      "summary": "在 push 前於編程代理（含 Claude Code）本機執行的開源程式碼審查工具，結合掃描器與獨立 AI reviewer，用自己的登入免金鑰，適合想把品質把關左移的團隊。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "code-review",
+        "security"
+      ],
+      "stars": 712,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:franzenzenhofer/big-arrow-on-the-screen",
+      "category": "tool",
+      "title": "big-arrow-on-the-screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "summary": "讓 AI 代理在畫面上疊加大箭頭、方框與文字來指出重點的 macOS 命令列工具與 Claude Code/Codex 技能，滑鼠點擊可穿透、用完自動消失，適合做螢幕標註示範。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "macos",
+        "accessibility"
+      ],
+      "stars": 751,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:aryanutkarsh/seecode",
+      "category": "tool",
+      "title": "SeeCode",
+      "url": "https://github.com/Aryanutkarsh/SeeCode",
+      "summary": "把一段簡短 JSON 規格變成可互動、可動畫、能匯出的高品質架構圖的工具，適合需要向團隊或文件解說系統設計的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "diagram",
+        "visualization"
+      ],
+      "stars": 482,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:atoll92/agent-standup",
+      "category": "tool",
+      "title": "agent-standup",
+      "url": "https://github.com/Atoll92/agent-standup",
+      "summary": "把 Claude Code、Codex、Mistral Vibe 等多個 agent session 紀錄即時視覺化成「站立會議」畫面，零 token 成本看出誰在等誰、誰卡住了，適合同時跑多個 agent 的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "monitoring",
+        "visualization"
+      ],
+      "stars": 216,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:hamzafer/claude-code-mods",
+      "category": "plugin",
+      "title": "claude-code-mods",
+      "url": "https://github.com/hamzafer/claude-code-mods",
+      "summary": "以 hook 機制打造的一系列 Claude Code mods 外掛，在提示列上方顯示即時狀態列、守門提示與小遊戲面板，可依需求單獨安裝，適合想客製化終端機介面的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "mods",
+        "hooks"
+      ],
+      "stars": 254,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:iamumeransari/claude-show-your-work",
+      "category": "plugin",
+      "title": "claude-show-your-work",
+      "url": "https://github.com/iamumeransari/claude-show-your-work",
+      "summary": "讓你不離開終端機就能檢視、播放並對 Claude Code 產出的畫面截圖、影片進行視覺 QA 的外掛，支援 Playwright 錄製前後對比，適合做前端或 UI 驗收的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "visual-qa",
+        "playwright"
+      ],
+      "stars": 211,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:heycubit/effortless",
+      "category": "plugin",
+      "title": "effortless",
+      "url": "https://github.com/HeyCubit/effortless",
+      "summary": "自動依每個提示內容挑選合適推理強度（effort）的 Claude Code mod，同時在提示列上方顯示快取與情境用量，一鍵交接或壓縮對話，適合想省 token 又不想手動調參數的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "mods",
+        "effort"
+      ],
+      "stars": 204,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:yeonwoosung/my-claude-code-mods",
+      "category": "plugin",
+      "title": "my-claude-code-mods",
+      "url": "https://github.com/YeonwooSung/my-claude-code-mods",
+      "summary": "一組實用 Claude Code mods 合集，包含顯示時間都花在哪的 agent-profiler 與分析情境浪費的 context-inspector 等，適合想深入觀察 session 效能的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "mods",
+        "observability"
+      ],
+      "stars": 825,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:graphicle-ai/graphicle",
+      "category": "mcp",
+      "title": "graphicle",
+      "url": "https://github.com/Graphicle-AI/graphicle",
+      "summary": "用 Rust 打造、純本機執行的程式碼圖譜與記憶 MCP 伺服器，替 Claude Code、Cursor、Codex 等代理提供含確切檔案與行號引用的程式庫結構與過往決策，免金鑰免上傳。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "code-graph",
+        "local-first"
+      ],
+      "stars": 166,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:rayenmlayeh/jevcrawl",
+      "category": "mcp",
+      "title": "jevcrawl",
+      "url": "https://github.com/RayenMlayeh/jevcrawl",
+      "summary": "用小型決策模型挑選連結與段落、只把真正能回答問題的內容餵給 LLM 的網路爬蟲 MCP 伺服器，比起讓 Claude 自行爬取更便宜準確，適合做 RAG 或研究型 agent。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "web-crawler",
+        "rag"
+      ],
+      "stars": 65,
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "https://www.anthropic.com/news/claude-haiku-5-5",
+      "category": "official",
+      "title": "Claude Haiku 5.5 發表",
+      "url": "https://www.anthropic.com/news/claude-haiku-5-5",
+      "summary": "Anthropic 推出成本降低約 75%、速度最快的小型模型 Claude Haiku 5.5，首度支援 Haiku 等級的 effort 調整，適合大量、低成本任務與搭配 Opus/Sonnet 5.5 做子代理的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "model-release",
+        "haiku",
+        "pricing"
+      ],
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "category": "official",
+      "title": "Claude Code Changelog（v2.1.290–v2.1.300）",
+      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "summary": "本輪更新預設 Haiku 模型升級為 Claude Haiku 5.5、新增閒置自動壓縮對話、Agent tool 可指定 effort 等級、/effort 與 /fast 可在 agent 視圖直接設定、OpenTelemetry 導入 GenAI 語意慣例等多項功能，適合持續追蹤 Claude Code 版本演進的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "claude-code"
+      ],
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
+    },
+    {
+      "id": "https://claude.com/blog/agent-observability-on-the-claude-platform",
+      "category": "official",
+      "title": "Agent Observability on the Claude Platform",
+      "url": "https://claude.com/blog/agent-observability-on-the-claude-platform",
+      "summary": "Claude Platform 新增 OpenTelemetry 分散式追蹤功能（含 Managed Agents、Messages API 與各 SDK），涵蓋模型呼叫、工具使用與 MCP 呼叫，並相容 Grafana、Datadog、Honeycomb 等既有觀測平台，適合要除錯與稽核 agent 行為的工程與合規團隊。",
+      "source": "anthropic",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "claude-platform"
+      ],
+      "added": "2026-10-15",
+      "last_seen": "2026-10-15"
     }
   ]
 }
