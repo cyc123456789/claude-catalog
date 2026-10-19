@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-19",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3402,9 +3402,9 @@
         "startup",
         "business-plan"
       ],
-      "stars": 777,
+      "stars": 1066,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:cth9191/animate",
@@ -3434,9 +3434,9 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 649,
+      "stars": 900,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:airsuphq/machine-skill",
@@ -3450,9 +3450,9 @@
         "simulation",
         "3d"
       ],
-      "stars": 232,
+      "stars": 321,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:assafkip/claudemy",
@@ -3466,9 +3466,9 @@
         "education",
         "audio"
       ],
-      "stars": 217,
+      "stars": 318,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:folkbench/folkbench",
@@ -3514,9 +3514,9 @@
         "macos",
         "accessibility"
       ],
-      "stars": 751,
+      "stars": 788,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:aryanutkarsh/seecode",
@@ -3546,9 +3546,9 @@
         "monitoring",
         "visualization"
       ],
-      "stars": 216,
+      "stars": 280,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:hamzafer/claude-code-mods",
@@ -3578,9 +3578,9 @@
         "visual-qa",
         "playwright"
       ],
-      "stars": 211,
+      "stars": 243,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:heycubit/effortless",
@@ -3594,9 +3594,9 @@
         "mods",
         "effort"
       ],
-      "stars": 204,
+      "stars": 244,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:yeonwoosung/my-claude-code-mods",
@@ -3610,9 +3610,9 @@
         "mods",
         "observability"
       ],
-      "stars": 825,
+      "stars": 1070,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:graphicle-ai/graphicle",
@@ -3626,9 +3626,9 @@
         "code-graph",
         "local-first"
       ],
-      "stars": 166,
+      "stars": 317,
       "added": "2026-10-15",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-19"
     },
     {
       "id": "gh:rayenmlayeh/jevcrawl",
@@ -3690,6 +3690,144 @@
       ],
       "added": "2026-10-15",
       "last_seen": "2026-10-15"
+    },
+    {
+      "id": "gh:leonxlnx/earshot",
+      "category": "mcp",
+      "title": "earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "summary": "讓 AI coding agent 擁有「耳朵」的 CPU-only CLI 與 MCP 伺服器，能描述、比對並評論音訊，也能用程式碼合成音效，適合用 AI 製作影片、demo 或遊戲且需要代理人自行檢查配樂品質的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "audio",
+        "sound-design"
+      ],
+      "stars": 1426,
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "gh:kanaworksai-hue/audio-studio-mcp",
+      "category": "mcp",
+      "title": "audio-studio-mcp",
+      "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+      "summary": "本機執行的 MCP 伺服器，讓 Claude Code、Cursor 等用戶端直接生成背景音樂與音效並剪輯匯出，免雲端免 API key，適合不想花錢訂閱配樂服務的遊戲與影片創作者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "audio",
+        "game-dev"
+      ],
+      "stars": 248,
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "gh:el4cteo/blender-skills",
+      "category": "skill",
+      "title": "blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "summary": "針對 Blender 建模、材質、綁定、動畫、匯出與 QA 等 22 項工作流程打包成的 Agent Skills，支援 Claude Code、Codex、Gemini CLI 等多種代理，適合想讓 AI 自動化 3D 美術流程的美術師與遊戲開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "blender",
+        "3d"
+      ],
+      "stars": 273,
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "gh:aindeev/agent-chrome-relay",
+      "category": "tool",
+      "title": "agent-chrome-relay",
+      "url": "https://github.com/aindeev/agent-chrome-relay",
+      "summary": "讓 Claude Code、Codex、Cursor 等 AI 代理用你本人登入的 Chrome 在背景分頁操作網站的 macOS 工具，附帶稽核紀錄與 1Password／通行金鑰整合，適合需要代理人存取已登入網站的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "browser-automation",
+        "macos"
+      ],
+      "stars": 292,
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+      "category": "official",
+      "title": "Claude Code Review 正式上線（GA）",
+      "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+      "summary": "Claude Code 的自動化程式碼審查功能結束研究預覽、正式對 Team／Enterprise 組織開放，審查速度加快約三倍，並可依 repo 設定 Quick／Standard／Deep 深度，適合想在人工 review 前先攔截 bug 的工程團隊。",
+      "source": "anthropic",
+      "tags": [
+        "code-review",
+        "official",
+        "ga"
+      ],
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "https://claude.com/resources/articles/dashboards-and-motion",
+      "category": "official",
+      "title": "Claude Artifacts 新增 Dashboards 與 Motion 功能",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion",
+      "summary": "Claude 新增可連接資料來源、自動產生並保持更新的即時儀表板 Dashboards，以及輸入「/motion」就能生成動畫解說影片並匯出 MP4 的 Motion 功能，適合需要做數據簡報或行銷短片的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "artifacts",
+        "dashboard",
+        "official"
+      ],
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/release-notes/claude-code",
+      "category": "official",
+      "title": "Claude Code Changelog（v2.1.301–v2.1.303）",
+      "url": "https://code.claude.com/docs/en/release-notes/claude-code",
+      "summary": "彙整 Claude Code v2.1.301 至 v2.1.303 版本更新，包含 /config 內新增 idle compaction 開關、fork subagent 在終端機外預設開啟、unattended retry 新增用量等待上限與 vim % 動作支援等，適合想掌握 CLI 最新版本異動的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "official"
+      ],
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "category": "technique",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "summary": "Anthropic 工程團隊分享用自研系統 Scion 與審查工具 Antique 取代 git 的設計原則：假設用戶端永遠連線、把運算放到伺服器端、用內容定址物件分層快取、精簡全域狀態、讓本機 working copy 變成可選項，適合思考如何為大量 AI agent／CI 自動化重新設計版本控制的基礎設施工程師。",
+      "source": "anthropic",
+      "tags": [
+        "technique",
+        "source-control",
+        "infrastructure"
+      ],
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "category": "technique",
+      "title": "Block 如何用 Claude Fable 統籌上千個 PR 的大型程式碼遷移",
+      "url": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "summary": "說明 Block 如何用「規劃者—執行者」架構做大型程式碼遷移：由 Fable 負責資料模型與 API 設計等高層決策，再指揮數十個 Opus／Sonnet 子模型做檔案修改與測試，並在合併主幹與正式上線前設置人工與安全把關，適合想用分層模型架構降低大規模遷移成本的工程團隊。",
+      "source": "anthropic",
+      "tags": [
+        "technique",
+        "orchestration",
+        "migration"
+      ],
+      "added": "2026-10-19",
+      "last_seen": "2026-10-19"
     }
   ]
 }
