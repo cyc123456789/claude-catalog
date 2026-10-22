@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-22",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3466,9 +3466,9 @@
         "education",
         "audio"
       ],
-      "stars": 318,
+      "stars": 364,
       "added": "2026-10-15",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-22"
     },
     {
       "id": "gh:folkbench/folkbench",
@@ -3610,9 +3610,9 @@
         "mods",
         "observability"
       ],
-      "stars": 1070,
+      "stars": 1098,
       "added": "2026-10-15",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-22"
     },
     {
       "id": "gh:graphicle-ai/graphicle",
@@ -3703,9 +3703,9 @@
         "audio",
         "sound-design"
       ],
-      "stars": 1426,
+      "stars": 2130,
       "added": "2026-10-19",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-22"
     },
     {
       "id": "gh:kanaworksai-hue/audio-studio-mcp",
@@ -3719,9 +3719,9 @@
         "audio",
         "game-dev"
       ],
-      "stars": 248,
+      "stars": 443,
       "added": "2026-10-19",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-22"
     },
     {
       "id": "gh:el4cteo/blender-skills",
@@ -3828,6 +3828,209 @@
       ],
       "added": "2026-10-19",
       "last_seen": "2026-10-19"
+    },
+    {
+      "id": "gh:yian6557/eian-riso-broll",
+      "category": "skill",
+      "title": "YIAN6557/eian-riso-broll",
+      "url": "https://github.com/YIAN6557/eian-riso-broll",
+      "summary": "把口播影片逐字稿轉成孔版雙色風格資訊動畫的 Claude Code skill，提供十種範本與分階段審核流程，適合做短影音知識內容的創作者。",
+      "source": "github",
+      "tags": [
+        "video",
+        "motion-graphics",
+        "chinese"
+      ],
+      "stars": 327,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:haiderfarooq3/khan-explainer",
+      "category": "skill",
+      "title": "haiderfarooq3/khan-explainer",
+      "url": "https://github.com/haiderfarooq3/khan-explainer",
+      "summary": "用手繪板書風格搭配語音旁白產生可汗學院式教學影片的 Claude Code skill，支援黑板講解、產品截圖註解與影片剪輯三種模式，免 API key 本機執行，適合做教學與產品說明影片的創作者。",
+      "source": "github",
+      "tags": [
+        "video",
+        "education",
+        "macos"
+      ],
+      "stars": 131,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:jakeschincariol/day-trader-skill",
+      "category": "skill",
+      "title": "Jakeschincariol/day-trader-skill",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "summary": "由 11 個 Claude skill 組成的當沖交易工作流，涵蓋選股掃描、新聞追蹤、進出場時機與歷史回放模擬，預設紙上交易且下單前需人工確認，適合想用結構化流程輔助當沖決策的散戶交易者。",
+      "source": "github",
+      "tags": [
+        "trading",
+        "agent-skills",
+        "backtesting"
+      ],
+      "stars": 435,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:umair/stalemap",
+      "category": "tool",
+      "title": "Umair/stalemap",
+      "url": "https://github.com/Umair/stalemap",
+      "summary": "比對專案依賴套件在模型訓練截止日後的變更，把重點寫進 AGENTS.md／CLAUDE.md，並在編輯後用型別檢查比對因套件改版造成的錯誤，適合用 AI 代理維護快速更新套件（如 Next.js、AI SDK）專案的開發者。",
+      "source": "github",
+      "tags": [
+        "dependencies",
+        "agents-md",
+        "developer-tools"
+      ],
+      "stars": 99,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:tomtomsatnav/agent-orchestration-standard",
+      "category": "tool",
+      "title": "tomtomsatnav/agent-orchestration-standard",
+      "url": "https://github.com/tomtomsatnav/agent-orchestration-standard",
+      "summary": "唯讀即時監看 Claude Code session 與子代理的本機儀表板，用串流圖呈現任務、token、成本、檔案衝突與警示，並附終端機檢視與 MCP server，適合想即時掌握多個代理工作狀態又不想誤觸代理的開發者。",
+      "source": "github",
+      "tags": [
+        "dashboard",
+        "observability",
+        "session-monitor"
+      ],
+      "stars": 71,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:prassanna-ravishankar/repowire",
+      "category": "tool",
+      "title": "prassanna-ravishankar/repowire",
+      "url": "https://github.com/prassanna-ravishankar/repowire",
+      "summary": "讓 Claude Code、Codex、OpenCode 等本機代理跨專案、跨機器甚至透過 Telegram／Slack 互相傳訊與協調的常駐控制層，附瀏覽器儀表板與工作排程，適合同時在多個 repo 跑多個代理、需要彼此溝通協調的開發者。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "cross-machine"
+      ],
+      "stars": 269,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:ypollak2/llm-router",
+      "category": "tool",
+      "title": "ypollak2/llm-router",
+      "url": "https://github.com/ypollak2/llm-router",
+      "summary": "在 Claude Code 等編碼工具前攔截每個提問、先用免費或本機模型分類作答、必要時才升級到付費模型的路由工具，宣稱可省下三到八成用量，適合想壓低 Claude Pro/Max 額度消耗的個人開發者。",
+      "source": "github",
+      "tags": [
+        "cost-optimization",
+        "llm-router",
+        "cli"
+      ],
+      "stars": 119,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:sepehr071/awesome-iran-mcp",
+      "category": "mcp",
+      "title": "sepehr071/awesome-iran-mcp",
+      "url": "https://github.com/sepehr071/awesome-iran-mcp",
+      "summary": "收錄 39 個伊朗在地網站（Digikala、Divar、Snappfood 等購物、租屋、掛號、新聞與法律）的 MCP server 集合，價格統一換算成 Toman，適合想讓 Claude 等代理查詢伊朗在地服務與比價的波斯語使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "iran",
+        "price-comparison"
+      ],
+      "stars": 146,
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "https://claude.com/resources/articles/claude-duet",
+      "category": "official",
+      "title": "Claude Duet 發表",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "summary": "Anthropic 推出研究預覽版 Claude Duet，是能主動標記待辦、代為完成任務、在使用者離開時持續工作並於動作前請求核准的獨立代理 App，串接六千多個外部服務，目前以候補名單方式開放美國 Pro/Max 用戶，適合想要更主動、跨服務代辦的個人與小企業主。",
+      "source": "anthropic",
+      "tags": [
+        "product-launch",
+        "proactive-agent",
+        "waitlist"
+      ],
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+      "category": "official",
+      "title": "Claude Security 新增持續掃描與修復追蹤",
+      "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+      "summary": "Claude Security 外掛升級為持續監控已連接的程式庫，依變更風險自動排程重新掃描，並追蹤每個發現項目直到修復（復發會重新開啟），同時提供 API、webhook 與 MCP 連接器，適合需要持續追蹤程式碼安全問題的企業安全團隊。",
+      "source": "anthropic",
+      "tags": [
+        "security",
+        "continuous-scanning",
+        "enterprise"
+      ],
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "category": "technique",
+      "title": "Steering Claude Code: Skills, Hooks, Rules, Subagents and More",
+      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "summary": "Anthropic 官方整理 CLAUDE.md、路徑規則、skill、subagent、hook 與 output style 六種客製化機制各自的載入時機、能否撐過 compaction 與可靠程度，並指出「絕對不可以做」的規則該用 PreToolUse hook 等強制機制、而非寫進 CLAUDE.md 期待模型遵守，適合想重新梳理專案客製化架構的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "context-engineering",
+        "hooks",
+        "skills"
+      ],
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "category": "technique",
+      "title": "Building Agents: When to Fold Subagents into Your Main Agent Loop",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "summary": "Anthropic 分享企業案例：單一主代理搭配 skill 常比拆成多個 subagent 的架構品質更好、成本與延遲更低，並給出何時該保留 subagent、如何建立評測基準、逐步把 subagent 收斂進 skill／MCP 工具的遷移步驟，適合正在設計多代理架構的團隊。",
+      "source": "anthropic",
+      "tags": [
+        "multi-agent",
+        "agent-design",
+        "evaluation"
+      ],
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
+    },
+    {
+      "id": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "category": "technique",
+      "title": "How the Claude Code Team Does Code Review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "summary": "Anthropic Claude Code 團隊公開自家的程式碼審查流程，從讓 Claude 先自我檢查、依風險分級決定人工把關程度，到完整的導入檢查清單，適合想把 AI 輔助開發流程中的審查機制制度化的工程團隊。",
+      "source": "anthropic",
+      "tags": [
+        "code-review",
+        "workflow",
+        "case-study"
+      ],
+      "added": "2026-10-22",
+      "last_seen": "2026-10-22"
     }
   ]
 }
