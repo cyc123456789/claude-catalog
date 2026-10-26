@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -3450,9 +3450,9 @@
         "simulation",
         "3d"
       ],
-      "stars": 321,
+      "stars": 420,
       "added": "2026-10-15",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:assafkip/claudemy",
@@ -3466,9 +3466,9 @@
         "education",
         "audio"
       ],
-      "stars": 364,
+      "stars": 461,
       "added": "2026-10-15",
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:folkbench/folkbench",
@@ -3626,9 +3626,9 @@
         "code-graph",
         "local-first"
       ],
-      "stars": 317,
+      "stars": 363,
       "added": "2026-10-15",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:rayenmlayeh/jevcrawl",
@@ -3719,9 +3719,9 @@
         "audio",
         "game-dev"
       ],
-      "stars": 443,
+      "stars": 502,
       "added": "2026-10-19",
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:el4cteo/blender-skills",
@@ -3735,9 +3735,9 @@
         "blender",
         "3d"
       ],
-      "stars": 273,
+      "stars": 523,
       "added": "2026-10-19",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:aindeev/agent-chrome-relay",
@@ -3905,9 +3905,9 @@
         "observability",
         "session-monitor"
       ],
-      "stars": 71,
+      "stars": 95,
       "added": "2026-10-22",
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "gh:prassanna-ravishankar/repowire",
@@ -3970,7 +3970,7 @@
         "waitlist"
       ],
       "added": "2026-10-22",
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-10-26"
     },
     {
       "id": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
@@ -4031,6 +4031,213 @@
       ],
       "added": "2026-10-22",
       "last_seen": "2026-10-22"
+    },
+    {
+      "id": "gh:t3dotgg/tstack",
+      "category": "skill",
+      "title": "t3dotgg/tstack",
+      "url": "https://github.com/t3dotgg/tstack",
+      "summary": "自動化 PR 流程的 Claude Code/Codex agent skills 合集：開 PR、盯 CI 與審查機器人、多模型 code review 到合併一條龍，適合想減少 PR 雜務的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "pull-request",
+        "automation"
+      ],
+      "stars": 1338,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:marycache/imozuru",
+      "category": "skill",
+      "title": "MaryCache/imozuru",
+      "url": "https://github.com/MaryCache/imozuru",
+      "summary": "沿著引用與連結深挖到原始文獻的 Claude Code 研究技能，自動存檔原文、核對引用並產出摘要報告與儀表板，適合做深度查證研究的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "research",
+        "citation-tracking"
+      ],
+      "stars": 1311,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:morganlinton/beautifulrust",
+      "category": "skill",
+      "title": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "summary": "教 coding agent 寫出地道 Rust 的技能組合（撰寫／審查／移植），搭配可在 CI 強制執行的 clippy 規則，適合用 Claude Code 開發 Rust 專案的團隊。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "rust",
+        "code-review"
+      ],
+      "stars": 1180,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:denissergeevitch/ex-ussr-kinship-research",
+      "category": "skill",
+      "title": "DenisSergeevitch/ex-ussr-kinship-research",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "summary": "針對前蘇聯地區家族史研究的 AI agent 技能，追蹤教會、民事與軍事檔案來源並嚴格區分事實與推論，適合有東歐尋根需求的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "genealogy",
+        "research"
+      ],
+      "stars": 739,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:rossark0/rossark-motion-skill",
+      "category": "skill",
+      "title": "rossark0/rossark-motion-skill",
+      "url": "https://github.com/rossark0/rossark-motion-skill",
+      "summary": "把任意手繪 SVG 轉成 60fps 動畫的 Claude Code 技能，內建 React Native／SwiftUI 動畫引擎，適合想幫插畫或介面快速加上動態效果的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "animation",
+        "svg"
+      ],
+      "stars": 503,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:ctoldigital/axuse",
+      "category": "mcp",
+      "title": "ctoldigital/axuse",
+      "url": "https://github.com/ctoldigital/axuse",
+      "summary": "透過瀏覽器 DOM／無障礙樹而非截圖來操作網頁的 MCP server，讓 Claude Code 等 agent 做更穩定的瀏覽器自動化，適合做網頁測試或代理操作的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "browser-automation",
+        "computer-use"
+      ],
+      "stars": 508,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:haplollc/vesalius",
+      "category": "mcp",
+      "title": "haplollc/Vesalius",
+      "url": "https://github.com/haplollc/Vesalius",
+      "summary": "macOS 上建立本機程式碼關聯地圖的工具，透過 MCP、CLI、Mac App 與 VS Code 擴充讓 Claude Code 用檔案行號回答問題，適合想減少程式碼探索步驟的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "code-graph",
+        "macos"
+      ],
+      "stars": 73,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:dominikmartn/harp",
+      "category": "tool",
+      "title": "dominikmartn/harp",
+      "url": "https://github.com/dominikmartn/harp",
+      "summary": "Warp 終端機的非官方 fork，把分頁列改成側欄同時管理多個 Claude Code／Codex session 並顯示各自狀態，適合常同時跑多個 agent 的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "terminal",
+        "multi-agent"
+      ],
+      "stars": 646,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:jatechan/ai-data-extractor",
+      "category": "tool",
+      "title": "jatechan/ai-data-extractor",
+      "url": "https://github.com/jatechan/ai-data-extractor",
+      "summary": "把 Claude Code、Cursor、Aider 等十款 AI 編碼工具的本機對話紀錄抽取並正規化成 JSONL 的開源工具，適合想備份對話或整理微調素材的使用者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "data-export",
+        "chat-history"
+      ],
+      "stars": 526,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:pro-vi/cc-stretch",
+      "category": "tool",
+      "title": "pro-vi/cc-stretch",
+      "url": "https://github.com/pro-vi/cc-stretch",
+      "summary": "讓 Claude Code 回覆預設顯示精簡、點擊文字才展開細節的外掛，減少終端機畫面被長篇文字塞滿，適合想要更簡潔輸出的使用者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "claude-code-plugin",
+        "ui"
+      ],
+      "stars": 422,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:vercel-labs/durable-harness",
+      "category": "tool",
+      "title": "vercel-labs/durable-harness",
+      "url": "https://github.com/vercel-labs/durable-harness",
+      "summary": "讓 Claude Code、Codex 等 coding agent 以持久化 session 執行、狀態可記錄並在當機後於其他機器續跑的實驗性框架，由 Vercel Labs 推出。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "agent-harness",
+        "durability"
+      ],
+      "stars": 247,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "gh:charonyuu/whatsmyagentdoing",
+      "category": "tool",
+      "title": "Charonyuu/whatsmyagentdoing",
+      "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+      "summary": "讀取本機 session log 並在瀏覽器以動畫辦公室或清單即時顯示每個 Claude Code／Codex／Gemini CLI agent 在做什麼的小工具，免設定、免 API key。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "observability",
+        "dashboard"
+      ],
+      "stars": 248,
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
+    },
+    {
+      "id": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
+      "category": "technique",
+      "title": "日本業務代表如何用 Claude Managed Agents 經營每一天",
+      "url": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
+      "summary": "Anthropic 日本業務代表把人工銷售流程拆成多個各司其職、共用記憶的 Claude Managed Agents（簡單任務用小模型、判斷類用大模型），並用 Slack 自然語言更新協調者 agent 的指令，適合想把重複性業務流程自動化的團隊參考。",
+      "source": "anthropic",
+      "tags": [
+        "managed-agents",
+        "sales-automation",
+        "case-study"
+      ],
+      "added": "2026-10-26",
+      "last_seen": "2026-10-26"
     }
   ]
 }
