@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -4238,6 +4238,21 @@
       ],
       "added": "2026-10-26",
       "last_seen": "2026-10-26"
+    },
+    {
+      "id": "https://www.anthropic.com/research/formal-verification",
+      "category": "technique",
+      "title": "用 LLM 把正式軟體驗證做到可規模化",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "summary": "Anthropic 與 Theorem 合作，用 Claude 撰寫可用 Rocq 檢驗的正式證明，證明 123 個開源函式庫中 239 個模糊測試進入點在 64MB 以下輸入不會當機，並找出模糊測試漏抓的錯誤，附可驗證自家專案的流程與 Claude Skill，適合想要比純測試更強保證的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "formal-verification",
+        "security",
+        "agent-skills"
+      ],
+      "added": "2026-10-29",
+      "last_seen": "2026-10-29"
     }
   ]
 }
