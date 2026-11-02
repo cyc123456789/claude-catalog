@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -4015,7 +4015,7 @@
         "evaluation"
       ],
       "added": "2026-10-22",
-      "last_seen": "2026-10-22"
+      "last_seen": "2026-11-02"
     },
     {
       "id": "https://claude.dev/blog/solving-code-review-at-anthropic",
@@ -4076,9 +4076,9 @@
         "rust",
         "code-review"
       ],
-      "stars": 1180,
+      "stars": 1678,
       "added": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     {
       "id": "gh:denissergeevitch/ex-ussr-kinship-research",
@@ -4140,9 +4140,9 @@
         "code-graph",
         "macos"
       ],
-      "stars": 73,
+      "stars": 80,
       "added": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     {
       "id": "gh:dominikmartn/harp",
@@ -4220,9 +4220,9 @@
         "observability",
         "dashboard"
       ],
-      "stars": 248,
+      "stars": 368,
       "added": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     {
       "id": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
@@ -4253,6 +4253,228 @@
       ],
       "added": "2026-10-29",
       "last_seen": "2026-10-29"
+    },
+    {
+      "id": "gh:caru-ini/stack-diagram",
+      "category": "skill",
+      "title": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "summary": "只要用一句話描述你的技術棧，就能生成帶官方圖示架構圖的 Agent Skill，適合想快速畫出專案架構圖的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "architecture-diagram",
+        "documentation"
+      ],
+      "stars": 1065,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:niazmorshed2007/reanimate",
+      "category": "skill",
+      "title": "NiazMorshed2007/reanimate",
+      "url": "https://github.com/NiazMorshed2007/reanimate",
+      "summary": "逐格重現任何動畫效果並自動驗證成品動作是否一致的 Claude Code skill，適合要把參考動畫精準移植進專案的前端開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "animation",
+        "frontend"
+      ],
+      "stars": 909,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:daveebbelaar/bama",
+      "category": "skill",
+      "title": "daveebbelaar/bama",
+      "url": "https://github.com/daveebbelaar/bama",
+      "summary": "用 Swift／SwiftUI 研究、複製、設計、建置、優化並測試原生 macOS App 的 Agent Skill 組合，適合想用代理開發道地 Mac 原生應用的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "macos",
+        "swiftui"
+      ],
+      "stars": 1416,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:jmanico/grim-prompter",
+      "category": "skill",
+      "title": "jmanico/grim-prompter",
+      "url": "https://github.com/jmanico/grim-prompter",
+      "summary": "讓 Claude Code 等代理針對你的 repo 產出有證據追溯的威脅模型的安全技能，涵蓋 36 種架構與 29 種攻擊手法，適合要替 AI 輔助開發專案做資安威脅建模的團隊。",
+      "source": "github",
+      "tags": [
+        "security",
+        "threat-modeling",
+        "agent-skills"
+      ],
+      "stars": 347,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:dmitribogatenkov/briefproof",
+      "category": "plugin",
+      "title": "dmitribogatenkov/briefproof",
+      "url": "https://github.com/dmitribogatenkov/briefproof",
+      "summary": "把需求轉成報價條件、規格與票卡，再對產出做盲測驗收的 Claude Code plugin，附即時看板追蹤每階段使用的模型，適合想確保代理產出真的符合需求的團隊。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "spec-driven",
+        "qa"
+      ],
+      "stars": 77,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:ratomirjovanovic/pandaward",
+      "category": "plugin",
+      "title": "ratomirjovanovic/pandaward",
+      "url": "https://github.com/ratomirjovanovic/pandaward",
+      "summary": "本機執行、證據導向的應用程式資安評估引擎與 Claude Code plugin，適合想在地端做安全掃描又不想資料外流的團隊。",
+      "source": "github",
+      "tags": [
+        "security",
+        "plugin",
+        "local-first"
+      ],
+      "stars": 66,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:muaaz9329/cheap-ag",
+      "category": "mcp",
+      "title": "muaaz9329/cheap-ag",
+      "url": "https://github.com/muaaz9329/cheap-ag",
+      "summary": "讓 Claude Opus 負責規劃、便宜模型負責寫程式、再由測試決定是否過關的 Claude Code 專用 MCP server，宣稱可把 Claude 方案用量放大 50 倍，適合常撞用量上限的 Max／Pro 用戶。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "cost-optimization",
+        "multi-model"
+      ],
+      "stars": 218,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:chutingyean/agent-cockpit",
+      "category": "mcp",
+      "title": "chutingyean/Agent-Cockpit",
+      "url": "https://github.com/chutingyean/Agent-Cockpit",
+      "summary": "幫 AI 研究代理建白板與證據鏈的 MCP server，讓每個研究結論都能追溯回產生它的執行紀錄與程式碼，適合用 Claude Code 等代理做研究查核的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "research",
+        "provenance"
+      ],
+      "stars": 182,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:haydenschmitty/floorplan",
+      "category": "tool",
+      "title": "haydenschmitty/floorplan",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "summary": "由 Claude 或 Codex 繪製的互動式程式庫地圖，用白話文呈現模組間如何串接，適合想快速搞懂陌生大型程式庫架構的開發者。",
+      "source": "github",
+      "tags": [
+        "codebase-map",
+        "visualization",
+        "onboarding"
+      ],
+      "stars": 2172,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:zichuanlan/agent-purge",
+      "category": "tool",
+      "title": "ZiChuanLan/agent-purge",
+      "url": "https://github.com/ZiChuanLan/agent-purge",
+      "summary": "可在 Claude Code、Codex、OpenCode 等多種編碼代理間替換或注入同一套系統提示詞人格的本機網頁主控台，適合想統一多個代理工作風格的使用者。",
+      "source": "github",
+      "tags": [
+        "system-prompt",
+        "multi-agent",
+        "cli"
+      ],
+      "stars": 993,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:lemonadesaltbagel/sill",
+      "category": "tool",
+      "title": "lemonadesaltbagel/sill",
+      "url": "https://github.com/lemonadesaltbagel/sill",
+      "summary": "用 Rust 打造的原生 Windows Bash 環境，讓 Claude Code、Codex 等代理不必靠 Git Bash、MSYS2 或 WSL 就能在 Windows 上執行指令，適合在 Windows 上跑編碼代理的開發者。",
+      "source": "github",
+      "tags": [
+        "windows",
+        "shell",
+        "cli"
+      ],
+      "stars": 128,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "gh:trina-app/trina-ax",
+      "category": "tool",
+      "title": "trina-app/trina-ax",
+      "url": "https://github.com/trina-app/trina-ax",
+      "summary": "只需設定一次就能讓全公司共用的 Claude Code／Codex 自架平台，整合公司檔案、團隊技能、MCP 與個人資料夾權限，適合想統一管理全團隊代理環境的公司。",
+      "source": "github",
+      "tags": [
+        "self-hosted",
+        "enterprise",
+        "team-deployment"
+      ],
+      "stars": 107,
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "https://claude.com/resources/articles/message-threads",
+      "category": "official",
+      "title": "Message Threads：長對話代理加速 Beta",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "summary": "Messages API 新推出的 message threads beta，讓代理只需在後續回合傳送新訊息而非重送整段對話，Claude Code 多數使用者已預設啟用，長對話首字延遲最多可降低約 35%，適合跑長時間編碼任務或電腦操作代理的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "api",
+        "performance",
+        "beta"
+      ],
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    {
+      "id": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+      "category": "technique",
+      "title": "在 Google Cloud 上管理 Claude Code 成本與證明 ROI",
+      "url": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+      "summary": "說明如何用支出上限、預設模型與允許清單控制 Claude Code 用量，再透過 OpenTelemetry、預算與 BigQuery 匯出追蹤花費，並用採用率、開發者滿意度與 PR 週期等指標對比基準線證明投資報酬，適合要在 GCP 環境管理團隊 Claude Code 支出的工程主管。",
+      "source": "anthropic",
+      "tags": [
+        "cost-optimization",
+        "google-cloud",
+        "roi"
+      ],
+      "added": "2026-11-02",
+      "last_seen": "2026-11-02"
     }
   ]
 }
