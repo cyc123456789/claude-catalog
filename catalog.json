@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-05",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -4220,9 +4220,9 @@
         "observability",
         "dashboard"
       ],
-      "stars": 368,
+      "stars": 380,
       "added": "2026-10-26",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
@@ -4266,9 +4266,9 @@
         "architecture-diagram",
         "documentation"
       ],
-      "stars": 1065,
+      "stars": 1857,
       "added": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "gh:niazmorshed2007/reanimate",
@@ -4298,9 +4298,9 @@
         "macos",
         "swiftui"
       ],
-      "stars": 1416,
+      "stars": 1591,
       "added": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "gh:jmanico/grim-prompter",
@@ -4314,9 +4314,9 @@
         "threat-modeling",
         "agent-skills"
       ],
-      "stars": 347,
+      "stars": 367,
       "added": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "gh:dmitribogatenkov/briefproof",
@@ -4346,9 +4346,9 @@
         "plugin",
         "local-first"
       ],
-      "stars": 66,
+      "stars": 99,
       "added": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "gh:muaaz9329/cheap-ag",
@@ -4394,9 +4394,9 @@
         "visualization",
         "onboarding"
       ],
-      "stars": 2172,
+      "stars": 2966,
       "added": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-05"
     },
     {
       "id": "gh:zichuanlan/agent-purge",
@@ -4475,6 +4475,103 @@
       ],
       "added": "2026-11-02",
       "last_seen": "2026-11-02"
+    },
+    {
+      "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "category": "official",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "summary": "Anthropic 將 Agent Skills 標準捐出給 Agentic AI Foundation，讓這套已被 70 多個平台採用的技能標準轉為中立治理，適合在意 Skill 生態走向與跨平台相容性的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "agent-skills",
+        "governance",
+        "open-standard"
+      ],
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:kyy-logs/code-review-skill",
+      "category": "skill",
+      "title": "code-review-skill",
+      "url": "https://github.com/kyy-logs/code-review-skill",
+      "summary": "可稽核的程式碼審查 Skill，透過四個獨立探針產出有證據佐證的發現並附 JSON 合併門檻，適合想讓 AI code review 更可信、可追溯的團隊。",
+      "source": "github",
+      "tags": [
+        "code-review",
+        "skill",
+        "static-analysis"
+      ],
+      "stars": 274,
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:emanuele-em/kanzo",
+      "category": "tool",
+      "title": "kanzo",
+      "url": "https://github.com/emanuele-em/kanzo",
+      "summary": "給人類與 coding agent 共用的輕量看板工具，單一 4.5MB 執行檔、2 毫秒啟動、零設定即可自架，適合想用看板協調多個 AI agent 工作進度的人。",
+      "source": "github",
+      "tags": [
+        "kanban",
+        "self-hosted",
+        "mcp",
+        "productivity"
+      ],
+      "stars": 1029,
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:bearisbug/imbo",
+      "category": "tool",
+      "title": "Imbo",
+      "url": "https://github.com/Bearisbug/imbo",
+      "summary": "讓 Claude Code、Codex、Cursor CLI 等不同 coding agent 工作階段之間可以互傳即時訊息，適合需要協調多個 agent 或多人共用 agent 協作的場景。",
+      "source": "github",
+      "tags": [
+        "multi-agent",
+        "messaging",
+        "collaboration"
+      ],
+      "stars": 100,
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:boyuchengz/canvas-mcp",
+      "category": "mcp",
+      "title": "canvas-mcp",
+      "url": "https://github.com/boyuchengz/canvas-mcp",
+      "summary": "唯讀 MCP 伺服器，讓 Claude、ChatGPT 等 AI 助理連上 Canvas LMS 讀取課程資料，適合用 AI 助理管理學校課業或教學事務的師生。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "education",
+        "canvas-lms"
+      ],
+      "stars": 119,
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:mason-levyy/garmin-personal-mcp",
+      "category": "mcp",
+      "title": "Garmin Personal MCP",
+      "url": "https://github.com/Mason-Levyy/garmin-personal-mcp",
+      "summary": "基於 Garmin 官方 API 的個人 MCP 伺服器，讓 Claude 等 AI 助理讀取睡眠、HRV、Body Battery 與運動紀錄，適合想用 AI 分析自己 Garmin 健康數據的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "health",
+        "garmin",
+        "quantified-self"
+      ],
+      "stars": 57,
+      "added": "2026-11-05",
+      "last_seen": "2026-11-05"
     }
   ]
 }
