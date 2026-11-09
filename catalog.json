@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-09",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -4572,6 +4572,151 @@
       "stars": 57,
       "added": "2026-11-05",
       "last_seen": "2026-11-05"
+    },
+    {
+      "id": "gh:thedotmack/claude-mem",
+      "category": "plugin",
+      "title": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "幫 Claude Code、Codex 等命令列 Agent 在工作階段之間保留記憶，自動擷取並壓縮過程後注入後續對話，適合需要跨 session 延續脈絡的開發者。",
+      "source": "github",
+      "tags": [
+        "memory",
+        "plugin",
+        "mcp",
+        "context"
+      ],
+      "stars": 115327,
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "gh:juneyaooo/rea-video",
+      "category": "skill",
+      "title": "rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "summary": "用 Claude Code Skill 逐鏡頭分析任何影片，判斷是實拍、AI 生成還是程式碼合成，並給出復刻方法，適合影片創作者與內容分析者。",
+      "source": "github",
+      "tags": [
+        "video",
+        "skill",
+        "reverse-engineering",
+        "ffmpeg"
+      ],
+      "stars": 5379,
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "gh:kkkkhazix/agent-autoloop",
+      "category": "tool",
+      "title": "Agent Autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "summary": "讓命令列 Agent 在背景自動接續任務並持續跟進，只有遇到不確定的狀況才跳出卡片請人決策，適合想長時間放手讓 Claude Code 自主工作的開發者。",
+      "source": "github",
+      "tags": [
+        "automation",
+        "cli",
+        "workflow",
+        "mcp"
+      ],
+      "stars": 4266,
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "gh:qybaihe/bla",
+      "category": "tool",
+      "title": "BLA (Blind LLM Agents)",
+      "url": "https://github.com/qybaihe/bla",
+      "summary": "針對二進位檔、Electron App、JS 打包與 WebAssembly 的對抗式防護工具，專門干擾利用 AI Agent 進行逆向工程的攻擊，適合需要保護自家軟體的開發者。",
+      "source": "github",
+      "tags": [
+        "security",
+        "reverse-engineering",
+        "mcp-server",
+        "obfuscation"
+      ],
+      "stars": 4250,
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "gh:aa1143/namiagent",
+      "category": "technique",
+      "title": "NamiAgent",
+      "url": "https://github.com/aa1143/NamiAgent",
+      "summary": "零基礎入門 AI Agent 開發的中文教學專案，從一百行最小迴圈開始逐課加功能，最後拆解 Claude Code、Codex 等主流 Agent 的運作原理，適合想理解 Agent 底層機制的開發者。",
+      "source": "github",
+      "tags": [
+        "tutorial",
+        "agent",
+        "education",
+        "chinese"
+      ],
+      "stars": 466,
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "category": "official",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "summary": "Anthropic 推出新一代模型 Claude Fable 5.2（公開版）與 Mythos 5.2（限經驗證機構使用），編碼、推理與視覺能力較 5.1 提升且速度更快，適合需要更強編碼與長任務能力的開發者與企業。",
+      "source": "anthropic",
+      "tags": [
+        "model-release",
+        "fable",
+        "mythos"
+      ],
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "https://claude.com/blog/introducing-personal-finance-in-claude",
+      "category": "official",
+      "title": "Introducing Personal Finance in Claude",
+      "url": "https://claude.com/blog/introducing-personal-finance-in-claude",
+      "summary": "Claude 新增個人理財功能，讓美國付費用戶透過 Plaid 連結銀行與信用卡帳戶、用自然語言詢問消費與財務狀況（唯讀，不可轉帳或投資），適合想用 Claude 管理個人財務的一般使用者。",
+      "source": "anthropic",
+      "tags": [
+        "consumer",
+        "finance",
+        "plaid"
+      ],
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "https://claude.com/blog/new-agents-and-products-claude-marketplace",
+      "category": "official",
+      "title": "New agents and products for security, productivity, and creative work on Claude Marketplace",
+      "url": "https://claude.com/blog/new-agents-and-products-claude-marketplace",
+      "summary": "Claude Marketplace 新增超過 25 個合作夥伴的 Agent 與產品，涵蓋資安（Checkmarx）、部署（Netlify）、創意（Runway、Webflow）與協作（Asana、monday、Zoom、Glean），適合想擴充企業工作流程的 Claude 使用者。",
+      "source": "anthropic",
+      "tags": [
+        "marketplace",
+        "agents",
+        "integrations"
+      ],
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    {
+      "id": "https://claude.com/blog/claude-enterprise-security-updates",
+      "category": "official",
+      "title": "More visibility and control over Claude Enterprise for security teams",
+      "url": "https://claude.com/blog/claude-enterprise-security-updates",
+      "summary": "Claude Enterprise 新增集中式安全管理主控台（admin.claude.com），讓母組織能統一檢視並設定旗下組織的安全選項，適合管理多組織 Claude Enterprise 部署的資安團隊。",
+      "source": "anthropic",
+      "tags": [
+        "enterprise",
+        "security",
+        "admin"
+      ],
+      "added": "2026-11-09",
+      "last_seen": "2026-11-09"
     }
   ]
 }
