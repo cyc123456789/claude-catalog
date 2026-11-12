@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -4671,7 +4671,7 @@
         "mythos"
       ],
       "added": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-12"
     },
     {
       "id": "https://claude.com/blog/introducing-personal-finance-in-claude",
@@ -4725,7 +4725,12 @@
       "url": "https://github.com/coreyhaines31/marketingskills",
       "summary": "給 Claude Code 等編碼代理使用的行銷技能包，涵蓋轉換率優化、文案、SEO 與成長分析，適合技術背景的行銷人員與獨立創業者。",
       "source": "github",
-      "tags": ["skill", "marketing", "seo", "copywriting"],
+      "tags": [
+        "skill",
+        "marketing",
+        "seo",
+        "copywriting"
+      ],
       "stars": 59386,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4737,7 +4742,11 @@
       "url": "https://github.com/sickn33/agentic-awesome-skills",
       "summary": "收錄近三千個可直接安裝的 SKILL.md 技能大型資源庫，適合想快速為 Claude Code 等工具擴充能力的開發者。",
       "source": "github",
-      "tags": ["skill", "library", "registry"],
+      "tags": [
+        "skill",
+        "library",
+        "registry"
+      ],
       "stars": 49412,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4749,7 +4758,11 @@
       "url": "https://github.com/pbakaus/impeccable",
       "summary": "為編碼代理提供「設計詞彙」的技能集，透過 polish、critique 等指令提升介面產出品質並抓出常見的 AI 糊弄痕跡，適合重視介面細節的開發者。",
       "source": "github",
-      "tags": ["skill", "design", "code-review"],
+      "tags": [
+        "skill",
+        "design",
+        "code-review"
+      ],
       "stars": 106751,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4761,7 +4774,11 @@
       "url": "https://github.com/jmagly/aiwg",
       "summary": "提供可重複使用的專案上下文與專家工作流程技能，協助在 Claude Code 等工具中規劃軟體、協調審查與處理事故，適合團隊型開發流程。",
       "source": "github",
-      "tags": ["skill", "workflow", "context"],
+      "tags": [
+        "skill",
+        "workflow",
+        "context"
+      ],
       "stars": 229,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4773,7 +4790,11 @@
       "url": "https://github.com/jgravelle/jcodemunch-mcp",
       "summary": "以符號而非整檔案層級擷取原始碼的 MCP 伺服器，用 tree-sitter 解析大幅節省 token，適合在大型專案中查找特定函式的開發者。",
       "source": "github",
-      "tags": ["mcp", "code-search", "tree-sitter"],
+      "tags": [
+        "mcp",
+        "code-search",
+        "tree-sitter"
+      ],
       "stars": 2838,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4785,7 +4806,11 @@
       "url": "https://github.com/haris-musa/excel-mcp-server",
       "summary": "讓 Claude 等 AI 可直接建立與編輯 Excel 檔案（含圖表、樞紐分析表）的 MCP 伺服器，適合需要自動化報表的使用者。",
       "source": "github",
-      "tags": ["mcp", "excel", "office"],
+      "tags": [
+        "mcp",
+        "excel",
+        "office"
+      ],
       "stars": 4287,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4797,7 +4822,11 @@
       "url": "https://github.com/archestra-ai/archestra",
       "summary": "企業級 AI 平台，提供 MCP 註冊中心、閘道與護欄機制，適合需要在組織內安全管控多個 MCP 伺服器的 IT 團隊。",
       "source": "github",
-      "tags": ["mcp", "security", "enterprise"],
+      "tags": [
+        "mcp",
+        "security",
+        "enterprise"
+      ],
       "stars": 4436,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4809,7 +4838,11 @@
       "url": "https://github.com/KyaniteLabs/kinocut",
       "summary": "具護欄機制的影片剪輯 MCP 伺服器，讓 AI 代理透過 FFmpeg 進行剪輯與素材再利用，適合內容創作者。",
       "source": "github",
-      "tags": ["mcp", "video-editing", "ffmpeg"],
+      "tags": [
+        "mcp",
+        "video-editing",
+        "ffmpeg"
+      ],
       "stars": 260,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4821,7 +4854,11 @@
       "url": "https://github.com/desktop-commander/remote-desktop-commander",
       "summary": "官方託管的遠端 MCP 伺服器，讓 claude.ai 等 AI 應用能安全連線並操作使用者自己電腦的檔案系統與終端機。",
       "source": "github",
-      "tags": ["mcp", "remote", "filesystem"],
+      "tags": [
+        "mcp",
+        "remote",
+        "filesystem"
+      ],
       "stars": 216,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4833,7 +4870,11 @@
       "url": "https://github.com/chunxiaoxx/nautilus-compass",
       "summary": "開源的 AI 代理記憶與可靠性層，內建漂移偵測與跨代理協議，可作為 Claude Code 外掛使用，適合重視長期記憶準確度的開發者。",
       "source": "github",
-      "tags": ["tool", "memory", "reliability"],
+      "tags": [
+        "tool",
+        "memory",
+        "reliability"
+      ],
       "stars": 1257,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4845,7 +4886,11 @@
       "url": "https://github.com/Th0rgal/orb",
       "summary": "整合各家 AI 供應商、機器與代理執行環境的管理工具，可在 macOS／iOS 上統一調度多個代理，適合同時使用多種 AI 服務的進階使用者。",
       "source": "github",
-      "tags": ["tool", "orchestration", "macos"],
+      "tags": [
+        "tool",
+        "orchestration",
+        "macos"
+      ],
       "stars": 711,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4857,7 +4902,11 @@
       "url": "https://github.com/savannahfeder/agentbox",
       "summary": "桌面版 GUI，可同時平行運行數十個 Claude Code／Codex 代理、各自在獨立的 git worktree 工作，適合需要大量並行開發任務的團隊。",
       "source": "github",
-      "tags": ["tool", "desktop-app", "multi-agent"],
+      "tags": [
+        "tool",
+        "desktop-app",
+        "multi-agent"
+      ],
       "stars": 382,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4869,7 +4918,11 @@
       "url": "https://github.com/archgate/cli",
       "summary": "將架構決策紀錄（ADR）轉為可執行規則的護欄工具，確保人類與 AI 代理對程式碼的修改都遵循既定架構，適合大型團隊的架構治理。",
       "source": "github",
-      "tags": ["technique", "governance", "linting"],
+      "tags": [
+        "technique",
+        "governance",
+        "linting"
+      ],
       "stars": 74,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4881,7 +4934,11 @@
       "url": "https://github.com/Vinix24/vnx-orchestration",
       "summary": "強調治理優先的 AI 編碼代理執行框架，提供本地留痕紀錄與多個 CLI 協同運作方式，適合需要稽核代理行為的團隊。",
       "source": "github",
-      "tags": ["technique", "governance", "multi-agent"],
+      "tags": [
+        "technique",
+        "governance",
+        "multi-agent"
+      ],
       "stars": 63,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
@@ -4893,9 +4950,13 @@
       "url": "https://www.anthropic.com/research/components-of-agent-memory",
       "summary": "Anthropic 工程團隊拆解 agent 記憶系統的組成要素與設計取捨，提出「做夢」式離線整理機制，適合正在打造長時間運行 agent 或自訂記憶架構的開發者。",
       "source": "anthropic",
-      "tags": ["agent-memory", "engineering", "architecture"],
+      "tags": [
+        "agent-memory",
+        "engineering",
+        "architecture"
+      ],
       "added": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-12"
     },
     {
       "id": "gh:google/elephant-goldfish-model",
@@ -4904,10 +4965,424 @@
       "url": "https://github.com/google/elephant-goldfish-model",
       "summary": "Google 推出的開源外掛，用「用大象設計、用金魚審查」的理念協助代理做軟體設計與程式碼審查，適合想提升設計品質的開發團隊。",
       "source": "github",
-      "tags": ["plugin", "design", "code-review"],
+      "tags": [
+        "plugin",
+        "design",
+        "code-review"
+      ],
       "stars": 16253,
       "added": "2026-11-09",
       "last_seen": "2026-11-09"
+    },
+    {
+      "id": "gh:jarrodwatts/claude-hud",
+      "category": "plugin",
+      "title": "jarrodwatts/claude-hud",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "summary": "在輸入框下方常駐顯示脈絡用量、速率限制、使用中工具與子代理、待辦進度的 Claude Code plugin，適合想隨時掌握 session 狀態的重度使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "observability",
+        "context-usage"
+      ],
+      "stars": 29178,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:othmanadi/planning-with-files",
+      "category": "plugin",
+      "title": "OthmanAdi/planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "summary": "用每個 turn 都會觸發的 hook 把計畫寫進磁碟檔案，讓 /clear 或壓縮後仍可復原進度的持久化規劃 plugin，適合跑長任務容易被打斷脈絡的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "planning",
+        "session-recovery"
+      ],
+      "stars": 28025,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:everyinc/compound-engineering-plugin",
+      "category": "plugin",
+      "title": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "summary": "Every 公司官方推出的 38 個工程 skill 組成的 plugin，用腦力激盪、規劃、建置、審查、記錄心得的循環讓每次開發成果能被下次任務複用，適合想建立可累積工程知識庫的團隊。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "agent-skills",
+        "workflow"
+      ],
+      "stars": 26050,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:mksglu/context-mode",
+      "category": "plugin",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "summary": "免費本機 plugin，把工具執行的原始輸出攔在脈絡窗外、用沙盒與 SQLite 全文搜尋取代，號稱平均省下 99% 輸出位元組，資料不離開本機，適合常跑大量工具呼叫、想省 token 又重視隱私的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "context-management",
+        "token-efficiency"
+      ],
+      "stars": 33979,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:yishentu/claudian",
+      "category": "plugin",
+      "title": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "summary": "把 Claude Code、Codex 等代理嵌入 Obsidian 筆記庫中、化身為協作者的 Obsidian plugin，適合用 Obsidian 做知識管理又想直接呼叫編碼代理的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "obsidian",
+        "knowledge-management"
+      ],
+      "stars": 15978,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:davepoon/buildwithclaude",
+      "category": "tool",
+      "title": "davepoon/buildwithclaude",
+      "url": "https://github.com/davepoon/buildwithclaude",
+      "summary": "匯集並可搜尋 Claude Skills、Agents、Commands、Hooks、Plugins 與 Marketplace 收藏的入口網站專案，適合想快速發現現成擴充套件而不想從零開發的使用者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "discovery",
+        "plugin-marketplace"
+      ],
+      "stars": 3741,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:composio-community/awesome-claude-plugins",
+      "category": "tool",
+      "title": "composio-community/awesome-claude-plugins",
+      "url": "https://github.com/composio-community/awesome-claude-plugins",
+      "summary": "精選收錄能用自訂指令、agent、hook 與 MCP server 擴充 Claude Code 的外掛清單，適合想瀏覽外掛生態全貌的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "awesome-list",
+        "plugin-marketplace"
+      ],
+      "stars": 1990,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:zhukunpenglinyutong/jetbrains-cc-gui",
+      "category": "tool",
+      "title": "zhukunpenglinyutong/jetbrains-cc-gui",
+      "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
+      "summary": "讓 Claude Code 與 Codex 直接在 JetBrains 系列 IDE 內以圖形介面操作的外掛，適合習慣用 IntelliJ、PyCharm 等 IDE 而非純終端機工作的開發者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "jetbrains",
+        "ide-integration"
+      ],
+      "stars": 7629,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:liguobao/ds-harness-remote",
+      "category": "tool",
+      "title": "liguobao/ds-harness-remote",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "summary": "透過低延遲、端到端加密的 P2P 網路，讓手機、平板或網頁隨時連回本機 Claude Code、Codex 等代理工作區的遠端存取工具，適合需要離開電腦也能查看或操控代理進度的使用者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "remote-access",
+        "p2p"
+      ],
+      "stars": 2719,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:career-ops-hq/career-ops",
+      "category": "tool",
+      "title": "career-ops-hq/career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "summary": "開源 AI 求職代理，能批次對照履歷評分職缺、產出符合 ATS 格式的履歷與求職信並追蹤進度，可作為 Claude Code plugin 安裝使用，適合正在求職、想用代理篩選大量職缺的使用者。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "job-search",
+        "plugin"
+      ],
+      "stars": 82179,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:patch-gg/pixelfx",
+      "category": "skill",
+      "title": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "summary": "244 種用程式碼寫成的像素風特效（火焰、爆炸、魔法、天氣等）素材庫，並附一個能依樣畫出新特效的 Claude Code skill，適合做像素風遊戲或網頁特效的開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "pixel-art",
+        "game-dev"
+      ],
+      "stars": 7155,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:elvarofficial/teardown",
+      "category": "skill",
+      "title": "elvarofficial/teardown",
+      "url": "https://github.com/elvarofficial/teardown",
+      "summary": "能把任何機械或裝置講解成一個可拆解的互動 3D 模擬器（單一離線 HTML 頁面）的 Claude Code skill，適合想做生動教學或產品原理解說內容的創作者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "3d",
+        "education"
+      ],
+      "stars": 3306,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:kubai087/kubai-icons",
+      "category": "skill",
+      "title": "kubai087/kubai-icons",
+      "url": "https://github.com/kubai087/kubai-icons",
+      "summary": "能用一致風格繪製動態圖示的 agent skill，並附贈 2600 多個可供 React、Vue 與網頁直接使用的開源圖示，適合需要大量一致風格 icon 的前端開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "icons",
+        "design"
+      ],
+      "stars": 783,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:op7418/guizang-game-skill",
+      "category": "skill",
+      "title": "op7418/guizang-game-skill",
+      "url": "https://github.com/op7418/guizang-game-skill",
+      "summary": "讓 AI 從零用 three.js 做出可在瀏覽器遊玩的單檔 3D 動作遊戲的 Claude Code / Codex skill，附可玩的《霧鎖山門》示範，適合想快速做出互動遊戲原型的創作者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "game-design",
+        "threejs"
+      ],
+      "stars": 226,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:drost-ai/tinker-ai-skill",
+      "category": "skill",
+      "title": "drost-ai/tinker-ai-skill",
+      "url": "https://github.com/drost-ai/tinker-ai-skill",
+      "summary": "把自己跑過的 Claude Code / Codex session 轉成訓練範例、用 Tinker 微調出個人化模型的 agent skill，適合想把日常編碼習慣蒸餾成專屬小模型的開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "fine-tuning",
+        "personalization"
+      ],
+      "stars": 317,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:openosint/openosint",
+      "category": "mcp",
+      "title": "OpenOSINT/OpenOSINT",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
+      "summary": "開源 OSINT 調查代理，把 21 個公開來源情資工具包成自然語言介面、MCP server 與 Claude Code plugin，預設只做被動查詢不需金鑰，適合資安研究人員與調查記者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "osint",
+        "security"
+      ],
+      "stars": 1928,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:gogoymh/auto-ontology-mcp",
+      "category": "mcp",
+      "title": "gogoymh/auto-ontology-mcp",
+      "url": "https://github.com/gogoymh/auto-ontology-mcp",
+      "summary": "把 NVIDIA Auto Ontology 的語意分層技術包成 MCP server，讓代理自動建立並查詢個人知識庫、不需額外 LLM API 金鑰，適合想讓代理長期累積結構化知識的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "knowledge-graph",
+        "memory"
+      ],
+      "stars": 381,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:devcrabs-inc/yandex-metrika-mcp",
+      "category": "mcp",
+      "title": "DevCrabs-Inc/yandex-metrika-mcp",
+      "url": "https://github.com/DevCrabs-Inc/yandex-metrika-mcp",
+      "summary": "唯讀的 Yandex Metrika 網站分析 MCP server，能查詢流量來源、著陸頁與目標轉換並附完整可驗證的時區與取樣資訊，適合用 Claude 等代理做網站數據分析的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "analytics",
+        "web-analytics"
+      ],
+      "stars": 130,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:oraios/serena",
+      "category": "mcp",
+      "title": "oraios/serena",
+      "url": "https://github.com/oraios/serena",
+      "summary": "提供語意程式碼檢索與編輯能力的強大 MCP 工具箱，相當於把 IDE 級別的程式理解能力接給代理，適合在大型程式庫中需要精準定位與修改程式碼的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "code-search",
+        "ide"
+      ],
+      "stars": 31327,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:firecrawl/firecrawl-mcp-server",
+      "category": "mcp",
+      "title": "firecrawl/firecrawl-mcp-server",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "summary": "Firecrawl 官方 MCP server，讓代理能搜尋、爬取與互動整個網路（含 crawl、map、監控等功能），適合需要讓代理大量抓取網頁資料的開發者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "web-scraping",
+        "official"
+      ],
+      "stars": 7810,
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.317",
+      "category": "official",
+      "title": "Claude Code v2.1.317：防止代理意外外洩帳號 Email",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.317",
+      "summary": "Claude Code 新增安全防護，在網頁或 shell 工具呼叫可能把使用者帳號 Email 送出到網路前先警告，並為雲端 session 中 MCP server 要求開啟的連結加上核准卡片，適合在意個資外洩風險的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "security",
+        "changelog",
+        "privacy"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.319",
+      "category": "official",
+      "title": "Claude Code v2.1.319：MCP Tasks 支援",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.319",
+      "summary": "Claude Code 新增 MCP Tasks 功能，讓耗時較長的 MCP 工具呼叫自動轉入終端機背景執行不卡住對話，並新增 permissions.denyInsteadOfPrompting 設定，適合大量使用 MCP server 的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "mcp",
+        "changelog",
+        "background-tasks"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "category": "official",
+      "title": "推出 Claude Whiteboards、Sheets 與 Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "summary": "Anthropic 推出協作式白板 Whiteboards（beta）、可直接生成與編輯公式試算表的 Sheets（beta），並把原本的 Dashboards 升級為正式版 Claude Data，適合需要用 Claude 整理想法、做表格與數據報告的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "whiteboards",
+        "sheets",
+        "dashboards"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "category": "official",
+      "title": "Interactive Connectors：合作應用可在 Claude 介面內開啟並互動",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "summary": "Anthropic 推出基於新版 MCP Apps 公開預覽規格的 Interactive Connectors，讓 Notion、Confluence 等合作應用能直接在 Claude 網頁或桌面版內開啟、並讓 Claude 在取得同意後於該應用內操作，適合想替自家工具接進 Claude 介面的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "mcp-apps",
+        "connectors",
+        "protocol"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "category": "official",
+      "title": "可在自有環境內執行的 Claude Managed Agents（私有 beta）",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "summary": "企業現可把 Claude Managed Agents 完整服務（含 harness、沙盒、憑證與 session 紀錄）架在自己的雲端或自有機房內執行，並自選 API 請求的路由方式，適合有嚴格資安邊界要求的企業團隊。",
+      "source": "anthropic",
+      "tags": [
+        "managed-agents",
+        "enterprise",
+        "self-hosted"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
+    },
+    {
+      "id": "https://www.anthropic.com/research/claude-electronics-design",
+      "category": "technique",
+      "title": "Claude 端到端設計電子產品原型",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "summary": "Anthropic 與 Diode Computers 合作案例：Claude 從電路板佈局、外殼設計到韌體與零件清單全程獨立完成三款可運作的硬體原型（USB 會議喇叭、語音助理音箱、電子寵物），展示代理在硬體設計上的實作能力，適合對 AI 輔助硬體開發有興趣的工程師。",
+      "source": "anthropic",
+      "tags": [
+        "hardware",
+        "case-study",
+        "electronics"
+      ],
+      "added": "2026-11-12",
+      "last_seen": "2026-11-12"
     }
   ]
 }
