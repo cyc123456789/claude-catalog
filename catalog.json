@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-16",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -5178,9 +5178,9 @@
         "icons",
         "design"
       ],
-      "stars": 783,
+      "stars": 895,
       "added": "2026-11-12",
-      "last_seen": "2026-11-12"
+      "last_seen": "2026-11-16"
     },
     {
       "id": "gh:op7418/guizang-game-skill",
@@ -5242,9 +5242,9 @@
         "knowledge-graph",
         "memory"
       ],
-      "stars": 381,
+      "stars": 469,
       "added": "2026-11-12",
-      "last_seen": "2026-11-12"
+      "last_seen": "2026-11-16"
     },
     {
       "id": "gh:devcrabs-inc/yandex-metrika-mcp",
@@ -5260,7 +5260,7 @@
       ],
       "stars": 130,
       "added": "2026-11-12",
-      "last_seen": "2026-11-12"
+      "last_seen": "2026-11-16"
     },
     {
       "id": "gh:oraios/serena",
@@ -5383,6 +5383,276 @@
       ],
       "added": "2026-11-12",
       "last_seen": "2026-11-12"
+    },
+    {
+      "id": "gh:alexeyw/lot-map",
+      "category": "plugin",
+      "title": "alexeyw/lot-map",
+      "url": "https://github.com/alexeyw/lot-map",
+      "summary": "Claude Code 外掛，在對話旁開一個即時地圖面板，把每次工具呼叫、模型步驟、hook 與 skill 畫成脈動軌跡，取代逐行讀日誌，適合想直覺掌握代理正在做什麼的使用者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "visualization",
+        "observability"
+      ],
+      "stars": 919,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:ai4xe/parallax",
+      "category": "plugin",
+      "title": "AI4XE/Parallax",
+      "url": "https://github.com/AI4XE/Parallax",
+      "summary": "架在 Claude Code 等代理框架上的輕量強化層，使用者只需說出目標，便由多個代理團隊在獨立 session 中分工、互相審查並送出乾淨的 commit，適合想把工作交出去但仍要可信結果的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "multi-agent",
+        "code-review"
+      ],
+      "stars": 119,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:sunghwan0112/spritecast",
+      "category": "plugin",
+      "title": "Sunghwan0112/spritecast",
+      "url": "https://github.com/Sunghwan0112/spritecast",
+      "summary": "Claude Code 外掛，餵一張插畫就能生成符合遊戲鏡頭角度的 8 方向行走、動作與像素風角色素材，並附帶 3D 陰影與道具，適合獨立遊戲美術人力不足的開發者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "game-dev",
+        "sprite"
+      ],
+      "stars": 80,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:makevoid/claude-make-an-anime",
+      "category": "plugin",
+      "title": "makevoid/claude-make-an-anime",
+      "url": "https://github.com/makevoid/claude-make-an-anime",
+      "summary": "Claude Code 外掛，把一段故事自動轉成完整動畫短片：角色設定、分鏡運鏡、配音、配樂、字幕與特效一次做齊，適合想用代理產出動畫內容的創作者。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "video-generation",
+        "anime"
+      ],
+      "stars": 75,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:u-ichi/agent-plugins",
+      "category": "plugin",
+      "title": "u-ichi/agent-plugins",
+      "url": "https://github.com/u-ichi/agent-plugins",
+      "summary": "同時以 Claude Code plugin 與通用 Agent Plugins 格式釋出的外掛集，目前收錄 figure-docs：專門用大量圖解把報告、商業與開發文件做到可讀完整，適合需要大量圖表簡報的團隊。",
+      "source": "github",
+      "tags": [
+        "plugin",
+        "documentation",
+        "agent-skills"
+      ],
+      "stars": 52,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:sarpstar/cinecode",
+      "category": "skill",
+      "title": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "summary": "在 Claude Code 上效果最好的「用程式碼拍片」skill：代理自己寫劇本、用 three.js 逐格搭建畫面、設計聲音，最後輸出完整 MP4 短片、廣告或音樂錄影帶，適合想零成本做概念影片的創作者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "video-generation",
+        "three.js"
+      ],
+      "stars": 2599,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:jdhruv14/line-art-animation",
+      "category": "skill",
+      "title": "JDhruv14/line-art-animation",
+      "url": "https://github.com/JDhruv14/line-art-animation",
+      "summary": "Claude skill 搭配 TypeScript 函式庫，用純 SVG 畫出會走路、騎乘、對滑鼠反應的手繪線條動畫人物，且能隨晝夜場景變化，適合想替網站或簡報加入輕量動態插畫的開發者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "svg",
+        "animation"
+      ],
+      "stars": 912,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:imraywang/ray-sticker-shop",
+      "category": "skill",
+      "title": "imraywang/ray-sticker-shop",
+      "url": "https://github.com/imraywang/ray-sticker-shop",
+      "summary": "Claude Code／Codex skill，輸入一張照片或角色圖就能產出形象一致的整套動態表情包，自動壓縮到微信表情開放平台的規格並附上架文案，適合想量產貼圖內容的創作者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "sticker",
+        "content-generation"
+      ],
+      "stars": 506,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:threerocks/article2media",
+      "category": "skill",
+      "title": "threerocks/article2media",
+      "url": "https://github.com/threerocks/article2media",
+      "summary": "開源 Claude Code／Codex skill 組，把一篇文章或影片抓取、轉文字、改寫、翻譯後，一鍵做成小紅書圖文、長圖、公眾號排版與口播短影音等十種可發佈格式，適合經營自媒體的內容創作者。",
+      "source": "github",
+      "tags": [
+        "skill",
+        "content-repurposing",
+        "chinese"
+      ],
+      "stars": 403,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:diygod/pinky",
+      "category": "mcp",
+      "title": "DIYgod/pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "summary": "讓 Claude Code 等代理透過 MCP 操作真實的 iPhone 或 Android 手機，危險操作（如付款）會先暫停等你核准，也能完全不用電腦、直接在手機上自主執行任務，適合想讓代理代操手機的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "phone-control",
+        "automation"
+      ],
+      "stars": 2286,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:hridaya423/phonedriver",
+      "category": "mcp",
+      "title": "hridaya423/phonedriver",
+      "url": "https://github.com/hridaya423/phonedriver",
+      "summary": "輕量 MCP 伺服器與 CLI，讓 Claude Code、Codex、Cursor 讀取手機畫面文字並操作 Android／iPhone，官方 benchmark 顯示比同類工具省下約 6.9 倍 token，適合注重成本的自動化測試或操作場景。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "phone-control",
+        "token-efficiency"
+      ],
+      "stars": 146,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:bloodfeast/atlas",
+      "category": "mcp",
+      "title": "bloodfeast/atlas",
+      "url": "https://github.com/bloodfeast/atlas",
+      "summary": "本機 MCP 伺服器搭配 Claude Code hooks，把冗長的工具輸出存到硬碟只留摘要、讓程式碼讀取精確範圍、依相關性回憶筆記，不改變工作方式就能大幅降低長時間 session 的 token 花費。",
+      "source": "github",
+      "tags": [
+        "mcp",
+        "context-management",
+        "token-efficiency"
+      ],
+      "stars": 62,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:vzroslieigry/maxagent",
+      "category": "tool",
+      "title": "vzroslieigry/maxagent",
+      "url": "https://github.com/vzroslieigry/maxagent",
+      "summary": "跨 Claude Code、Codex 等多種代理的共用經驗庫與規則引擎，hooks 會在任務前後自動遞上已驗證過的作法，另含一個用你自己瀏覽器分頁操作網頁的 MCP 橋接工具，適合想讓多個代理共享做事經驗的團隊。",
+      "source": "github",
+      "tags": [
+        "tool",
+        "hooks",
+        "multi-agent"
+      ],
+      "stars": 265,
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.321",
+      "category": "official",
+      "title": "Claude Code 2.1.321：mod 自身工具呼叫免權限提示",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.321",
+      "summary": "Claude Code 2.1.321 讓 mod 自己發出的工具呼叫（$.tool.call、$.mcp.call）不再跳出權限提示（組織政策與 deny 規則仍生效），並為 claude remote-control 新增 --settings 參數，適合開發自訂 mod 的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "mods",
+        "permissions"
+      ],
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.322",
+      "category": "official",
+      "title": "Claude Code 2.1.322：Vertex 全區域支援 fast mode",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.322",
+      "summary": "Claude Code 2.1.322 讓 Vertex AI 的 global、us、eu 區域都能使用 fast mode，若 Vertex 拒絕則自動退回標準速度，適合透過 Google Cloud Vertex 使用 Claude Code 的企業使用者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "vertex-ai",
+        "fast-mode"
+      ],
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.323",
+      "category": "official",
+      "title": "Claude Code 2.1.323：新增實驗性 Code Mode",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.323",
+      "summary": "Claude Code 2.1.323 加入選用的實驗功能 Code Mode，讓 Claude 改寫 JavaScript 程式碼來呼叫工具；同時外掛可在 plugin.json 宣告支援的 Claude Code 版本範圍，未知模型的預設 context window 也從 200K 提高到 1M。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "code-mode",
+        "plugins",
+        "context-window"
+      ],
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2.1.325",
+      "category": "official",
+      "title": "Claude Code 2.1.325：排程任務執行有工具的 skill 前會先詢問",
+      "url": "https://code.claude.com/docs/en/changelog#2.1.325",
+      "summary": "Claude Code 2.1.325 讓 scheduled task 與 /loop 在執行宣告了 allowed-tools 或 hooks 的 skill 前先徵求同意（可在 permissions.allow 加入 Skill(name) 讓它無人值守執行），沙盒化的 Bash 指令也改走一般權限流程，適合關心自動化安全邊界的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "changelog",
+        "security",
+        "scheduled-tasks",
+        "skills"
+      ],
+      "added": "2026-11-16",
+      "last_seen": "2026-11-16"
     }
   ]
 }
