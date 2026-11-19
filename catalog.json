@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "entries": [
     {
       "id": "gh:anthropics/skills",
@@ -5194,9 +5194,9 @@
         "game-design",
         "threejs"
       ],
-      "stars": 226,
+      "stars": 419,
       "added": "2026-11-12",
-      "last_seen": "2026-11-12"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:drost-ai/tinker-ai-skill",
@@ -5396,9 +5396,9 @@
         "visualization",
         "observability"
       ],
-      "stars": 919,
+      "stars": 1021,
       "added": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:ai4xe/parallax",
@@ -5412,9 +5412,9 @@
         "multi-agent",
         "code-review"
       ],
-      "stars": 119,
+      "stars": 136,
       "added": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:sunghwan0112/spritecast",
@@ -5524,9 +5524,9 @@
         "content-repurposing",
         "chinese"
       ],
-      "stars": 403,
+      "stars": 439,
       "added": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:diygod/pinky",
@@ -5540,9 +5540,9 @@
         "phone-control",
         "automation"
       ],
-      "stars": 2286,
+      "stars": 2528,
       "added": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:hridaya423/phonedriver",
@@ -5556,9 +5556,9 @@
         "phone-control",
         "token-efficiency"
       ],
-      "stars": 146,
+      "stars": 192,
       "added": "2026-11-16",
-      "last_seen": "2026-11-16"
+      "last_seen": "2026-11-19"
     },
     {
       "id": "gh:bloodfeast/atlas",
@@ -5653,6 +5653,242 @@
       ],
       "added": "2026-11-16",
       "last_seen": "2026-11-16"
+    },
+    {
+      "id": "gh:dodaios/ste80-humanizer",
+      "category": "skill",
+      "title": "ste80-humanizer",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "summary": "把 AI 寫的文字改寫成接近 ASD-STE100(簡化技術英文)風格、去除「AI 腔」的 Agent Skill,適合要讓 AI 產出文件讀起來像人寫的使用者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "writing",
+        "humanizer"
+      ],
+      "stars": 967,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:boringmarketer/boring-marketing-skills",
+      "category": "skill",
+      "title": "boring-marketing-skills",
+      "url": "https://github.com/boringmarketer/boring-marketing-skills",
+      "summary": "32 個免費行銷 Agent Skill,涵蓋市場研究、定位、文案、落地頁、SEO、AI 搜尋優化、廣告與在地商家行銷,給用 Claude Code 做行銷工作的人用。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "marketing",
+        "seo"
+      ],
+      "stars": 709,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:erkamyaman/unslopovich",
+      "category": "skill",
+      "title": "unslopovich",
+      "url": "https://github.com/erkamyaman/unslopovich",
+      "summary": "專門抓「一看就是 AI 做的」UI/UX 問題並修正的 Agent Skill,支援 web、mobile(Expo/Flutter/React Native 等),給 vibe coding 後想讓介面更像真人設計的開發者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "ui",
+        "design-review"
+      ],
+      "stars": 250,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:nishant-tiwari24/cracked",
+      "category": "skill",
+      "title": "cracked",
+      "url": "https://github.com/nishant-Tiwari24/cracked",
+      "summary": "求職面試準備 Agent Skill,針對 470 多家公司提供模擬面試、含隱藏測資的線上測驗與履歷評改,適合用終端機準備技術面試的求職者。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "career",
+        "interview-prep"
+      ],
+      "stars": 341,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:sybil-solutions/inference-optimisation-skill",
+      "category": "skill",
+      "title": "inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "幫忙調優自架 LLM 推論速度的 Agent Skill,涵蓋 decode、推測解碼、prefill、KV cache 等面向,給要在自己硬體上跑本地模型、追求低延遲的工程師。",
+      "source": "github",
+      "tags": [
+        "agent-skills",
+        "llm-inference",
+        "performance"
+      ],
+      "stars": 1236,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:diego3g/craft",
+      "category": "plugin",
+      "title": "craft",
+      "url": "https://github.com/diego3g/craft",
+      "summary": "Claude Code 設計外掛,`/craft-setup` 生成設計簡報、`/craft` 依你的設計系統畫出含各種狀態的完整畫面,支援 Figma、HTML 等輸出,給要做 UI 設計的開發者。",
+      "source": "github",
+      "tags": [
+        "claude-code-plugin",
+        "design",
+        "ui"
+      ],
+      "stars": 272,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:tthanh2k6/turbo-browser-mcp",
+      "category": "mcp",
+      "title": "turbo-browser-mcp",
+      "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "summary": "針對省 token 設計的 Playwright MCP 伺服器,用一次呼叫完成表單填寫、差異快照與批次操作,給常用瀏覽器自動化、想壓低 agent 回合數與花費的使用者。",
+      "source": "github",
+      "tags": [
+        "mcp-server",
+        "browser-automation",
+        "playwright"
+      ],
+      "stars": 132,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:agentes-chat/agentes-chat",
+      "category": "tool",
+      "title": "agentes.chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "summary": "自架、開源的團隊聊天平台,讓 Claude、ChatGPT/Codex、Gemini、Grok 等 AI agent 與人一起在頻道和私訊裡工作,內建 MCP 工具、瀏覽器與記憶,給想要團隊共用 agent 工作空間的團隊。",
+      "source": "github",
+      "tags": [
+        "self-hosted",
+        "team-chat",
+        "multi-agent"
+      ],
+      "stars": 1747,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:ersinkoc/phonebox",
+      "category": "tool",
+      "title": "PhoneBox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "summary": "把舊 Android 手機變成桌面控制面板,124 種小工具含 AI coding 狀態、系統監控等,免雲端、USB 或 Wi-Fi 連線,給想要額外螢幕盯 Claude Code 工作狀態的人。",
+      "source": "github",
+      "tags": [
+        "dashboard",
+        "desk-panel",
+        "monitoring"
+      ],
+      "stars": 3759,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:yanstd888/9routerx",
+      "category": "tool",
+      "title": "9RouterX",
+      "url": "https://github.com/yanstd888/9routerx",
+      "summary": "單一執行檔的 AI 路由器與 LLM Gateway,可在 Claude Code、Cursor、Codex 間跨 155 個供應商路由請求並壓縮/快取省下 20-40% token,給想降低多 agent 用量成本的使用者。",
+      "source": "github",
+      "tags": [
+        "llm-gateway",
+        "router",
+        "cost-saving"
+      ],
+      "stars": 255,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:jackson-cmd/claude-multi-desktop",
+      "category": "tool",
+      "title": "claude-multi-desktop",
+      "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+      "summary": "在 Mac 上同時開多個 Claude Desktop 帳號視窗、各自獨立登入並共用同一份 Claude Code 設定,工作階段還能跨帳號互傳訊息,給要用多組帳號的重度使用者。",
+      "source": "github",
+      "tags": [
+        "claude-desktop",
+        "multi-account",
+        "macos"
+      ],
+      "stars": 148,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "gh:jackulau/coding.sh",
+      "category": "tool",
+      "title": "coding.sh",
+      "url": "https://github.com/jackulau/coding.sh",
+      "summary": "本機優先的 AI agent 可觀測性工具,記錄 Claude Code/Codex 的每個 prompt、模型呼叫、工具呼叫、檔案變更與花費,並能把出錯的紀錄轉成 eval,給想追蹤 agent 行為與成本的開發者。",
+      "source": "github",
+      "tags": [
+        "observability",
+        "evals",
+        "cost-tracking"
+      ],
+      "stars": 116,
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2-1-328",
+      "category": "official",
+      "title": "Claude Code 2.1.328:Auto Mode 擴大支援、/code-review 與 /simplify 分工",
+      "url": "https://code.claude.com/docs/en/changelog#2-1-328",
+      "summary": "2026-11-19 釋出:Auto Mode 新支援 Bedrock/GCP/Foundry 上的 Opus/Sonnet 4.6,未設權限模式的互動工作階段預設直接進入 Auto Mode;同時 /code-review 只抓 bug 與 CLAUDE.md 違規,重構清理交給新指令 /simplify,給所有 Claude Code 使用者。",
+      "source": "anthropic",
+      "tags": [
+        "release-notes",
+        "auto-mode",
+        "code-review"
+      ],
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2-1-327",
+      "category": "official",
+      "title": "Claude Code 2.1.327:claude mcp add-json 支援 stdin 輸入",
+      "url": "https://code.claude.com/docs/en/changelog#2-1-327",
+      "summary": "2026-11-17 釋出:`claude mcp add-json <name> -` 可直接從 stdin 讀入 MCP 伺服器設定,金鑰等敏感資訊不必留在命令列歷史裡,給要串接私有/帶密鑰 MCP 伺服器的使用者。",
+      "source": "anthropic",
+      "tags": [
+        "release-notes",
+        "mcp",
+        "security"
+      ],
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
+    },
+    {
+      "id": "https://code.claude.com/docs/en/changelog#2-1-325",
+      "category": "official",
+      "title": "Claude Code 2.1.325:VS Code 提示建議可用 Tab 採用",
+      "url": "https://code.claude.com/docs/en/changelog#2-1-325",
+      "summary": "2026-11-13 釋出:VS Code 擴充功能新增下一步提示建議,按 Tab 即可採用,可用設定 promptSuggestionEnabled:false 關閉,給在 VS Code 裡用 Claude Code 的開發者。",
+      "source": "anthropic",
+      "tags": [
+        "release-notes",
+        "vscode"
+      ],
+      "added": "2026-11-19",
+      "last_seen": "2026-11-19"
     }
   ]
 }
